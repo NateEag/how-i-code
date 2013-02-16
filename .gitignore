@@ -1,2 +1,10 @@
+# Python-based projects always wind up with this one.
+*.pyc
+
 # We should not include our virtualenv under version control.
 pythonenv/
+
+# Pelican leaves a few things around, too.
+output/
+pelican.pid
+srv.pid
