@@ -1,0 +1,2 @@
+# We should not include our virtualenv under version control.
+pythonenv/
