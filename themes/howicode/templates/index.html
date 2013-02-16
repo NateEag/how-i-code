@@ -17,7 +17,7 @@
             </aside><!-- /#featured -->
             {% if loop.length > 1 %}
                 <section id="content" class="body">
-                    <h1>Other articles</h1>
+                    <h1>Articles</h1>
                     <hr />
                     <ol id="posts-list" class="hfeed">
             {% endif %}
@@ -30,15 +30,8 @@
             <li><article class="hentry">
                 <header>
                     <h1><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
-                           title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
+                           title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1> &mdash; {{ article.summary }}
                 </header>
-
-                <div class="entry-content">
-                {% include 'article_infos.html' %}
-                {{ article.summary }}
-                <a class="readmore" href="{{ SITEURL }}/{{ article.url }}">read more</a>
-                {% include 'comments.html' %}
-                </div><!-- /.entry-content -->
             </article></li>
         {% endif %}
         {% if loop.last %}

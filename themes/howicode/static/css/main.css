@@ -43,6 +43,14 @@ h1, h2, h3, h4, h5, h6 {
 
 h3, h4, h5, h6 { margin-top: .8em; }
 
+header > h1 {
+    display: inline-block;
+}
+
+header > p {
+    display: inline-block;
+}
+
 hr { border: 2px solid #EEEEEE; }
 
 /* Anchors */
