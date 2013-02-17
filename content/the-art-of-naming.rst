@@ -1,8 +1,7 @@
 The Art Of Naming
 =================
 
-:date: 2013-02-16
-:slug: the-art-of-naming
+:date: 2013-01-01
 :category: naming
 :summary: tmp = tmp2 + tmp3
 

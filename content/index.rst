@@ -1,7 +1,6 @@
 How I Code
 ==========
 
-:date: 2013-02-16
 :category: meta
 
 This is a set of documents that outline how I make software.

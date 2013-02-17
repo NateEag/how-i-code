@@ -9,6 +9,7 @@ FEED_DOMAIN = 'http://howicode.nateeag.com'
 TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = u'en'
+DEFAULT_DATE = 'fs'
 
 DEFAULT_PAGINATION = False
 
