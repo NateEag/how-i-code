@@ -7,3 +7,6 @@ I do not display them, and it gives me a way to force the "frontpage" article
 to be on top all the time. The default date is based on the filesystem, so
 if I ever find another way to force the "main" article to the front page, that
 would solve this problem handily.
+
+I use the Makefile for deployment, but I have git set to assume it is unchanged (``git update-index --assume-unchanged <path>``), so that I don't
+have any info about my hosting provider in version control.
