@@ -2,7 +2,7 @@ Abbreviations
 =============
 
 :date: 2013-01-01
-:category: naming
+:category: names
 :summary: Abbreviations can make things clearer, but don't abuse them.
 
 
@@ -10,12 +10,13 @@ Short names can be more readable than long ones.
 
 Abbreviations shorten names, and thus can help readability.
 
-Too-short names, however, can be utterly unreadable. ``pbya`` is not a
-readable name (I eventually figured out that it stood for Post BY Author).
+Too-short names, however, can be utterly confusing. ``pbya`` is not a
+comprehensible name (I eventually figured out that it stood for Post BY
+Author).
 
 The following is a list of abbreviations I believe strike a good balance
-between brevity and readability. They should not usually be used by themselves
-- they are useful building blocks when naming things.
+between brevity and readability. They should not usually be used by themselves,
+but they are good building blocks when naming things.
 
 alg
   "algorithm" - When choosing algorithms dynamically, this can come in handy.
