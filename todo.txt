@@ -1,0 +1,1 @@
+2013-02-27 Bob suggests that the dates and times page could use a sentence explaining why you need to keep a log of timezone changes.
