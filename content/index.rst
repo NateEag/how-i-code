@@ -1,7 +1,7 @@
 How I Code
 ==========
 
-:category: meta
+:category: about
 
 This is a set of documents that outline how I make software.
 
