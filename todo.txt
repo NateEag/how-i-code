@@ -1,1 +1,16 @@
-2013-02-27 Bob suggests that the dates and times page could use a sentence explaining why you need to keep a log of timezone changes.
+2013-02-27 Bob suggests that the dates and times page could use a sentence
+explaining why you need to keep a log of timezone changes.
+
+2013-02-28 An overall article "Why" might be a good plan. I could expand on my
+minimalist summary of why I write software from my website.
+
+2013-02-28 An article on indentation (category 'formatting') would be good. Why
+it matters, why use spaces, why nesting level matters (and thus why to wrap at
+80 chars).
+
+2013-03-13 Based on a conversation with Jim... A commit should do at least one
+of two things: 1) improve the project's UI, or 2) make the programmers' lives
+easier.
+
+2013-03-14 Inspired by the above, I should probably do a set of articles on
+version control. Why I need it, what it's for, what I use and how I use it.
