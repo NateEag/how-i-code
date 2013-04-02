@@ -1,6 +1,3 @@
-2013-02-27 Bob suggests that the dates and times page could use a sentence
-explaining why you need to keep a log of timezone changes.
-
 2013-02-28 An overall article "Why" might be a good plan. I could expand on my
 minimalist summary of why I write software from my website.
 
@@ -14,3 +11,11 @@ easier.
 
 2013-03-14 Inspired by the above, I should probably do a set of articles on
 version control. Why I need it, what it's for, what I use and how I use it.
+
+2013-03-27 It might be madness, but when signing a user up for a timezone-sensitive app, we can probably use JS to default the selected timezone to something near them.
+
+2013-03-27 Reconcile my approach to validation with translation and value/field label substitutions for error messages. Remember that 'required' is not a validation.
+
+2013-03-27 Explain why interfaces should only publicize things that *have* to be publicized. design, code as UI.
+
+2013-03-27 add msg to abbrevs. Yay flavorings.
