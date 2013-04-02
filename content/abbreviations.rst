@@ -38,6 +38,9 @@ cur
 dir
   "directory" - useful when doing filesystem manipulation.
 
+msg
+  "message" - handy when writing message display or processing code.
+
 opt
   "option" - useful when writing command-line programs, or dealing with user
   preferences. Sometimes used as a top-level dir in a \*nix-ish directory tree.
