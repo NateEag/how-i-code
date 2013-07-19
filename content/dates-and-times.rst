@@ -21,15 +21,15 @@ The most common timekeeping systems use `timezones`_. Recorded times (and
 datetimes) should always include a timezone, which should almost always be the
 common timezone used for storage throughout the system.
 
-If perceived time matters to the system, it should let users choose a timezone
-other than the system's default. To display perceived times accurately, a log
-of every timezone each user has ever used must be kept, as well as the datetime
-of each timezone change. The timezone change log can then be used to compute
-correct user-relative times throughout the system. For datetimes preceding the
-user's creation, it is necessary to assume their first timezone applies. That
-level of accuracy is not necessary for all software, but it cannot be
-introduced after the fact, so it should be considered carefully when beginning
-new projects.
+If perceived time impacts system behavior, it must record each user's active
+timezone. To track perceived times accurately, each time a user sets their
+timezone, record it and the datetime it was chosen. The resulting timezone log
+can be used to compute correct user-relative times across the project's
+history. For datetimes preceding the user's creation, assume their first
+timezone applies.
+
+Not all software needs that sort of accuracy, but it cannot be introduced after
+the fact, so consider this up front.
 
 Dates should include``date`` in their name, often as a prefix to a past-tense
 verb (``date_created``). Similarly, datetimes should include ``time`` in their
