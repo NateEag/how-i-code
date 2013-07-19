@@ -29,4 +29,7 @@ make them specify a nickname unless they choose to, just as with full names.
 Users should be able to update or remove their names from the system at any
 time.
 
+Systems that bill users will probably have to collect a name at billing
+time, but they should not require one until then.
+
 .. _sanely validated: http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/
