@@ -28,8 +28,8 @@ can be used to compute correct user-relative times across the project's
 history. For datetimes preceding the user's creation, assume their first
 timezone applies.
 
-Not all software needs that sort of accuracy, but it cannot be introduced after
-the fact, so consider this up front.
+Not all software needs this behavior across history, but it cannot be
+introduced after the fact, so think about it up front.
 
 Dates should include``date`` in their name, often as a prefix to a past-tense
 verb (``date_created``). Similarly, datetimes should include ``time`` in their
