@@ -2,7 +2,7 @@ Dates And Times
 ===============
 
 :date: 2013-01-01
-:category: data structures
+:category: data modeling
 :summary: A brief summary of time.
 
 A date marks a particular day in history (history including the past,

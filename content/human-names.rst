@@ -2,7 +2,7 @@ Human Names
 ===========
 
 :date: 2013-01-01
-:category: data structures
+:category: data modeling
 :summary: Dealing with human names is hard.
 
 Human names cannot be `sanely validated`_.
