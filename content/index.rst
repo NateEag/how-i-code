@@ -3,13 +3,13 @@ How I Code
 
 :category: about
 
-This is a set of documents that outline how I make software.
+This is a set of notes on how I make software.
 
 I maintain these docs for several reasons:
 
 * Others who read them may learn something useful.
 
-* Thinking about how I make software makes my software better.
+* Thinking about how I make software makes me better at it.
 
 * It gives me a place to make note of tools I use.
 
