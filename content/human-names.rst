@@ -18,13 +18,14 @@ If they choose to give a full name, it should be stored exactly as
 provided (keep in mind that names come in a gigantic variety of languages,
 which means you'd better get character encodings right).
 
-If a system is particularly brave, it might try to be friendly by addressing
-people with nicknames. It could construct nicknames by using all characters in
-their full name up to the first whitespace character.
+If a system is particularly brave, it might try addressing people by
+nickname. It could construct nicknames by using all characters in their full
+name up to the first whitespace character. For languages where family name
+comes first, starting at the end of the name would make more sense.
 
-If a program *does* decide to use nicknames, it should give people a way to
-change their nickname, as it's bound to get some wrong. However, it should not
-make them specify a nickname unless they choose to, just as with full names.
+If a program does use nicknames, it should give people a way to change their
+nickname, as it's bound to get some wrong. However, it should not make them
+specify a nickname unless they choose to, just as with full names.
 
 Users should be able to update or remove their names from the system at any
 time.
