@@ -3,19 +3,16 @@ How I Code
 
 :category: about
 
-This is a set of notes on how I make software.
+This is a set of notes on making software.
 
-I maintain these docs for several reasons:
+I maintain them for several reasons:
 
-* Others who read them may learn something useful.
+* They may be useful to others.
 
-* Thinking about how I make software makes me better at it.
+* They help me improve at making software.
 
-* It gives me a place to make note of tools I use.
-
-* It gives me a place to make note of tools I want to use (especially ones
-  I have not found yet).
+* They let people see the tools I use and am interested in using.
 
 * I must obey the inscrutable exhortations of my soul.
 
-I hope you enjoy them.
+I hope you find them useful.
