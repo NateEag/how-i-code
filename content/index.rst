@@ -11,7 +11,7 @@ I maintain them for several reasons:
 
 * They help me improve at making software.
 
-* They let people see the tools I use and am interested in using.
+* They document what tools I use and how I use them.
 
 * I must obey the inscrutable exhortations of my soul.
 
