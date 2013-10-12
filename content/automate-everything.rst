@@ -23,20 +23,20 @@ automated. Here are a few examples of automatable tasks that are often done
 manually (or worse yet, not at all).
 
 * Checking that code meets style guidelines.
-  `Most <https://pypi.python.org/pypi/pep8>`_
-  `languages <http://clang-analyzer.llvm.org/>`_
-  `have <http://www.jshint.com/about/>`_
-  `tools <https://github.com/squizlabs/PHP_CodeSniffer>`_
-  `for <https://github.com/bbatsov/rubocop>`_
-  `this <http://checkstyle.sourceforge.net/>`_. Add the one(s) you need
+  `Most <https://pypi.python.org/pypi/pep8>`__
+  `languages <http://clang-analyzer.llvm.org/>`__
+  `have <http://www.jshint.com/about/>`__
+  `tools <https://github.com/squizlabs/PHP_CodeSniffer>`__
+  `for <https://github.com/bbatsov/rubocop>`__
+  `this <http://checkstyle.sourceforge.net/>`__. Add the one(s) you need
   to your version control hooks, and integrate them into your editor.
   If your editor doesn't support external analysis tools, switch to a better
   editor.
 * Making a project's distributables. Each of them should be buildable in one
   step. They should be built regularly, to verify the build process has
-  not been broken. `There <http://www.gnu.org/software/make/>`_
-  `are <http://ant.apache.org/>`_ `tools <http://www.phing.info/>`_
-  `for <http://buildbot.net/>`_ `this <http://maven.apache.org/>`_, too.
+  not been broken. `There <http://www.gnu.org/software/make/>`__
+  `are <http://ant.apache.org/>`__ `tools <http://www.phing.info/>`__
+  `for <http://buildbot.net/>`__ `this <http://maven.apache.org/>`__, too.
 * Installing a distributable should be automated (a human may need to answer
   a question or two, but configurable defaults are usually better).
 * If backwards compatibility matters (and it usually does), it should be
