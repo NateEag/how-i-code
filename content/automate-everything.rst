@@ -14,11 +14,11 @@ structures and executing algorithms.
 Humans should do the interesting work. They should leave the bookkeeping to
 computers. This is the essence of programming.
 
-If it costs more to automate a process than to perform it manually, then it
+If it costs more to automate a process than to perform it manually, then
 automating it may be a poor business decision. Beware the false economy,
 however - a task that is done only once is a very rare creature.
 
-Many people do not realize how many of a programmer's daily tasks should be
+Many programmers do not realize how many of their daily tasks should be
 automated. Here are a few examples of automatable tasks that are often done
 manually (or worse yet, not at all).
 
