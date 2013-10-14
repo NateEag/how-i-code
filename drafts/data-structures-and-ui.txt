@@ -1,0 +1,7 @@
+The details of how data structures are shown are nowhere near as important as *which* data structures are shown.
+
+*that* is what you should focus on when designing UI.
+
+(I think?)
+
+Just the germ of a thought here.

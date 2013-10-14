@@ -8,11 +8,11 @@ Automate Everything
 Given time and training, a human can do suprisingly well at designing data
 structures and and algorithms.
 
-Given time and training, a human can do surprisingly poorly at maintaining data
-structures and executing algorithms.
+Given time and training, a human will still do surprisingly poorly at
+maintaining data structures and executing algorithms.
 
-Humans should do the interesting work. They should leave the bookkeeping to
-computers. This is the essence of programming.
+Humans should do the creative work. They should leave the bookkeeping to
+computers. That is the essence of programming.
 
 If it costs more to automate a process than to perform it manually, then
 automating it may be a poor business decision. Beware the false economy,

@@ -1,0 +1,10 @@
+How To Use Local Links
+======================
+
+There
+
+docroot-relative links are by far the best thing to use.
+
+If the site expects to be installed at a subpath, then it should offer an “app_path” config value, which is used as part of the prefix for such links.
+
+I’ll have to figure out how to communicate this idea more clearly later.
