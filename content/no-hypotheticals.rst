@@ -49,9 +49,8 @@ and write that instead.
 Note that these rules cannot be broken if a programmer is writing software to
 solve a problem he has. A `lot`_ `of`_ `great`_ `software`_ was made this way.
 
-.. [#] Design is important, and a good design anticipates the need for future
-       changes and extensions. Do not make those changes until someone wants
-       them, however.
+.. [#] Design is important, and a good design expects changes. Do not make
+       those changes until someone wants them, however.
 .. _lot: http://paulgraham.com/rootsoflisp.html
 .. _of: http://www.emacswiki.org/emacs/EmacsHistory
 .. _great: http://www.bay12games.com/dwarves/
