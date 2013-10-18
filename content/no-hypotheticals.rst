@@ -1,5 +1,5 @@
-Hypotheticals Are Awful
-=======================
+Hypotheticals Are Deadly
+========================
 
 :category: meta
 :summary: Refuse to solve hypothetical problems.
