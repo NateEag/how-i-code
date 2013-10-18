@@ -3,6 +3,7 @@ Solve Actual Problems For Real People
 
 :category: meta
 :summary: Refuse to solve hypothetical problems.
+:date: 2013-01-01
 
 A programmer makes software to help real people solve actual problems.
 

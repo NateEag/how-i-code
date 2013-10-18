@@ -2,6 +2,7 @@ How I Code
 ==========
 
 :category: meta
+:summary: Why this document exists.
 
 This is a set of notes on making software.
 
