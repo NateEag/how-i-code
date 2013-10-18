@@ -46,8 +46,8 @@ When writing a program, find at least one actual person who wants to use it.
 If you cannot find one, find a program that an actual person does want to use,
 and write that instead.
 
-Note that this rule is unavoidably kept when a programmer writes software he
-wants. A `lot`_ `of`_ `great`_ `software`_ was made this way.
+Note that these rules cannot be broken if a programmer is writing software to
+solve a problem he has. A `lot`_ `of`_ `great`_ `software`_ was made this way.
 
 .. [#] Design is important, and a good design anticipates the need for future
        changes and extensions. Do not make those changes until someone wants
