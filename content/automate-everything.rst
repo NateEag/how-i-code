@@ -6,7 +6,7 @@ Automate Everything
 :summary: Good programmers are lazy.
 
 Given time and training, a human can do suprisingly well at designing data
-structures and and algorithms.
+structures and algorithms.
 
 Given time and training, a human will still do surprisingly poorly at
 maintaining data structures and executing algorithms.
