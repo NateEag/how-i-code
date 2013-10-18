@@ -26,7 +26,9 @@ its product has no market, and some people lose their jobs, but few outside the
 poorly-planned venture suffer.
 
 However, there are precious few ideal markets in the world. When such software
-is produced, some people will use it.
+is produced, some people will use it, no matter how poor it is, usually because
+their job requires them to. Since the tool was not designed to solve their
+actual problems, their day-to-day interactions with it are a constant struggle.
 
 When a stakeholder says, "Our users will need to export to Microsoft Office
 formats," he is presenting a hypothetical problem. Make him identify specific
@@ -35,7 +37,7 @@ need.
 
 When you say, "Other developers may want to use an alternate authentication
 engine," you are presenting a hypothetical problem. Identify specific
-programmers who want to do this and talk to them about it.[#]_
+programmers who want to do this and talk to them about it. [#]_
 
 If you cannot find any actual users, your system cannot solve a problem for
 anyone.
