@@ -13,6 +13,7 @@ That simple sentence implies some things.
   * Refuse to solve hypothetical problems.
 
 .. 'quality' should be a link to my unfinished rant on quality being finite.
+
 Most development teams ignore these rules. They waste money, time, and quality
 by writing systems for "the users".
 
