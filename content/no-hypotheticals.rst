@@ -1,5 +1,5 @@
-Solve Actual Problems For Real People
-=====================================
+Hypotheticals Are Awful
+=======================
 
 :category: meta
 :summary: Refuse to solve hypothetical problems.
