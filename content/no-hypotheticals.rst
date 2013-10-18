@@ -9,8 +9,8 @@ A programmer makes software to help real people solve actual problems.
 
 That simple sentence implies some things.
 
-  * Do not write code for hypothetical people.
-  * Refuse to solve hypothetical problems.
+* Do not write code for hypothetical people.
+* Refuse to solve hypothetical problems.
 
 .. 'quality' should be a link to my unfinished rant on quality being finite.
 
