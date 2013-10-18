@@ -1,7 +1,7 @@
 How I Code
 ==========
 
-:category: about
+:category: meta
 
 This is a set of notes on making software.
 
