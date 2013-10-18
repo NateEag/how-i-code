@@ -33,7 +33,7 @@ need.
 
 When you say, "Other developers may want to use an alternate authentication
 engine," you are presenting a hypothetical problem. Identify specific
-programmers who want to do this and talk to them about it.
+programmers who want to do this and talk to them about it.[#]_
 
 If you cannot find any actual users, your system cannot solve a problem for
 anyone.
@@ -45,6 +45,8 @@ and write that instead.
 Note that this rule is unavoidably kept when a programmer writes software he
 wants. A `lot`_ `of`_ `great`_ `software`_ was made this way.
 
+.. [#]: Design is important, and a good design accounts makes future changes
+    easy.  Just don't make those changes until someone wants them.
 .. _lot: http://paulgraham.com/rootsoflisp.html
 .. _of: http://www.emacswiki.org/emacs/EmacsHistory
 .. _great: http://www.bay12games.com/dwarves/
