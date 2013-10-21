@@ -5,7 +5,7 @@ Automate Everything
 :category: workflow
 :summary: Good programmers are lazy.
 
-Given time and training, a human can do suprisingly well at designing data
+Given time and training, a human can do surprisingly well at designing data
 structures and algorithms.
 
 Given time and training, a human will still do surprisingly poorly at
@@ -14,9 +14,12 @@ maintaining data structures and executing algorithms.
 Humans should do the creative work. They should leave the bookkeeping to
 computers. That is the essence of programming.
 
-If it costs more to automate a process than to perform it manually, then
-automating it may be a poor business decision. Beware the false economy,
-however - a task that is done only once is a very rare creature.
+If it costs more to automate a process than to perform it manually every time,
+automating it may be a poor business decision.
+
+Beware the false economy, however - a task that is done only once is a very
+rare creature, and frustrated employees can cost much more than a few "wasted"
+hours.
 
 Many programmers do not realize how many of their daily tasks should be
 automated. Here are a few examples of automatable tasks that are often done
