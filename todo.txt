@@ -5,6 +5,10 @@ minimalist summary of why I write software from my website.
 it matters, why use spaces, why nesting level matters (and thus why to wrap at
 80 chars).
 
+2013-11-12 The "Fail Gracefully" article needs to explain what is meant by
+failing gracefully. Running it past Stephanie as a test made it clear that it
+is not clear.
+
 2013-03-13 Based on a conversation with Jim... A commit should do at least one
 of two things: 1) improve the project's UI, or 2) make the programmers' lives
 easier.
