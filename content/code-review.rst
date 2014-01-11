@@ -3,43 +3,51 @@ Code Review
 
 :date: 2013-01-01
 :category: meta
-:summary: First drafts are always wrong.
+:summary: First drafts are wrong, but the author can't see where.
 
-First drafts have mistakes.
+First drafts have mistakes. If they didn't, we'd call them "final copies".
 
-The draft's author is too close to it them mistakes clearly. Others, however,
-can see them more clearly.
+The draft's author is too close to it to know what mistakes he has made. Thus, a
+maker who wants to create good things will discuss his work with others, so he
+can find out where he has gone wrong.
 
-An author who wants a better draft will ask for feedback and improve their work
-based on it.
-
-This is a good idea in every field, and thus has many names. In programming we
-call it `code review <http://en.wikipedia.org/wiki/Code_review>`__.
+This is a good idea in every field, and thus has many guises. Programmers have
+two major forms, `code review <http://en.wikipedia.org/wiki/Code_review>`__ and
+`usability testing <http://en.wikipedia.org/wiki/Usability_testing>`__. If the
+reviewer tries the code he's inspecting, code review can involve some degree of
+usability testing.
 
 There are many tools to help with code review, ranging from the humble `diff
-<http://en.wikipedia.org/wiki/Diff>`__ to full solutions like
+<http://en.wikipedia.org/wiki/Diff>`__ to systems like
 `Gerrit <https://code.google.com/p/gerrit/>`__.
 
-Some advice for reviewers:
-
-When a reviewer finds something confusing, he should ask for clarification.
+When a reviewer doesn't understand code, he should ask for clarification.
 
 When a reviewer finds something that looks wrong or dangerous, he should ask
 the author why it's written that way, and whether they're aware of the
 potential issues.
 
-The general principle here: Reviewers should ask the author why they're right,
-rather than telling them why they're wrong. It makes the discussion more
-productive by helping keep egos in check.
+In general, a reviewer should ask the author why the code is right, rather than
+telling them why it's wrong. This helps keep the conversation focused on
+improving the code, helps keep egos in check, and helps the author learn from
+the reviewer (people rarely listen when given advice, but when they have to
+answer questions, they are forced to think).
 
-Some advice for authors:
+Every point a reviewer brings up needs a response from the author. The wise
+forms of response are explanations and patches.
 
-Every point a reviewer brings up needs a response. For any point the best
-response may be a patch or an explanation.
+If a reviewer's question leads to the conclusion the code is wrong, fix the
+code. It's polite to let him know a fix is coming.
 
-For instance, if a reviewer has a hard time following some logic, don't explain
-what's happening directly to him. Improve the code's readability until he can
-follow it, so that future maintainers are also aided by the discussion.
+If a reviewer has a hard time following a four-line if condition, don't explain
+what it does. Instead, turn those four lines into assignments to variables with
+clear names, then use those variables in the condition. That way, the reviewer
+and future maintainers can understand it. Again, let the reviewer know that the
+next patch will clarify things, so he doesn't think you ignored him.
 
-If an explanation is best, consider including it as a comment for the benefit
-of future maintainers.
+If a reviewer's question does not spark a code change, engage discussion. This
+is where the really valuable discoveries are made. Don't be shy of asking
+questions in your responses - the same principles that apply to reviewers apply
+to authors too.
+
+In summary, don't tell people why they're wrong. Ask them why they're right.
