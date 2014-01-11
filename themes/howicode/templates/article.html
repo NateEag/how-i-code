@@ -30,4 +30,32 @@
 
   </article>
 </section>
+
+{# Show articles in this category. #}
+{% set category_articles = [] %}
+{% for art in articles %}
+    {% if ((art.category == article.category) and (art.title != article.title)) %}
+        {% do category_articles.append(art) %}
+    {% endif %}
+{% endfor %}
+
+{% for art in category_articles %}
+{% if loop.first %}
+<section id="content" class="body">
+    <h1>Other Articles In '{{ article.category }}'</h1>
+    <hr />
+    <ol id="posts-list" class="hfeed">
+{% endif %}
+        <li><article class="hentry">
+            <header>
+                <h1><a href="{{ SITEURL }}/{{ art.url }}" rel="bookmark"
+                       title="Permalink to {{ art.title|striptags }}">{{ art.title }}</a></h1> &mdash; {{ art.summary }}
+            </header>
+        </article></li>
+{% if loop.last %}
+    </ol><!-- /#posts-list -->
+</section>
+{% endif %}
+{% endfor %}
+
 {% endblock %}

@@ -14,3 +14,5 @@ DEFAULT_DATE = 'fs'
 DEFAULT_PAGINATION = False
 
 THEME = 'themes/howicode'
+
+JINJA_EXTENSIONS = ['jinja2.ext.ExprStmtExtension']
