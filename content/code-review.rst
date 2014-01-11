@@ -2,7 +2,7 @@ Code Review
 ===========
 
 :date: 2013-01-01
-:category: meta
+:category: workflow
 :summary: First drafts are wrong, but the author can't see where.
 
 First drafts have mistakes. If they didn't, we'd call them "final copies".
