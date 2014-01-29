@@ -31,9 +31,9 @@ timezone applies.
 Not all software needs this behavior across history, but it cannot be
 introduced after the fact, so think about it up front.
 
-Dates should include``date`` in their name, often as a prefix to a past-tense
+Dates should include ``date`` in their name, often as a prefix to a past-tense
 verb (``date_created``). Similarly, datetimes should include ``datetime`` in
-their name (``time_updated``).
+their name (``datetime_updated``).
 
 Do not use dates to store years, or years and months. The extra fields will
 become broken clocks. For the same reason, do not use datetimes to store dates.
