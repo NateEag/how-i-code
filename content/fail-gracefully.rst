@@ -17,7 +17,7 @@ most implementations drop all divergent histories when you redo, making
 it useless for anything more than typo fixes.
 
 `Emacs and Vim </know-your-editor.html>`__ avoid this pitfall, but they still
-both `need <http://www.dr-qubit.org/emacs.php#undo-tree>`__
+`need <http://www.dr-qubit.org/emacs.php#undo-tree>`__
 `plugins <http://sjl.bitbucket.org/gundo.vim/>`__ to match Adobe Photoshop's
 History palette.
 
