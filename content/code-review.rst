@@ -30,8 +30,8 @@ potential issues.
 In general, a reviewer should ask the author why the code is right, rather than
 telling them why it's wrong. This helps keep the conversation focused on
 improving the code, helps keep egos in check, and helps the author learn from
-the reviewer (people rarely listen when given advice, but when they have to
-answer questions, they are forced to think).
+the reviewer (people rarely listen when given advice, but answering questions
+requires either thought or a willingness to look stupid).
 
 Every point a reviewer brings up needs a response from the author. The wise
 forms of response are explanations and patches.
@@ -45,9 +45,8 @@ clear names, then use those variables in the condition. That way, the reviewer
 and future maintainers can understand it. Again, let the reviewer know that the
 next patch will clarify things, so he doesn't think you ignored him.
 
-If a reviewer's question does not spark a code change, engage discussion. This
-is where the really valuable discoveries are made. Don't be shy of asking
-questions in your responses - the same principles that apply to reviewers apply
-to authors too.
+If a reviewer's question does not inspire a code change, say why. This is where
+valuable discoveries are made. Don't be shy of asking questions in your
+responses - the principle goes both ways.
 
-In summary, don't tell people why they're wrong. Ask them why they're right.
+Don't tell people why they're wrong. Ask them why they're right.
