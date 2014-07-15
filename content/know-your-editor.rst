@@ -14,11 +14,11 @@ There are many options, but the best ones are the
 `workhorses <http://david.rothlis.net/emacs/howtolearn.html>`__.
 
 Emacs and vim have been honed over decades to a razor edge, each incarnating
-generations of hard-won insight into the problem of manipulating text. To learn
-that wisdom takes time and patience, but the effort is well worth it.
+generations of hard-won insight on how to change text. To learn that wisdom
+takes time and patience, but the effort is well worth it.
 
-Both are arbitrarily extensible [1]_, and have a huge array of extensions to
-handle almost every editing task you can think of, and a few that you haven't.
+Both are arbitrarily extensible [1]_ and have a huge array of extensions to
+handle almost every editing task you can think of (and a few that you haven't).
 
 If you change OSes, or `RMS <http://en.wikipedia.org/wiki/Richard_Stallman>`__
 and `Moolenar <http://en.wikipedia.org/wiki/Bram_Moolenaar>`__ die, Emacs and
