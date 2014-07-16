@@ -16,12 +16,11 @@ computers. That is the essence of programming.
 
 If it costs more to automate a process than to perform it manually every time,
 automating it may be a poor business decision. Beware the false economy,
-however. A task that is done only once is a very rare creature, and frustrated
+however. A once-and-done task is a very rare creature, and frustrated
 workers can cost much more than a few "wasted" hours.
 
-Many programmers do not realize how many of their daily tasks should be
-automated. Here are a few examples of automatable tasks that are often done
-manually (or worse yet, not at all).
+Here are a few tasks that should be automated, but are often done manually (or
+not at all).
 
 * Checking that code meets style guidelines.
   `Most <https://pypi.python.org/pypi/pep8>`__

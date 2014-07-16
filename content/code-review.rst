@@ -42,8 +42,8 @@ code. It's polite to let him know a fix is coming.
 If a reviewer has a hard time following a four-line if condition, don't explain
 what it does. Instead, turn those four lines into assignments to variables with
 clear names, then use those variables in the condition. That way, the reviewer
-and future maintainers can understand it. Again, let the reviewer know that the
-next patch will clarify things, so he doesn't think you ignored him.
+and future maintainers can understand it. Let the reviewer know the next patch
+will clarify things, so he doesn't think you ignored him.
 
 If a reviewer's question does not inspire a code change, say why. This is where
 valuable discoveries are made. Don't be shy of asking questions in your
