@@ -7,20 +7,26 @@
 # I suppose it does give away a bit of the layout for this particular hosting
 # server, but that's not nearly as bad as having a username documented.
 
-BASE_DIR=~/domains/howicode.nateeag.com/web
-WORK_TREE=$BASE_DIR/staging
-PROD_DIR=$BASE_DIR/public
+SITE_DIR=/usr/local/nginx/sites/howicode.nateeag.com
+mkdir -p "$SITE_DIR/builds"
+mkdir -p "$SITE_DIR/releases"
 
+WORK_TREE=$SITE_DIR/work_tree
+PROD_DIR=$SITE_DIR/public
+
+mkdir -p $WORK_TREE
 GIT_WORK_TREE=$WORK_TREE git checkout -f master
+short_hash=$(git rev-parse --short "master")
 
 cd $WORK_TREE
 if [ ! -d $WORK_TREE/pythonenv ]; then
     $WORK_TREE/make-virtualenv.sh
 fi
 
-source $WORK_TREE/pythonenv/bin/activate
+. $WORK_TREE/pythonenv/bin/activate
 
-# Because my hosting doesn't have make.
-gmake html
+make html
+cp -r "$WORK_TREE/output/" "$SITE_DIR/builds/$short_hash"
 
-rsync -r --delete $WORK_TREE/output/ $PROD_DIR
+ln -s "$SITE_DIR/builds/$short_hash/" "$SITE_DIR/releases/prod-tmp" && \
+    mv -Tf "$SITE_DIR/releases/prod-tmp" "$SITE_DIR/releases/prod"
