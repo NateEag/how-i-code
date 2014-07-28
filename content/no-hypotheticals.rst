@@ -2,7 +2,7 @@ Hypotheticals Are Deadly
 ========================
 
 :category: meta
-:summary: Refuse to solve hypothetical problems.
+:summary: Do not solve hypothetical problems.
 :date: 2013-01-01
 
 A programmer makes software to help real people solve actual problems.
@@ -10,7 +10,7 @@ A programmer makes software to help real people solve actual problems.
 That simple sentence implies some things.
 
 * Do not write code for hypothetical people.
-* Refuse to solve hypothetical problems.
+* Do not solve hypothetical problems.
 
 .. 'quality' should be a link to my unfinished rant on quality being finite.
 
@@ -49,7 +49,7 @@ and write that instead.
 Note that these rules cannot be broken if a programmer is writing software to
 solve a problem he has. A `lot`_ `of`_ `great`_ `software`_ was made this way.
 
-.. [#] Design is important, and a good design expects changes. Do not make
+.. [#] Design is important, and a good design anticipates change. Do not make
        those changes until someone wants them, however.
 .. _lot: http://paulgraham.com/rootsoflisp.html
 .. _of: http://www.emacswiki.org/emacs/EmacsHistory
