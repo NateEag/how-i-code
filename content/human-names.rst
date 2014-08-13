@@ -18,20 +18,16 @@ When relevant, software should let people add their full name. No restrictions
 should be enforced, but it might be wise to ask for confirmation for strange
 names.
 
-If they enter a name, it should be stored as provided. Remember that names
-are language-specific so `character encodings`_ are critical.
+Names should be stored exactly as provided. Remember that names are
+language-specific so `character encodings`_ are critical.
 
 A brave system might address people by nickname. It could construct nicknames
 by using all characters in their full name up to the first whitespace
-character. For languages where family name comes first, starting at the end of
-the name would make more sense.
-
-If a program does use nicknames, it should let people change them, as it's
-bound to get some wrong. However, they should be optional, just like full
-names.
+character. For languages where family name comes first, starting at the name's
+end would make more sense.
 
 Users should be able to edit and remove their names at any time without side
-effects.
+effects. If a program supports nicknames, it should let people change them.
 
 Systems that bill users will need to collect a name at billing time, but they
 should not require one until then.
