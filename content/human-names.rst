@@ -7,30 +7,35 @@ Human Names
 
 Human names cannot be `sanely validated`_.
 
-It is incorrect to assume that every person in a system has a name. It's also a
-bit intrusive to insist that every person using a system provide one.
+It is incorrect to assume that every person in a system has a name. Newborn
+babies don't have names, and in `some cases it takes time`_ for them to be
+named.
 
-When it's relevant, software should offer people the chance to provide their
-full name. No restrictions on formatting should be enforced (though it might be
-reasonable to ask for confirmation when given an unusual format).
+It's also a bit intrusive to insist that every person using a system provide
+one.
 
-If they choose to give a full name, it should be stored exactly as
-provided (keep in mind that names come in a gigantic variety of languages,
-which means you'd better get character encodings right).
+When relevant, software should let people add their full name. No restrictions
+should be enforced, but it might be wise to ask for confirmation for strange
+names.
 
-If a system is particularly brave, it might try addressing people by
-nickname. It could construct nicknames by using all characters in their full
-name up to the first whitespace character. For languages where family name
-comes first, starting at the end of the name would make more sense.
+If they enter a name, it should be stored as provided. Remember that names
+are language-specific so `character encodings`_ are critical.
 
-If a program does use nicknames, it should give people a way to change their
-nickname, as it's bound to get some wrong. However, it should not make them
-specify a nickname unless they choose to, just as with full names.
+A brave system might address people by nickname. It could construct nicknames
+by using all characters in their full name up to the first whitespace
+character. For languages where family name comes first, starting at the end of
+the name would make more sense.
 
-Users should be able to update or remove their names from the system at any
-time.
+If a program does use nicknames, it should let people change them, as it's
+bound to get some wrong. However, they should be optional, just like full
+names.
 
-Systems that bill users will probably have to collect a name at billing
-time, but they should not require one until then.
+Users should be able to edit and remove their names at any time without side
+effects.
+
+Systems that bill users will need to collect a name at billing time, but they
+should not require one until then.
 
 .. _sanely validated: http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/
+.. _some cases it takes time: http://www.straightdope.com/columns/read/1278/is-it-illegal-to-take-a-newborn-home-from-the-hospital-without-naming-it-first
+.. _character encodings: http://www.joelonsoftware.com/articles/Unicode.html
