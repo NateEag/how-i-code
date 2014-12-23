@@ -32,7 +32,7 @@ actual problems, their day-to-day interactions with it are a constant struggle.
 
 When a stakeholder says, "Our users will need to export to Microsoft Office
 formats," he is presenting a hypothetical problem. Make him identify specific
-people that wants this feature. Talk to them and find out exactly what they
+people that want this feature. Talk to them and find out exactly what they
 need.
 
 When you say, "Other developers may want to use an alternate authentication
