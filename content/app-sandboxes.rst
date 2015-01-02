@@ -22,14 +22,17 @@ In most cases, the environment is more complex.
 it runnable as a single command, and keep that command in the project's version
 control repository.
 
-`Vagrant <https://www.vagrantup.com/>`__ automates creating and setting up
-virtual machines. It's an excellent tool for testing an app in an isolated
-environment, and thus for creating developer sandboxes.
+Use that command to write a command that creates a working project sandbox.
+Keep that command in the project's version control repository.
 
 This makes it simple for a new team member to start working.
 
 Making and deploying builds also becomes simpler, paving the way for continuous
 integration, continuous deployment, and horizontal scaling.
+
+`Vagrant <https://www.vagrantup.com/>`__ automates creating and setting up
+virtual machines. It's an excellent tool for testing an app in an isolated
+environment, and thus for creating developer sandboxes.
 
 When testing network services with Vagrant, use DHCP for networking, set the
 VM's hostname to :code:`${project}-${username}-${id}`, and have your
