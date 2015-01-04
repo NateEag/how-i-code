@@ -2,11 +2,11 @@ How I Code
 ==========
 
 :category: meta
-:summary: Why this document exists.
+:summary: Why this site exists.
 
-This is a set of notes on making software.
+This is a set of essays about making software.
 
-I maintain them for several reasons:
+I write them for several reasons:
 
 * They may be useful to others.
 
