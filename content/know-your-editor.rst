@@ -26,7 +26,7 @@ There are many options, but the best ones are the
 `workhorses <http://david.rothlis.net/emacs/howtolearn.html>`__.
 
 Emacs, bash, and vim have been honed over decades to a razor edge, each
-incarnating generations of hard-won insight on how to change text. To learn
+incarnating generations of hard-won insight on how to work with text. Learning
 that wisdom takes time and patience, but the effort is well worth it.
 
 Both are arbitrarily extensible [1]_ and have a huge array of extensions to
