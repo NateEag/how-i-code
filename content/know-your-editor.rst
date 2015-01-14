@@ -39,10 +39,6 @@ workarounds (keep those under version control).
 
 Closed-source editors won't last a lifetime, but these two are halfway there.
 
-When you find a bug that impacts only you and two others, it need not languish
-until the maintainer gets bored or goes broke and shuts down the project. Keep
-the code around and fix it yourself.
-
 .. [1] Few love `vimscript
        <http://stevelosh.com/blog/2011/09/writing-vim-plugins/#making-vimscript-palatable>`__,
        but Emacs Lisp illustrates an arcane, beautiful style of software
