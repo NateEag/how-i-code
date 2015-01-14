@@ -7,18 +7,13 @@ Hypotheticals Are Deadly
 
 A programmer makes software to help real people solve actual problems.
 
-That simple sentence implies some things.
-
-* Do not write code for hypothetical people.
-* Do not solve hypothetical problems.
-
 .. 'quality' should be a link to my unfinished rant on quality being finite.
 
-Most development teams ignore these rules. They waste money, time, and quality
-by writing systems for "the users".
+Few development teams do that. They waste money, time, and quality by writing
+systems for "the users".
 
-They do not know who will use their software, so they cannot know what problems
-it should solve, nor how it should solve them.
+They do not know who will use their software, so they do not know what problems
+those users have, nor how to solve them.
 
 If such a system is a commercial product in an ideal free market, this does
 only moderate harm. The programmers waste some time, the business dies since
