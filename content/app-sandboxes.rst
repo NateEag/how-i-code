@@ -18,12 +18,11 @@ available.
 
 In most cases, the environment is more complex.
 
-`Automate installing dependencies <http://12factor.net/dependencies>`__, make
-it runnable as a single command, and keep that command in the project's version
-control repository.
+Write a command that `installs app dependencies
+<http://12factor.net/dependencies>`__, and keep it in version control.
 
-Use that command to write a command that creates a working project sandbox.
-Keep that command in the project's version control repository.
+Once that exists, use it to write a command that creates a working project
+sandbox. That should also live in version control.
 
 This makes it simple for a new team member to start working.
 
