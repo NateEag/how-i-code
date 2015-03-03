@@ -5,7 +5,7 @@ Hypotheticals Are Deadly
 :summary: Do not solve hypothetical problems.
 :date: 2013-01-01
 
-A programmer makes software to help real people solve actual problems.
+A programmer should make tools to help real people solve actual problems.
 
 .. 'quality' should be a link to my unfinished rant on quality being finite.
 
