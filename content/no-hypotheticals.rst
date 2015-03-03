@@ -21,8 +21,8 @@ its product has no market, and some people lose their jobs, but few outside the
 poorly-planned venture suffer.
 
 However, there are precious few ideal markets in the world. When such software
-is produced, some people will use it, no matter how poor it is, usually because
-their job requires them to. Since the tool was not designed to solve their
+is released, some people will use it, no matter how poor it is (usually because
+their job requires them to). Since the tool was not designed to solve their
 actual problems, their day-to-day interactions with it are a constant struggle.
 
 When a stakeholder says, "Our users will need to export to Microsoft Office
