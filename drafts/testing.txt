@@ -1,0 +1,33 @@
+Some notes from a conversation I would like to turn into a post.
+
+12:03 PM]nathan.eagleson: oh, in defense of unit tests, since I've been picking on them lately:
+
+[12:03 PM]nathan.eagleson:if you're writing an in-process API, unit tests are probably the best way to write 'functional' tests.
+
+[12:03 PM]nathan.eagleson:something like a validation class that's meant to be shared between many projects.
+
+[12:04 PM]nathan.eagleson:(apparently writing docs makes me chatty)
+
+[12:04 PM]ryankeener: not sure I follow
+
+[12:05 PM]nathan.eagleson: ...yeah, that was incoherent.
+
+[12:05 PM]nathan.eagleson:If your module just exposes classes, that module should probably have unit tests.
+
+[12:05 PM]nathan.eagleson:The UI you provide (and should test) *is* those classes.
+
+[12:06 PM]nathan.eagleson:Only necessary if your module is distributed beyond a single application, though.
+
+[12:06 PM]ryankeener: ah, right
+
+[12:07 PM]nathan.eagleson: assuming you grant the 'most unit testing is waste' premise.
+
+[12:07 PM]nathan.eagleson:having just articulated that, I think I see it now.
+
+[12:07 PM]nathan.eagleson:It's the Pareto principle again
+
+[12:08 PM]nathan.eagleson:you could unit test everything you write
+
+[12:08 PM]nathan.eagleson:or just the stuff that you actually had to generalize for multiple projects.
+
+[12:08 PM]nathan.eagleson:Functional tests will catch the breakage in a single project, so why spend the extra time/LOC to unit test the other stuff?
