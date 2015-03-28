@@ -1,0 +1,15 @@
+I was trying to fix Angular's built-in form validation issues, and stumbled
+across this:
+
+http://alistapart.com/article/inline-validation-in-web-forms
+
+Pretty good analysis of when to do which type of form validations (as-you-type,
+after-you-type, etc)
+
+As you might guess, the answer is "It depends."
+
+Rule of thumb: If they know the answer (name, SSN, etc), validate on blur, and
+probably don't bother giving them "Yay!" cues like checkmarks.
+
+If they don't (username, password, etc), validate as they type, and give them
+"Yay!" cues [maybe with a brief message explaining the 'yay'?].
