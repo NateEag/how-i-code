@@ -25,7 +25,7 @@ not at all).
 * Checking that code meets style guidelines.
   `Most <https://pypi.python.org/pypi/pep8>`__
   `languages <http://clang-analyzer.llvm.org/>`__
-  `have <http://www.jshint.com/about/>`__
+  `have <http://eslint.org/>`__
   `tools <https://github.com/squizlabs/PHP_CodeSniffer>`__
   `for <https://github.com/bbatsov/rubocop>`__
   `this <http://checkstyle.sourceforge.net/>`__. Add the one(s) you need
