@@ -1,7 +1,7 @@
 Hiring
 ======
 
-Finding team members is brutally difficult.
+Finding good team members is brutally difficult.
 
 The goal is simple, but the devil and all his minions are in the details.
 
