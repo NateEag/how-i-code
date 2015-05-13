@@ -7,7 +7,7 @@ I should synthesize the important bits and link the best ones from here.
 
 This one's really good:
 
-http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#versioning
+http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
 
 and of course, it's always a good idea to listen to heavy-duty service
 providers:
