@@ -47,8 +47,8 @@ Some say a comment per abstraction is too noisy, and yes, comments on getter
 and setter methods are a bit much.
 
 However, by doing so you gain a standard for documentation you can `enforce
-automatically`_, and your editor can filter the extra noise increase by `folding`_
-comments by default.
+automatically`_, and you can filter the extra noise by `folding`_ comments by
+default.
 
 .. _programs must be written for people: https://mitpress.mit.edu/sicp/front/node3.html
 .. _When they do: http://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/annotations/routing.html
