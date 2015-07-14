@@ -47,7 +47,7 @@ Some say a comment per abstraction is too noisy, and yes, comments on getter
 and setter methods are a bit much.
 
 However, by doing so you gain a standard for documentation you can `enforce
-automatically`_, and the slight noise increase can be filtered by `folding`_
+automatically`_, and your editor can filter the extra noise increase by `folding`_
 comments by default.
 
 .. _programs must be written for people: https://mitpress.mit.edu/sicp/front/node3.html
