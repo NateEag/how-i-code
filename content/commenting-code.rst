@@ -47,7 +47,7 @@ By doing so you gain a documentation standard you can `enforce
 automatically`_. With that standard in place, your editor can help you understand
 abstractions quickly, by parsing and showing you their documentation on demand.
 
-.. _programs must be written for people: https://mitpress.mit.edu/sicp/front/node3.html
+.. _Programs must be written for people to read: https://mitpress.mit.edu/sicp/front/node3.html
 .. _When they do: http://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/annotations/routing.html
 .. _just: https://www.python.org/dev/peps/pep-0257/
 .. _fine: http://usejsdoc.org/
