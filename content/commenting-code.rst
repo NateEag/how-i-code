@@ -2,18 +2,19 @@ Commenting Code
 ===============
 
 :date: 2013-01-01
-:category: code
+:category: docs
 :summary: Marvelous proofs don't fit in the margins.
-
-Most programming languages have support for comments - blocks of text which
-have no meaning to the computer, and exist solely as notes to other people.
 
 .. The paragraph on readability could (should?) be expanded to its own essay.
 
-As Abelson and Sussman said, `programs must be written for people`_.
+As Abelson and Sussman said, `programs must be written for people to read`_.
+
 Readability may be the most valuable trait a program can have, even including
-correctness - perfectly correct programs are vanishingly rare, and readable
+correctness. Perfectly correct programs are vanishingly rare, and readable
 programs are far more likely to have their mistakes fixed.
+
+Most programming languages support comments - blocks of text which do not
+change program behavior.
 
 When writing comments, the tension between readability and computability
 vanishes. Their sole purpose is to improve readability.
@@ -27,10 +28,9 @@ extract and process comments from a codebase.
 Commenting programs well requires the understanding that
 `every line of code is a user interface`_.
 
-Good user interfaces are simple and self-explanatory. Any given line of code
-should be the same way. If a line of code is unclear, make the line clearer
-instead of commenting it. Improving names will help, as will `adding`_ `new`_
-ones.
+Good user interfaces are simple and self-explanatory. Any line of code should
+be the same. If a line of code is unclear, clarify it instead of commenting it.
+Improving names helps, as does `adding`_ `new`_ ones.
 
 Inline comments do have a place. They're a great way to point out possible
 issues to future maintainers (such as yourself), and to explain why some code
@@ -43,12 +43,9 @@ workarounds - make sure to include the bug report URL).
 Every abstraction in a program should have a comment explaining what it is and
 how to use it. If the language supports `docstrings`_, use them.
 
-Some say a comment per abstraction is too noisy, and yes, comments on getter
-and setter methods are a bit much.
-
-However, by doing so you gain a standard for documentation you can `enforce
-automatically`_, and you can filter the extra noise by `folding`_ comments by
-default.
+By doing so you gain a documentation standard you can `enforce
+automatically`_. With that standard met, your editor can help you understand
+abstractions quickly, by showing you their documentation on demand.
 
 .. _programs must be written for people: https://mitpress.mit.edu/sicp/front/node3.html
 .. _When they do: http://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/annotations/routing.html
