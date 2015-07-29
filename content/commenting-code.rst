@@ -7,7 +7,7 @@ Commenting Code
 
 .. The paragraph on readability could (should?) be expanded to its own essay.
 
-As Abelson and Sussman said, `programs must be written for people to read`_.
+`Programs must be written for people to read`_.
 
 Readability may be the most valuable trait a program can have, even including
 correctness. Perfectly correct programs are vanishingly rare, and readable
@@ -32,10 +32,10 @@ Good user interfaces are simple and self-explanatory. Any line of code should
 be the same. If a line of code is unclear, clarify it instead of commenting it.
 Improving names helps, as does `adding`_ `new`_ ones.
 
-Inline comments do have a place. They're a great way to point out possible
-issues to future maintainers (such as yourself), and to explain why some code
-isn't in the simple form a new developer would expect (i.e., to document
-workarounds - make sure to include the bug report URL).
+Inline comments `can indicate poor code`_, but they do have several important
+uses. They are the best way to point out potential issues, to explain why a
+given algorithm or implementation was chosen, and to document workarounds (make
+sure to include the bug report URL).
 
 .. Elaborate on next paragraph. It's true, but make it clear for a novice what
    it actually means, and why it matters.
@@ -44,8 +44,8 @@ Every abstraction in a program should have a comment explaining what it is and
 how to use it. If the language supports `docstrings`_, use them.
 
 By doing so you gain a documentation standard you can `enforce
-automatically`_. With that standard met, your editor can help you understand
-abstractions quickly, by showing you their documentation on demand.
+automatically`_. With that standard in place, your editor can help you understand
+abstractions quickly, by parsing and showing you their documentation on demand.
 
 .. _programs must be written for people: https://mitpress.mit.edu/sicp/front/node3.html
 .. _When they do: http://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/annotations/routing.html
@@ -58,5 +58,6 @@ abstractions quickly, by showing you their documentation on demand.
 .. _adding: http://www.refactoring.com/catalog/extractVariable.html
 .. _docstrings: https://en.wikipedia.org/wiki/Docstring
 .. _new: http://refactoring.com/catalog/extractMethod.html
+.. _can indicate poor code: https://sourcemaking.com/refactoring/comments
 .. _folding: http://codemirror.net/demo/folding.html
 .. _enforce automatically: /automate-everything.html
