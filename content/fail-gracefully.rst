@@ -16,7 +16,7 @@ Undo, for instance, should make changing our minds less dangerous. Instead,
 most implementations drop all divergent histories when you redo, making
 it useless for anything more than typo fixes.
 
-`Emacs and Vim </know-your-editor.html>`__ avoid this pitfall, but they still
+`Emacs and Vim </know-your-tools.html>`__ avoid this pitfall, but they still
 `need <http://www.dr-qubit.org/emacs.php#undo-tree>`__
 `plugins <http://sjl.bitbucket.org/gundo.vim/>`__ to match Adobe Photoshop's
 History palette.

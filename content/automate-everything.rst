@@ -31,7 +31,7 @@ not at all).
   `this <http://checkstyle.sourceforge.net/>`__. Add the one(s) you need
   to your version control hooks, and integrate them into your editor.
   If your editor doesn't support external analysis tools, switch to
-  `a better editor </know-your-editor.html>`__.
+  `a better editor </know-your-tools.html>`__.
 * Making a project's distributables. Each of them should be buildable in one
   step. They should be built regularly, to verify the build process has
   not been broken. `There <http://www.gnu.org/software/make/>`__
