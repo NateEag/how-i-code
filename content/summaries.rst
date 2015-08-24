@@ -3,7 +3,7 @@ Summaries And Descriptions
 
 :date: 2013-01-02
 :category: names
-:summary: Summaries are short. Descriptions are long.
+:summary: This is a summary, not a description.
 
 If an entity has a descriptive text field about a sentence long, call it
 `summary`.
