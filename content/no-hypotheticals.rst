@@ -49,4 +49,4 @@ solve a problem he has. A `lot`_ `of`_ `great`_ `software`_ was made this way.
 .. _lot: http://paulgraham.com/rootsoflisp.html
 .. _of: http://www.emacswiki.org/emacs/EmacsHistory
 .. _great: http://www.bay12games.com/dwarves/
-.. _software: http://cm.bell-labs.com/who/dmr/chist.html
+.. _software: http://csapp.cs.cmu.edu/3e/docs/chistory.html
