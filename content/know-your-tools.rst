@@ -21,11 +21,11 @@ find good tools for doing those things and master them.
 .. This feels like it should be split into its own essay.
 
 There are many options, but the best ones are the
-`old <http://software-carpentry.org/v4/shell/>`__
+`old <http://swcarpentry.github.io/shell-novice/>`__
 `venerable <http://stevelosh.com/blog/2010/09/coming-home-to-vim/>`__
 `workhorses <http://david.rothlis.net/emacs/howtolearn.html>`__.
 
-Emacs, bash, and vim have been honed over decades to a razor edge, each
+Bash, vim, and Emacs have been honed over decades to a razor edge, each
 incarnating generations of hard-won insight on how to work with text. Learning
 that wisdom takes time and patience, but the effort is well worth it.
 
