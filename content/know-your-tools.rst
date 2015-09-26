@@ -35,7 +35,7 @@ handle almost every editing task you can think of (and a few that you haven't).
 If you change OSes, or `RMS <http://en.wikipedia.org/wiki/Richard_Stallman>`__
 and `Moolenar <http://en.wikipedia.org/wiki/Bram_Moolenaar>`__ die, Emacs and
 vim will still be there. So will your configuration, extensions, and
-workarounds (keep those under version control).
+workarounds, if kept under version control.
 
 Closed-source editors won't last a lifetime, but these two are halfway there.
 
