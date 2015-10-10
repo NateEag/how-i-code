@@ -11,8 +11,7 @@ Short names can be more readable than long ones.
 Abbreviations shorten names, and thus can help readability.
 
 Too-short names, however, can be utterly confusing. ``pbya`` is not a
-comprehensible name (I eventually figured out that it stood for Post BY
-Author).
+clear name (it turned out to mean **p**\ost **by** **a**\uthor).
 
 The following is a list of abbreviations I believe strike a good balance
 between brevity and readability. They should not usually be used by themselves,
