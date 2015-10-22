@@ -11,14 +11,16 @@ of doing anything of value.
 
 It is not so.
 
-The essential skills in writing software, the ones you should spend years
-mastering and refining no matter what you specialize in, are these:
+These are the essential skills in writing software, the ones you should spend
+years mastering and refining. They are sorted roughly from most important to
+least, but as they are interrelated, that is a difficult thing to do.
 
 * Caring for users
 * Understanding problems deeply
 * Mastering the written word
 * Mastering the spoken word
-* Solving problems with existing tools
+* Using existing tools to solve problems
+* Debugging
 * Designing interfaces
 * Data modeling
 * Writing readable code
