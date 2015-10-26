@@ -17,9 +17,9 @@ of importance, but they are interrelated, so that is not entirely possible.
 
 * Caring for users
 * Understanding problems deeply
-* Mastering the written word
-* Mastering the spoken word
-* Using existing tools to solve problems
+* Writing
+* Speaking
+* Applying existing tools to problems
 * Debugging
 * Designing interfaces
 * Data modeling
