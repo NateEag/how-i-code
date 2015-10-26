@@ -5,15 +5,15 @@ Fundamentals
 :category: meta
 :summary: "Of the making of many books there is no end..."
 
-There is a never-ending torrent of technology screaming for your attention,
-insisting that if you do not know it, you are an inferior developer, incapable
+There is a never-ending torrent of technology and knowledge screaming for your
+attention, insisting that without it, you are an inferior developer, incapable
 of doing anything of value.
 
 It is not so.
 
 These are the essential skills in writing software, the ones you should spend
-years mastering and refining. They are sorted roughly from most important to
-least, but as they are interrelated, that is a difficult thing to do.
+years mastering and refining. They are sorted approximately in descending order
+of importance, but they are interrelated, so that is not entirely possible.
 
 * Caring for users
 * Understanding problems deeply
