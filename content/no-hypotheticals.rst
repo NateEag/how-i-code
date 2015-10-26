@@ -37,9 +37,9 @@ programmers who want to do this and talk to them about it. [#]_
 If you cannot find any actual users, your system cannot solve a problem for
 anyone.
 
-When writing a program, find at least one actual person who wants to use it.
-If you cannot find one, find a program that an actual person does want to use,
-and write that instead.
+When writing a program, find at least one person who wants to use it. If you
+cannot find one, find a program that at least one person does want to use, and
+write that instead.
 
 Note that these rules cannot be broken if a programmer is writing software to
 solve a problem he has. A `lot`_ `of`_ `great`_ `software`_ was made this way.
