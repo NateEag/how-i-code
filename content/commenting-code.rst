@@ -28,8 +28,8 @@ extract and process comments from a codebase.
 Commenting programs well requires the understanding that
 `every line of code is a user interface`_.
 
-Good user interfaces are simple and self-explanatory. Any line of code should
-be the same. If a line of code is unclear, clarify it instead of commenting it.
+Good user interfaces are simple and self-explanatory, and so should each line
+of code. If a line of code is unclear, clarify it instead of commenting it.
 Improving names helps, as does `adding`_ `new`_ ones.
 
 Inline comments `can indicate poor code`_, but they do have several important
@@ -41,11 +41,12 @@ sure to include the bug report URL).
    it actually means, and why it matters.
 
 Every abstraction in a program should have a comment explaining what it is and
-how to use it. If the language supports `docstrings`_, use them.
+how to use it (if the language supports `docstrings`_, use them).
 
 By doing so you gain a documentation standard you can `enforce
-automatically`_. With that standard in place, your editor can help you understand
-abstractions quickly, by parsing and showing you their documentation on demand.
+automatically`_. With that standard in place, your tools can help you understand
+abstractions quickly, by extracting their documentation and displaying it on
+demand.
 
 .. _Programs must be written for people to read: https://mitpress.mit.edu/sicp/front/node3.html
 .. _When they do: http://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/annotations/routing.html
