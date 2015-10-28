@@ -35,7 +35,7 @@ Dates should include ``date`` in their name, often as a prefix to a past-tense
 verb (``date_created``). Similarly, datetimes should include ``datetime`` in
 their name (``datetime_updated``).
 
-# TODO Simplify this paragraph.
+.. TODO Simplify this paragraph.
 
 To compare dates in environments with no native support (like bash),
 concatenate their elements from largest unit to smallest and compare them as
