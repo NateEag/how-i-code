@@ -14,7 +14,7 @@ Despite this, most software punishes us terribly for mistakes.
 
 Undo, for instance, should make changing our minds less dangerous. Instead,
 most implementations drop all divergent histories when you redo, making
-it useless for anything more than typo fixes.
+it deadly for anything more than typo fixes.
 
 `Emacs and Vim </know-your-tools.html>`__ avoid this pitfall, but they still
 `need <http://www.dr-qubit.org/emacs.php#undo-tree>`__
