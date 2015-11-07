@@ -12,13 +12,13 @@ of doing anything of value.
 It is not so.
 
 Knowing Python's file APIs, understanding the vagaries of MySQL's configuration
-options, or grokking C's dereference operator - these are valuable skills, but
+options, grokking C's dereference operator - these are valuable skills, but
 they are not essential to writing software. They can be applied only when using
 a particular tool.
 
 A small set of fundamental skills, however, are useful in all software projects,
 regardless of environment or tools. These are the essential skills in writing
-software, the ones you should spend years mastering and refining.
+software, the ones you should spend years mastering and refining:
 
 * Caring for users
 * Understanding problems deeply
