@@ -1,8 +1,8 @@
 Fundamentals
 ============
 
-:date: 2013-01-01
-:category: meta
+:date: 2013-01-02
+:category: fundamentals
 :summary: "Of the making of many books there is no end..."
 
 There is a never-ending torrent of technology and knowledge screaming for your
@@ -20,7 +20,7 @@ A small set of fundamental skills, however, are useful in all software projects,
 regardless of environment or tools. These are the essential skills in writing
 software, the ones you should spend years mastering and refining:
 
-* Caring for users
+* `Caring for users`_
 * Understanding problems deeply
 * Writing
 * Speaking
@@ -34,3 +34,5 @@ software, the ones you should spend years mastering and refining:
 
 They are in approximately descending order of importance, but such a ranking
 is not quite possible.
+
+.. _Caring for users: /caring-for-users.html
