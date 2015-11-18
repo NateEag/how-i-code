@@ -30,6 +30,7 @@ software, the ones you should spend years mastering and refining:
 * Data modeling
 * Writing readable code
 * Designing algorithms
+* Typing
 * Optimizing programs
 
 They are in approximately descending order of importance, but such a ranking
