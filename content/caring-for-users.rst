@@ -52,5 +52,5 @@ experience.
 Care for them.
 
 .. _automate processes entirely: /automate-everything.html
-.. _hypothetical difficulties: /no-hypotheticals.html
+.. _hypothetical difficulties: /hypotheticals-are-deadly.html
 .. _all systems fail: /fail-gracefully.html
