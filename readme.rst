@@ -8,7 +8,7 @@ to be on top all the time. The default date is based on the filesystem, so
 if I ever find another way to force the "main" article to the front page, that
 would solve this problem handily.
 
-I use a small post-receive hook to deploy code on push to my webserver. I
-generally don't think this is a great way to deploy things, but it's
-easy, quick, and for a low-traffic personal static site, the occasional few
-seconds of potential inconsistency are fine.
+I use a small post-receive hook to deploy code on push to my webserver.
+Incurring the load of builds on a server isn't necessarily optimal, but it's
+simple, and for a low-traffic personal static site, the additional load is
+unlikely to ever be a problem.
