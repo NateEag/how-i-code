@@ -1,3 +1,6 @@
+2015-12-30 Add an RSS feed generated from commit logs, so people who are
+interested in ongoing updates can subscribe.
+
 2013-02-28 An overall article "Why" might be a good plan. I could expand on my
 minimalist summary of why I write software from my website.
 
