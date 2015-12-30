@@ -1,6 +1,12 @@
 2013-02-28 An overall article "Why" might be a good plan. I could expand on my
 minimalist summary of why I write software from my website.
 
+2015-12-30 How to make an effective team would be a good article. Summarize
+what I explained to Melanie the other day.
+
+2015-12-30 An article on backups, and how they're not actually backups unless a
+human signs off on the verification process.
+
 2013-02-28 An article on indentation (category 'formatting') would be good. Why
 it matters, why use spaces, why nesting level matters (and thus why to wrap at
 80 chars).
@@ -36,3 +42,6 @@ other is actually a workflow article, on how to do code review.
 review article to its own article. Tricky because I have so little experience
 of actual usability testing. That might be related to part of the hypotheticals
 rant.
+
+2015-05-13 Explain POCs, prototypes, and production code - what they are and
+when each one is called for. Not sure what article this belongs in.
