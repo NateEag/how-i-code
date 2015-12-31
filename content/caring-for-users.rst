@@ -26,9 +26,9 @@ understand their problems deeply, then outline your understanding for them, to
 see if you've followed correctly.
 
 Talk to them. Beg them (politely) for bug reports, feedback, complaints,
-and feature requests, and always be grateful for responses. Even a report as
-unhelpful as "it doesnt work" represents some degree of effort to improve the
-software. Encourage questions, and take the time to answer them well if they ask.
+and feature requests, and always be grateful for responses. Even a report like
+"it doesnt work" represents some degree of effort to improve the software.
+Encourage questions, and take the time to answer them well.
 
 Watch them work. See how they do their tasks without the tools you create. See
 how they do it with the tools you create. Let them try your work-in-progress
@@ -45,11 +45,12 @@ understand the problem underlying their request, and design a better solution.
 If the users prefer their original solution, debate, design, and discuss with
 them until you reach a shared understanding of what to do.
 
-Writing programs can involve many different people, but in the end, programmers
-are the ones who incarnate the vision. Only they define what the users
-experience.
+Writing programs can involve many different people, but only a programmer can
+actually create user experience.
 
-Care for them.
+Thus, users can only suffer if a programmer allows it.
+
+Fight for them.
 
 .. _automate processes entirely: /automate-everything.html
 .. _hypothetical difficulties: /hypotheticals-are-deadly.html
