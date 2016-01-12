@@ -9,9 +9,9 @@ Commenting Code
 
 `Programs must be written for people to read`_.
 
-Readability may be the most valuable trait a program can have, even including
+Readability may be the most valuable trait a program can have, including
 correctness. Perfectly correct programs are vanishingly rare, and readable
-programs are far more likely to have their mistakes fixed.
+programs are far more likely to get bugfixes.
 
 Most programming languages support comments - blocks of text which do not
 change program behavior.
