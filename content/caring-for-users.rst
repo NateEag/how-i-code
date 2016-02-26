@@ -7,6 +7,9 @@ Caring For Users
 
 Programs are tools, and like all tools, they are made to be used.
 
+# TODO I need to soften this claim. Academic exercises are valuable, as are
+# proof-of-concepts and prototypes. I guess the users in those cases is the dev
+# team itself.
 A program with no users is worse than pointless. It cannot solve a problem
 for anyone, as no one uses it, but it incurs the manifold costs of creation.
 
