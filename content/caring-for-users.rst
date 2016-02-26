@@ -20,8 +20,8 @@ author is a user, though it may be never be used after writing it.
 Having users is necessary but not sufficient to label a program successful. A
 program is only good if it makes the users' lives better.
 
-As a maker of programs, then, the programmer's primary goal should be to care
-for each program's users.
+As a maker of programs, then, the programmer's goal should be to care for each
+program's users.
 
 How can you do that?
 
