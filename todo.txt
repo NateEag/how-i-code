@@ -1,3 +1,6 @@
+2016-02-26 Store nginx config to prevent invalid caching in repository. This is
+currently an issue in prod.
+
 2015-12-30 Add an RSS feed generated from commit logs, so people who are
 interested in ongoing updates can subscribe.
 
