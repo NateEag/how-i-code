@@ -26,11 +26,10 @@ That said, it's `just`_ `fine`_, `maybe`_ `even`_ `wise`_, to write tools that
 extract and process comments from a codebase.
 
 Commenting programs well requires the understanding that
-`every line of code is a user interface`_.
-
-Good user interfaces are simple and self-explanatory, and so should each line
-of code. If a line of code is unclear, clarify it instead of commenting it.
-Improving names helps, as does `adding`_ `new`_ ones.
+`every line of code is a user interface`_. Good user interfaces are simple and
+self-explanatory, and so should be each line of code. If a line is unclear,
+clarify it instead of commenting it. Improving names helps, as does `adding`_
+`new`_ ones.
 
 Inline comments `can indicate poor code`_, but they do have several important
 uses. They are the best way to point out potential issues, to explain why a
@@ -41,9 +40,9 @@ sure to include the bug report URL).
    it actually means, and why it matters.
 
 Every abstraction in a program should have a comment explaining what it is and
-how to use it (if the language supports `docstrings`_, use them).
+how to use it (if the language supports `docstrings`_, use them for this purpose).
 
-By doing so you gain a documentation standard you can `enforce
+By requiring that you gain a documentation standard you can `enforce
 automatically`_. With that standard in place, your tools can help you understand
 abstractions quickly, by extracting their documentation and displaying it on
 demand.
