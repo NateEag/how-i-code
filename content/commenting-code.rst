@@ -53,7 +53,7 @@ demand.
 .. _fine: http://usejsdoc.org/
 .. _maybe: http://ternjs.net/doc/manual.html#plugin_doc_comment
 .. _even: http://jedi.jedidjah.ch/en/latest/
-.. _wise: http://mypy-lang.org/
+.. _wise: http://www.naturaldocs.org/
 .. _every line of code is a user interface: http://www.yacoset.com/Home/every-line-of-code-is-a-user-interface
 .. _adding: http://www.refactoring.com/catalog/extractVariable.html
 .. _docstrings: https://en.wikipedia.org/wiki/Docstring
