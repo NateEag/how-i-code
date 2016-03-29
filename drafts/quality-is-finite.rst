@@ -1,9 +1,8 @@
 Quality Is Finite
 =================
 
-:category: about
-
-All programs are imperfect, but some are more imperfect than others.
+:category: meta
+:summary: All programs are broken, but some are more broken than others.
 
 A five-minute hack is just that - a quick, bad piece of code that just barely
 handles the specific case being dealt with.
