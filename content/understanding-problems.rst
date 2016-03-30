@@ -104,11 +104,15 @@ more before building something?
 
 * You cannot explain the problem clearly to a newcomer.
 * You cannot propose a solution to the problem.
+* You can find holes in your proposed solution.
 * Someone asks you a question about the problem you have a hard time answering.
 * Someone dislikes your proposed solution, and can explain why.
 * Someone points out a hole in your proposed solution.
 
 What are some indicators it's time to start building?
+
+.. TODO Find source for 'grandmother' quote. Many say Einstein, but it is not
+   at all clear who actually said it, based on some Googling.
 
 * When you explain the problem to an expert who is not familiar with it, they
   immediately propose reasonable solutions.
@@ -116,8 +120,6 @@ What are some indicators it's time to start building?
   cons.
 * You can explain the problem, and your solution, to a layperson clearly.
   "If you cannot explain it to your grandmother, you do not really understand it."
-.. TODO Find source for the quote. Many say Einstein, but it is not at all
-   clear who actually said it, based on some Googling.
 * You can design a new solution to the problem with little effort.
 
 Remember - these are only guidelines, and not a complete set. Understanding

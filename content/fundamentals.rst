@@ -20,7 +20,7 @@ regardless of environment or tools. These are the essential skills in writing
 software, the ones you should spend years mastering and refining:
 
 * `Caring for users`_
-* Understanding problems deeply
+* `Understanding problems deeply`_
 * Writing
 * Speaking
 * Applying existing tools to problems
@@ -33,3 +33,4 @@ software, the ones you should spend years mastering and refining:
 * Optimizing programs
 
 .. _Caring for users: /caring-for-users.html
+.. _Understanding problems deeply: /understanding-problems.html
