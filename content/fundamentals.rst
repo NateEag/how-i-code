@@ -26,10 +26,10 @@ software, the ones you should spend years mastering and refining:
 * Writing
 * Speaking
 * Solving problems with existing tools
-* Debugging
-* Designing interfaces
 * Data modeling
 * Writing readable code
+* Debugging
+* Designing interfaces
 * Designing algorithms
 * Editing text
 * Optimizing programs
