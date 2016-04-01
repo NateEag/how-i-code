@@ -11,7 +11,7 @@ incapable of doing anything of value.
 
 It is not so.
 
-Knowing Python's file APIs, understanding the vagaries of MySQL configuration ,
+Knowing Python's file APIs, understanding the vagaries of MySQL configuration,
 grokking C's dereference operator - these are valuable skills, but they are not
 essential to writing software. They apply only to certain tools.
 
@@ -21,9 +21,11 @@ software, the ones you should spend years mastering and refining:
 
 * `Caring for users`_
 * `Understanding problems deeply`_
+* Listening
+* Reading
 * Writing
 * Speaking
-* Applying existing tools to problems
+* Solving problems with existing tools
 * Debugging
 * Designing interfaces
 * Data modeling
