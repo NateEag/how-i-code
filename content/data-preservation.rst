@@ -48,7 +48,7 @@ Of course, the passage of a few centuries can render digital data unreadable
 even if the storage medium is in perfect condition. The archive's discoverer
 may not have a computer. If they do, they are still unlikely to be able to
 read the stored data. Bytes are still bytes, and meaning is in the eye of the
-interpreter. A digital archive is just a set of ones and zeroes that could be
+beholder. A digital archive is just a set of ones and zeroes that could be
 interpreted an infinite number of ways.
 
 Is hardware needed to read the medium, as with an optical disk? If so, is there
