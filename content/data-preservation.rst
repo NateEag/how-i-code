@@ -35,10 +35,10 @@ Digital secondary storage is not vulnerable solely to computational mutation.
 The most common storage media can fail in a `handful of years`_, or sometimes
 `just a few months`_.
 
-Even `theoretically-immutable media`_ `degrade and fail`_ quickly in some
-cases. Although there are variations `meant to last a millenia`_, they are only
-a few years old. No digital storage system has existed for more than a few
-decades, and we do not know how long any of them will last.
+Even `theoretically-immutable media`_ can `degrade and fail`_ quickly. Although
+there are variations `meant to last a millenia`_, they are only a few years
+old. No digital storage system has existed for more than a few decades, and we
+do not know how long any of them will last.
 
 When digital media fail, it tends to be catastrophic. Even a small malfunction
 or scratch can render the stored data unreadable, requiring `expensive

@@ -1,5 +1,5 @@
 Formalized workflows and processes eliminate certain types of mistakes at
-the cost of brilliance.
+the cost of flexibility.
 
 Be careful about introducing them.
 
