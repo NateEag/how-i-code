@@ -5,54 +5,84 @@ Writing
 :category: Fundamentals
 :summary: ???
 
-If a programmer is making a tool that will be used by other people, she will
-have to communicate with them about it.
+If a programmer is making a tool for other people, she will have to communicate
+with them about it.
 
-Writing is her most powerful tool for doing that.
+Writing is a powerful tool for doing so. It creates a long-lasting, accessible
+record of thought. Even those who cannot read can still experience it, by way
+of screenreaders.
 
-Speaking and listening are also crucial skills for a programmer, but they apply
-mainly in face-to-face conversations, which are not always feasible, and tend
-to consume more time than intended (many people live in dread of meetings that
-have no value for them).
+Speaking and listening are crucial skills for a programmer, but they apply
+mainly in face-to-face conversations, which are not always practicable, and
+tend to drift off-topic.
 
-The written word enables a long-lasting, accessible record of thought. Even for
-those who cannot see or read, assistive technology like screenreaders let them
-access written ideas.
+What attributes make writing useful to a programmer?
 
-Text is searchable. Thoughts preserved as images, audio, or video must be
-manually sorted through, sifting for the ideas the viewer seeks.
+Text is searchable. Images, audio, and video must be manually sorted through,
+sifting for the ideas the viewer seeks, but with a digital text,
+half-remembered ideas are only a quick search away.
 
-Writing is referenceable. People can remember or record the place in a document
-a particular idea is written and find it again, as well as refer other people
-to it.
-
-Writing is random-access. It's simple, especially with hypertext and a table of
-contents, to jump immediately to the part you want, without prior knowledge of
+Text is random-access. It's simple, especially with hypertext and a table of
+contents, to quickly find the part you want, even without prior knowledge of
 the document.
 
-Writing can be processed out-of-band. It does not require recipients to disrupt
-their schedule for the author's convenience, and thus lets people organize
-their time as they wish.
+Text is `archiveable`_. If printed on good paper and stored carefully, it will
+long outlive the program it describes. Indeed, the best way to preserve a
+program for centuries is probably printing out its source code and storing it
+(along with a copy of `Knuth`_).
 
-For these reasons, prefer written communications by default.
+Text is referenceable. People can remember or record where a particular idea
+is written, and refer other people to it. This is a crucial attribute for
+technical communications, and is at the heart of formal documentation and
+specifications.
 
-When should we avoid writing?
+Writing can be processed out-of-band. Recipients need not disrupt their
+schedule for the author's convenience, nor must the author bend his schedule to
+the listeners' whims.
 
-When having conversations about emotionally-charged subjects, face-to-face
-conversation is the best approach. It is much harder to read moods and
-reactions in text, and it is much easier to hide them.
+.. This is a controversial opinion. It may be wrong.
+.. TODO Decide whether I really believe this, and publish or remove accordingly.
+.. Because of these benefits, prefer written communication by default.
 
-Writing is ineffective if used with those who cannot or will not read. American
-literacy is poor enough that such people are extremely common (especially in
-large corporations, where the hiring bar is low).
+What are writing's weak points?
 
-When heavy knowledge transfer must take place quickly, writing is not ideal,
-since writing well takes time. However, it is extremely rare for only one
-person to need the the transferred knowledge. If it is truly a one-time
-transfer, record the conversation, so it can be transcribed when the "one-time"
-label turns out to be false.
+In interactions with users and other collaborators, personal interactions are
+critical, and in a vacuum, writing is not always sufficient to convey that.
+Most people only really engage when they feel `cared for`_, and interacting
+solely via text rarely achieves that.
 
-When working on software, prefer writing in public to private, and searchable
-media to static ones. More people can benefit from written records if they are
-freely available, and easy to find via search, so unless there is a good reason
-to keep writing private, keep it public.
+For the same reason, face-to-face conversation is best when discussing
+emotionally charged topics. It is much harder to read moods and reactions in
+text, and text makes it much easier to disguise those things.
+
+Writing is ineffective with those who cannot or will not read. American
+literacy is poor enough that such people are extremely common - literacy is the
+rare exception, not the rule.
+
+If some knowledge exists only in a single person's head, writing is an
+excellent way to capture it, as it is then available for anyone to absorb.
+However, if someone needs that knowledge quickly, waiting for a good document
+to be written may take too long. In such cases, a conversation is usually
+fastest, but keep an audio recording of the conversation. The next time someone
+needs the information, the audio can be transcribed, and from there slowly
+massaged into a clear, well-structured written document.
+.. This should probably link to the idea of lazy-loading quality, as that's
+   exactly what it is - lazy-loading documentation.
+
+.. TODO This is probably its own essay, actually - something about honesty?
+   Transparency? Maybe two essays, actually - part of this belongs on the
+   data-preservation essay, and part is about transparency.
+
+On software projects, prefer writing in public to private, and digital media to
+static ones. Private communications, like email, can only ever benefit the
+people they are sent directly to, but a `wiki`_ page can be useful to anyone in
+the company (and beyond, if the wiki is public). Finding information in a
+binder full of documentation can take hours, but searching the same docs on a
+hard drive can be done in seconds.
+
+However, you should print a copy if you want it to `last`_.
+
+.. _cared for: /caring-for-users.html
+.. _archiveable: /data-preservation.html
+.. _wiki: https://en.wikipedia.org/wiki/Wiki
+.. _last: /data-preservation.html
