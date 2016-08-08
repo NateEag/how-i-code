@@ -19,14 +19,18 @@ A small set of fundamental skills, however, are useful in all software projects,
 regardless of environment or tools. These are the essential skills in writing
 software, the ones you should spend years mastering and refining:
 
+.. TODO Clarify 'Not writing code' in its essay. Used to be 'Solving
+   problems with existing tools'. The point is that most problems can be solved
+   without writing much code, by looking for and knowing existing tools.
+
 * `Caring for users`_
 * `Understanding problems deeply`_
 * Listening
 * Reading
 * Writing
 * Speaking
-* Solving problems with existing tools
 * Data modeling
+* Not writing code
 * Writing readable code
 * Debugging
 * Designing interfaces
