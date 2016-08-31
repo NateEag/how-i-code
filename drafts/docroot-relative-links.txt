@@ -8,3 +8,8 @@ docroot-relative links are by far the best thing to use.
 If the site expects to be installed at a subpath, then it should offer an “app_path” config value, which is used as part of the prefix for such links.
 
 I’ll have to figure out how to communicate this idea more clearly later.
+
+...after a few more years of experience, I understand that the situation is not
+quite this simple. Pure relative links are really useful for building a working
+hunk of frontend code for which installation is just "put this directory
+somewhere and include this JS file."
