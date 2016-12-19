@@ -47,8 +47,6 @@ it makes their lives better, `automate processes entirely`_, but give them
 simple, robust ways to bypass and override the automation, because `all systems
 fail`_.
 
-.. TODO Link `fully understand the problem` to Understanding Problems.
-
 Protect them. If someone who does not use the software requests a feature,
 discuss it with actual users. Only add it if it helps them. If users request a
 feature that seems short-sighted or unwise, work with them to fully understand
