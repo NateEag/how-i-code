@@ -1,18 +1,26 @@
 Changing Programs
 -----------------
 
+:date: 2013-01-01
+:category: fundamentals
+:summary: "But what does a programmer actually *do*?"
+
+.. TODO Merge with 'adding features'?
+
 .. TODO Add to the list of fundamental skills?
 
-.. TODO Litter with appropriate hyperlinks.
+.. TODO Litter with appropriate hyperlinks, as essays come to exist: 'listen
+   carefully', "user's best interest"
+
 
 First, listen carefully to the request for a change. Understand deeply why the
 asker is requesting the change, and exactly what change in behavior they're
 asking for.
 
-That requires a deep understanding of the program's current behavior (something
-the asker may not have themselves).
+That requires a `deep understanding`_ of the program's current behavior
+(something the asker may not have themselves).
 
-To achieve that, you must use the program as it currently exists, both for the
+To gain that, you must use the program as it currently exists, both for the
 specified task and other tasks.
 
 If it has documentation, read it, to understand the program's overall
@@ -30,7 +38,11 @@ you avoid making hypothetical, unnecessary, or nonsensical changes.
 If the change does not impact a real user, propose an alternative change that
 does.
 
-If the change does not have the users' best interest at heart, look for an
-alternative that would. If necessary, explain to the asker that you feel the
+If the change does not have the users' best interest at heart, find an
+alternative that does. If necessary, explain to the asker that you feel the
 request does not put the program's users first, and work with them to
 understand why you feel that way.
+
+.. TODO Describe the core technical loop programmers know so well.
+
+.. _deep understanding: /understanding-problems.html
