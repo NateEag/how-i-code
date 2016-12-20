@@ -12,3 +12,5 @@ I use a small post-receive hook to deploy code on push to my webserver.
 Incurring the load of builds on a server isn't necessarily optimal, but it's
 simple, and for a low-traffic personal static site, the additional load is
 unlikely to ever be a problem.
+
+It is published to http://howicode.nateeag.com.
