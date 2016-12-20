@@ -8,9 +8,15 @@ to be on top all the time. The default date is based on the filesystem, so
 if I ever find another way to force the "main" article to the front page, that
 would solve this problem handily.
 
-I use a small post-receive hook to deploy code on push to my webserver.
-Incurring the load of builds on a server isn't necessarily optimal, but it's
-simple, and for a low-traffic personal static site, the additional load is
-unlikely to ever be a problem.
+I use a small post-receive hook to deploy code to my webserver via git push.
 
-It is published to http://howicode.nateeag.com.
+I now mildly regret this decision, as it is not the simplest possible
+deployment mechanism - it conflates builds and deployments, and therefore
+requires all your build infrastructure to live on the server.
+
+Just pushing the built files up and updating the production symlink is simpler,
+and I may someday take the time to shift deployment over to that style (perhaps
+by cleaning up and generalizing the deployment script in
+https://github.com/NateEag/nateeag.com).
+
+The site is published to http://howicode.nateeag.com.
