@@ -38,11 +38,16 @@ all your operations.
 That doesn't handle what you do if someone's updated the resource since you last
 requested it.
 
-That's theoretically straightforward, though - don't worry about it.
+That's actually straightforward, though.
+
+By default, just rely on the cached data. Add cache timeouts if you like.
+
+Offer an explicit refresh button, so the user can be sure they're up-to-date if
+they want, but don't force them to.
 
 Store 'last edited' or etag-like metadata (or just use the headers
-themselves?), and the server can give you back a 409 if you submit changes that
-might (or would; pick your preferred semantics) stomp on other changes.
+themselves?), and the server can give you back a 409 when you submit changes
+that might (or would; pick your preferred semantics) stomp on other changes.
 
 Make the body helpful for showing the conflict in the UI (here's what I have,
 here's what you sent), so the UI can let the user resolve the conflicts

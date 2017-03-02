@@ -7,8 +7,7 @@ I'm not a crytography expert, so my advice should not be taken over-seriously.
 
 That said, I know a few things about them.
 
-* Passwords should be hashed with variable stretching, so that
-  brute-forcing them is very hard.
+* Passwords should be hashed with variable stretching, so that brute-forcing them is harder.
 * Passwords should be hashed with a randomly-generated per-password salt, so
   that precomputed hash lookup tables (a.k.a. 'rainbow tables') can't be used
   to reverse the hashes in practice.

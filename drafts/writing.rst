@@ -5,12 +5,12 @@ Writing
 :category: Fundamentals
 :summary: ???
 
-If a programmer is making a tool for other people, she will have to communicate
-with them about it.
+When a programmer makes tools for other people, she has to communicate with
+them.
 
 Writing is a powerful tool for doing so. It creates a long-lasting, accessible
 record of thought. Even those who cannot read can still experience it, by way
-of screenreaders.
+of text-to-speech software or a human reader.
 
 Speaking and listening are crucial skills for a programmer, but they apply
 mainly in face-to-face conversations, which are not always practicable, and

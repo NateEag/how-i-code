@@ -1,4 +1,5 @@
-Using The Filesystem In Web Apps ================================
+Using The Filesystem In Web Apps
+================================
 
 First, try to design your app so it doesn’t have to deal with files at all.
 

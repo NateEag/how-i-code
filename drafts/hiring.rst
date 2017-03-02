@@ -5,7 +5,7 @@ Finding good team members is brutally difficult.
 
 The goal is simple, but the devil and all his minions are in the details.
 
-A good team is comprised of people who can achieve the tasks set before them,
+A good team is comprised of people who can achieve the tasks set before them
 and like working with each other.
 
 Finding that set of people is what's so hard.
