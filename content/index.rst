@@ -10,7 +10,9 @@ I write them for several reasons:
 
 * They may be useful to others.
 
-* They help me improve at making software.
+* Writing helps me think through the process of building software.
+
+* They help me remember lessons I have learned.
 
 * They document what tools I use and how I use them.
 
