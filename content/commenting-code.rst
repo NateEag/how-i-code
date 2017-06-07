@@ -34,7 +34,7 @@ clarify it instead of commenting it. Improving names helps, as does `adding`_
 Inline comments `can indicate poor code`_, but they do have several important
 uses. They are the best way to point out potential issues, to explain why a
 given algorithm or implementation was chosen, and to document workarounds (make
-sure to include the bug report URL).
+sure to include all relevant URLs).
 
 .. Elaborate on next paragraph. It's true, but make it clear for a novice what
    it actually means, and why it matters.
@@ -42,10 +42,9 @@ sure to include the bug report URL).
 Every abstraction in a program should have a comment explaining what it is and
 how to use it (if the language supports `docstrings`_, use them for this purpose).
 
-By requiring that you gain a documentation standard you can `enforce
-automatically`_. With that standard in place, your tools can help you understand
-abstractions quickly, by extracting their documentation and displaying it on
-demand.
+That standard can be `enforced automatically`_, and with it your tools can
+help you understand abstractions quickly, by showing their documentation
+whenever and wherever you need it.
 
 .. _Programs must be written for people to read: https://mitpress.mit.edu/sicp/front/node3.html
 .. _When they do: http://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/annotations/routing.html
@@ -60,4 +59,4 @@ demand.
 .. _new: http://refactoring.com/catalog/extractMethod.html
 .. _can indicate poor code: https://sourcemaking.com/refactoring/comments
 .. _folding: http://codemirror.net/demo/folding.html
-.. _enforce automatically: /automate-everything.html
+.. _enforced automatically: /automate-everything.html
