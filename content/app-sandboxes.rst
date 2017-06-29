@@ -33,18 +33,36 @@ integration, continuous deployment, and horizontal scaling.
 virtual machines. It's an excellent tool for testing an app in an isolated
 environment, and thus for creating developer sandboxes.
 
+.. TODO Address accessing sandboxes from devices that don't support mDNS. A
+   local development DNS server is the obvious approach for that, but I haven't
+   found one that works well yet (or even usably, really).
+
 When testing network services with Vagrant, use DHCP for networking, set the
 VM's hostname to :code:`${project}-${username}-${id}`, and have your
 provisioner install `Avahi <http://avahi.org/>`__, so the VM is reachable by
-the domain name :code:`${project}-${username}-${id}.local`.
+the domain name :code:`${project}-${username}-${id}.local` (without requiring
+network administrators to manage DNS for sandboxes).
 
 The :code:`$id` variable is a per-user counter set in the Vagrantfile (which
 supports arbitrary computations by being `Ruby <https://www.ruby-lang.org>`__).
 Set it from a per-user seed value that's incremented on sandbox creation.
 
-By giving infinite sandboxes to anyone on the network, it becomes easy to debug
-sandboxes, demo work in progress, and even to let stakeholders try a commit
-while a developer continues work on the branch.
+By running each project's sandbox on a distinct virtual machine connected to
+the local network, you ensure that they will not interfere with each other.
+Each virtual machine publishes its own network services, which will only impact
+machines that choose to interact with them, and non-network processes on the
+virutal machine cannot impact other machines on the network.
+
+Thus, this approach makes it possible to have effectively infinite sandboxes,
+given sufficient computational resources.
+
+By contrast, any approach that opens ports or runs processes directly on the
+developer's physical machine will eventually result in conflicts, thus
+requiring the developer to think about her sandbox.
+
+By giving infinite sandboxes to anyone on the network, it becomes easy to help
+teammates debug their sandboxes, run impromptu demos, and even to let
+stakeholders try a commit while a developer continues work on the branch.
 
 Since Vagrantfiles are just Ruby, you can also support custom domain names via
 environment variables. When used, it's on the developer to avoid conflicts.
