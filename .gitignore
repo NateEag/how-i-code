@@ -8,3 +8,4 @@ pythonenv/
 output/
 pelican.pid
 srv.pid
+chromewatch.pid

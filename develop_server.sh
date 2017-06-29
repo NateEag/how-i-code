@@ -12,10 +12,14 @@ CONFFILE=$BASEDIR/pelicanconf.py
 
 ###
 # Don't change stuff below here unless you are sure
+#
+# Nate hacked this so that he can have Chrome auto-refresh any dev environment
+# tabs in the background whenever he makes a change to the content/ directory.
 ###
 
 SRV_PID=$BASEDIR/srv.pid
 PELICAN_PID=$BASEDIR/pelican.pid
+CHROMEWATCH_PID=$BASEDIR/chromewatch.pid
 
 function usage(){
   echo "usage: $0 (stop) (start) (restart)"
@@ -54,6 +58,21 @@ function shut_down(){
   else
     echo "Pelican PIDFile not found"
   fi
+
+  if [[ -f $CHROMEWATCH_PID ]]; then
+      PID=$(cat $CHROMEWATCH_PID)
+      PROCESS=$(ps -p $PID | tail -n 1 | awk '{print $4}')
+    if [[ $PROCESS != "" ]]; then
+      echo "Killing chromewatch"
+      kill $PID
+    else
+      echo "Stale PID, deleting"
+    fi
+    rm $CHROMEWATCH_PID
+  else
+    echo "chromewatch PIDFile not found"
+  fi
+
 }
 
 function start_up(){
@@ -62,9 +81,17 @@ function start_up(){
   $PELICAN --debug --autoreload -r $INPUTDIR -o $OUTPUTDIR -s $CONFFILE $PELICANOPTS &
   echo $! > $PELICAN_PID
   cd $OUTPUTDIR
-  python -m SimpleHTTPServer &
+  python -m SimpleHTTPServer 7999 &
   echo $! > $SRV_PID
   cd $BASEDIR
+
+  # The Chrome-watching script depends on fswatch, so only run it if it's
+  # installed.
+  if command -v fswatch; then
+      "$BASEDIR/chrome-watcher.sh" &
+      echo $! > $CHROMEWATCH_PID
+  fi
+
   sleep 1 && echo 'Pelican and SimpleHTTPServer processes now running in background.'
 }
 
