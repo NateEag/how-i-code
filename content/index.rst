@@ -8,13 +8,15 @@ This is a set of essays about making software.
 
 I write them for several reasons:
 
-* They may be useful to others.
+* It may be useful to others.
 
-* Writing helps me think through the process of building software.
+* It helps me understand the process of building software.
 
-* They help me remember lessons I have learned.
+* It helps me understand mistakes I have made and how to avoid them in future.
 
-* They document what tools I use and how I use them.
+* It helps me remember lessons I have learned.
+
+* It helps document the tools I use and how I use them.
 
 * I must obey the inscrutable exhortations of my soul.
 
