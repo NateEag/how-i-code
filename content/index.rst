@@ -12,11 +12,11 @@ I write them for several reasons:
 
 * It helps me understand the process of building software.
 
-* It helps me understand mistakes I have made and how to avoid them in future.
+* It helps me turn mistakes into lessons learned.
 
 * It helps me remember lessons I have learned.
 
-* It helps document the tools I use and how I use them.
+* It helps me document the tools I use and how I use them.
 
 * I must obey the inscrutable exhortations of my soul.
 

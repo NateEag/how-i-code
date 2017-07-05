@@ -13,4 +13,4 @@ Programmers write POCs to learn things they did not know:
 * Whether an idea is feasible
 * Whether an idea is reasonable
 
-A prototype
+A prototype is used to 
