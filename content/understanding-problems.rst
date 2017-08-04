@@ -88,8 +88,9 @@ That's why staying focused on implementation is critical. Writing
 proof-of-concept solutions for the hard parts of a problem is a great way to
 validate your understanding at lower cost than a full implementation. You pay
 only for writing the hard parts, not the copious amounts of glue that holds a
-system together, and you pay only enough for each POC to verify that you have a
-workable solution, since it does not need to be production-ready.
+system together, and you pay only enough for each proof-of-concept to verify
+that you have a workable solution, since it does not need to be
+production-ready.
 
 .. TODO Remind people to never write POCs that *could* be deployed to prod.
    If you have done that, you have produced a prototype or crappy software, not
@@ -99,14 +100,14 @@ Of course, even for proof-of-concepts, you should have a decent idea how you
 plan for it to work before building. As mentioned, finding fatal flaws the hard
 way is not ideal.
 
-Whether production software or a POC, what are some indicators you should think
-more before building something?
+Whether production software or a proof-of-concept, what are some indicators
+you should think more before building something?
 
 * You cannot explain the problem clearly to a newcomer.
 * You cannot propose a solution to the problem.
 * You can find holes in your proposed solution.
 * Someone asks you a question about the problem you have a hard time answering.
-* Someone dislikes your proposed solution, and can explain why.
+* Someone dislikes your proposed solution and can explain why.
 * Someone points out a hole in your proposed solution.
 
 What are some indicators it's time to start building?

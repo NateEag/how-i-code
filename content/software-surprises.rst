@@ -7,8 +7,8 @@ Software Surprises
 
 No program is perfect.
 
-Even if there were a perfect program, you almost certainly would not understand
-it perfectly, so it would still sometimes surprise you.
+Even if there were a perfect program, you would not `understand it perfectly
+</understanding-problems.html>`__, so it would still sometimes surprise you.
 
 Pleasant surprises, where a program does something helpful, fun, or interesting
 that you did not expect, require no special treatment. It will be appreciated,
