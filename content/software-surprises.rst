@@ -7,24 +7,22 @@ Software Surprises
 
 No program is perfect.
 
-Even if there were a perfect program, you would not `understand it perfectly
-</understanding-problems.html>`__, so it would still sometimes surprise you.
+Even if one were, you would not `understand it perfectly
+</understanding-problems.html>`__, so sometimes it would surprise you.
 
-Pleasant surprises, where a program does something helpful, fun, or interesting
-that you did not expect, require no special treatment. It will be appreciated,
+Pleasant surprises require no special treatment. It will be appreciated,
 however, if you take a moment to thank the programmer(s) for their hard work on
 your behalf when you encounter such a surprise.
 
 When a program unleashes an unpleasant surprise on you, the first thing to do
 is `stop <http://www.chiark.greenend.org.uk/~sgtatham/bugs.html#antelope>`__.
 
-If the surprise is not pleasant, your instinct will be to do something -
-perhaps try the action again, to see if it works this time, or to restart the
-program, or the computer.
+If the surprise is not pleasant, your instinct will be to do something - try
+the action again to see if it works this time, or restart the program, or the
+computer.
 
-By doing any of those things, you risk losing a bug to the mists of time. If
-you change anything, you may lose the only evidence anyone has ever had that a
-bug exists.
+If you do any of those things, you may lose a bug to the mists of time by
+destroying the only evidence anyone has ever had that a bug exists.
 
 Once you have prevented yourself from damaging the computer's state, write down
 the sequence of events leading up to the surprise, ending with the surprise
@@ -34,39 +32,37 @@ Your audience for this explanation is someone who has never used the program
 before. Writing for them will push you towards the specifics that are crucial
 for reproducing tricky bugs.
 
-Once you have finished writing this explanation, you may find that you are no
-longer surprised, because you have had an insight into the program's behavior.
+Once you have written this explanation, you may find that you are no longer
+surprised, because you have had an insight into the program's behavior.
 Sometimes such an insight will come before the explanation is even finished.
 
-If the insight is "It's working as intended and I misunderstood the program",
-then you should mention the incident to the programmer, so that they are aware
-some aspect of the interface was not immediately obvious to you - other people
-may have had similar problems, and if enough do, it implies that the interface
-or the manual should be updated. Other than that, though, you have no
-responsibilities.
+If the insight is "It works as intended but I misunderstood the program", then
+you should mention the incident to the programmer, so they know the interface
+was not immediately obvious to you. Other people may have had similar problems,
+and if enough have, the interface or manual should be improved. In this case,
+you have no other responsibilities.
 
-If the insight is instead something about the nature of the problem, or a
-theory about why the surprise might have occurred, write it down after your
-explanation of the surprise.
+If instead the insight is about the nature of the problem, or a theory about
+why the surprise might have occurred, write it down after your explanation of
+the surprise.
 
-Next, collect evidence that the surprise happened. A screenshot is a good place
-to start (especially for graphical programs), as are log files, or for a batch
+Next, collect evidence the surprise happened. A screenshot is a good place to
+start (especially for graphical programs), as are log files, or for a batch
 command-line program, a copy of the terminal session.
 
 Once you have collected all the evidence you can, think about whether the
-surprise is actually a problem or not. Check any program documentation to see
-if it mentions a situation like yours.
+surprise is actually a problem or not. Check program documentation to see if it
+mentions situations like yours.
 
-If you aren't sure whether it's a problem, show the programmer(s) your evidence
-and ask them what they think.
+If you aren't sure the surprise is a problem, show the programmer(s) your
+evidence and ask them what they think.
 
 .. TODO Factor bug reporting out to its own essay?
 
 If the surprise is a problem, then file a bug report, via whatever mechanism
 the programmers prefer. Sometimes the project documentation will contain
 instructions on bug reporting, which you should follow if it's available. Some
-programs have built-in bug reporting mechanisms, which you should use if
-feasible.
+programs have built-in bug reporters, which can make your job simpler.
 
 The first step in writing a bug report is to reproduce the problem. Your
 explanation of the surprise should guide you in the right direction, and can be
