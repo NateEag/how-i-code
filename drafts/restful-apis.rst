@@ -55,3 +55,41 @@ intelligently.
 
 You can hook promise handlers to invalidate the cache in event of an error,
 too, and you can do that inside your request handler.
+
+## Nesting Resources
+
+If you want to support simpler general case nesting of resources than
+PostgREST, you need to define parent/child relationships, so the system can
+reason about relationships in terms of them.
+
+A simple way to establish a parent-child link is in your route setup - if it's
+useful to embed a child in its parent resource, then you define a route that
+fetches the child via the parent, and the engine can use that hierarchy to
+infer the relationship.
+
+you'd still have a standard /entities/$id route, of course.
+
+you can then use query parameters to express ideas like 'embed children' or
+'recursively embed all descendants', like we wanted for BPIR.
+
+Path accesses would still work like they did in my proposed design from then.
+
+You would not cache compound responses, because that's a nightmare for
+invalidation.
+
+However, you could use URIs for cache keys server-side just like I proposed for
+client-side caching, so you could construct complex documents from the cache
+pretty simply by using route-based lookups, inferred from the hierarchical
+routes.
+
+In fact, you can probably just do straight HTTP queries against the identity
+routes for each descendant. If you have Varnish in front of all of those, you
+get automatic caching with very little extra effort.
+
+and of course you can use the promise-based cache population trick I came up
+with for fetching resources from the DB. Though really, if you have Varnish set
+up in front of it, you likely don't need the promise-based cache population
+idea server-side.
+
+this all falls down once you have to go distributed, but that's a problem I'll
+never have, because nothing I write will ever be that popular.
