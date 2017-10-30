@@ -13,7 +13,7 @@ Process RSS notifications (mostly useful for tracking software releases)
 
 Update/install Emacs packages (twenty-minute limit)
 
-Define goals for day
+Define goals for day (in shared task tracker)
 
 Publish goals for day (can wait for standups when applicable)
 
@@ -21,11 +21,11 @@ Publish goals for day (can wait for standups when applicable)
 Goal-Achievement routine
 ------------------------
 
-Break goal into tasks
+Break goal into tasks (in shared task tracker if supported)
 
 For each task:
 
-Estimate completion time
+Estimate completion time (again, in tracker if supported)
 
 If estimate > 1 hour, break into smaller tasks, enqueue them, and break loop
 
@@ -59,7 +59,12 @@ emergency. Goals where failure to achieve them in time will immediately damage
 the company's ability to remain solvent?). Therefore, encourage interrupts by
 humans via IM, face-to-face/video conversations, and phone calls (sigh).
 
-After any work-related conversation:
+After any work-related conversation, in any medium:
+
+Define any new goals and tasks that result from the discussion. Add them to
+the shared task tracker.
+
+
 
 Prune notifications ruthlessly. Their purpose is to trigger your interrupt
 handler.
