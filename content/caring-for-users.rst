@@ -13,9 +13,9 @@ no one uses it, but it incurs the manifold costs of creation.
 .. TODO Link 'learning exercise for the programmer' to essay on POCs and
    prototypes.
 
-Note, however, that 'users' are sometimes hard to detect - many programs are
-written as a learning exercise for the programmer. In those cases, the
-author is a user, though it may be never be used after writing it.
+Note, however, that 'users' may be hard to detect. Many programs are written as
+a learning exercise for the programmer. In those cases, the author is a user,
+though it may be never be used after writing it.
 
 Having users is necessary but not sufficient to label a program successful. A
 program is only good if it makes the users' lives better.
