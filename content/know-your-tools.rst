@@ -41,8 +41,8 @@ Closed-source editors won't last a lifetime, but these two are halfway there.
 
 .. [1] Few love `vimscript
        <http://stevelosh.com/blog/2011/09/writing-vim-plugins/#making-vimscript-palatable>`__,
-       but Emacs Lisp illustrates an arcane, beautiful style of software
-       development that has largely vanished since the death of the
-       `Lisp machines <http://en.wikipedia.org/wiki/Lisp_machine>`__.
-       It is an ugly Lisp, by most accounts, but an ugly Lisp
-       `still beats most languages <http://paulgraham.com/avg.html>`__.
+       but Emacs Lisp retains a beautiful, arcane style of software
+       development that has largely vanished since the death of the `Lisp
+       machines <http://en.wikipedia.org/wiki/Lisp_machine>`__. It is an ugly
+       Lisp, by most accounts, but an ugly Lisp `still beats most languages
+       <http://paulgraham.com/avg.html>`__.
