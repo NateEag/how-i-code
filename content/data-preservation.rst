@@ -32,8 +32,8 @@ signature and public key stored elsewhere will not be available for the user to
 verify.
 
 Digital secondary storage is not vulnerable solely to computational mutation.
-The most common storage media can fail in a `handful of years`_, or sometimes
-`just a few months`_.
+The most common storage media can fail in a `handful of years`_, or `just a few
+months`_.
 
 Even `theoretically-immutable media`_ can `degrade and fail`_ quickly. Although
 there are variations `meant to last a millenia`_, they are only a few years
@@ -51,14 +51,15 @@ read the stored data. Bytes are still bytes, and meaning is in the eye of the
 beholder. A digital archive is just a set of ones and zeroes that could be
 interpreted an infinite number of ways.
 
-Is hardware needed to read the medium, as with an optical disk? If so, is there
-a working instance of the hardware, or at least blueprints for building one?
-Are there still usable drivers for this ancient device? What filesystem was
-used on the storage medium? What encodings were used for individual files -
-EBCDIC? ASCII? UTF-8? UTF-32? Memory dumps from a long-lost program?
+What custom hardware is needed to read the medium? Is there a working instance
+of the hardware? If not, are there blueprints for building one? Are there still
+extant drivers for this ancient device, and do they work on current operating
+systems? What filesystem was used on the storage medium? How is the data in a
+given file structured? Even if a file's contents are just "text", how is that
+text encoded? EBCDIC? ASCII? UTF-8? UTF-32?
 
-Paper, papyrus, and scrolls, on the other hand, are known to preserve data
-reliably for centuries, even millenia.
+In stark contrast, ink and paper have been used to preserve data reliably for
+centuries, while papyrus and scrolls have lasted for millennia.
 
 Updating a book's contents with new information is very difficult, and for all
 but subtle forgeries, any layperson can see the changes - a brand-new page in a
@@ -68,12 +69,14 @@ The written word's failure modes are forgiving and comprehensible, and recovery 
 `intentionally-destroyed data is often feasible`_. A page can be dropped,
 written over, torn, or even immersed in liquid, and still be readable.
 
+.. TODO Mention engraved stone, metals, and ceramics as options.
+
 Little technology is needed to read writing - just eyesight and knowledge of
 the language. Even when the language is long-dead and a mystery, `it may be
 rediscovered`_.
 
-The pen is mightier than the program, and the digital age will vanish like dust
-on the wind.
+The pen is mightier than the program, and the `digital age will vanish like
+dust on the wind`_.
 
 
 .. _handful of years: https://www.backblaze.com/hard-drive-test-data.html
@@ -85,3 +88,4 @@ on the wind.
 .. _expensive experts: http://www.drivesaversdatarecovery.com/
 .. _intentionally-destroyed data is often feasible: https://en.wikipedia.org/wiki/Palimpsest#Modern_decipherment
 .. _it may be rediscovered: https://en.wikipedia.org/wiki/Rosetta_Stone#Hieroglyphic_text
+.. _digital age will vanish like dust on the wind: https://partners.nytimes.com/library/magazine/millennium/m6/capsule-panel.html
