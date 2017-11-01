@@ -11,7 +11,8 @@ Process email inbox
 
 Process RSS notifications (mostly useful for tracking software releases)
 
-Update/install Emacs packages (twenty-minute limit)
+Update local dev tools I track unstable with (Emacs packages, mostly)
+(twenty-minute limit)
 
 Define goals for day (in shared task tracker)
 
