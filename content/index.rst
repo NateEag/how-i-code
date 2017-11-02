@@ -20,4 +20,7 @@ I write them for several reasons:
 
 * I must obey the inscrutable exhortations of my soul.
 
+I use imperative voice for rules I believe apply generally, and I try to
+explain why I believe they are general rules.
+
 I hope you find them useful.
