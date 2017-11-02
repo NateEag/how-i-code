@@ -28,7 +28,7 @@ For each task:
 
 Estimate completion time (again, in tracker if supported)
 
-If estimate > 1 hour, break into smaller tasks, enqueue them, and break loop
+If estimate > 1 hour, break into smaller tasks, enqueue them, and continue loop
 
 Set timer for estimated time
 
@@ -99,16 +99,16 @@ at present but could later, and so on.
 Fixing every tooling issue is a never-ending stack of turtles, yet life can be
 so much better for everyone if you actually fix them.
 
-When I encounter one for the first time, check docs and the web for a quick
+When you encounter one for the first time, check docs and the web for a quick
 solution. Often it's just a question of knowing to set an option. Limit that
-check + integrating the result to five minutes.
+check + integrating the result into the process to five minutes.
 
-If the timer runs out, make note of the issue/improvement in either my own todo
-list or a shared todo list, depending on whether it's a shared piece of
+If the timer runs out, make note of the issue/improvement in either your own
+todo list or a shared todo list, depending on whether it's a shared piece of
 tooling.
 
 If you discover that the issue has already been filed, note that you've
-encountered it again.
+encountered it again (or for the first time if someone else encountered it).
 
 Next, decide how severe the issue is. If it's a blocker to forward progress on
 the current goal, or it's an issue for other teammates, or you have encountered
