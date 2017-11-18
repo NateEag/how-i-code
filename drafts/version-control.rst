@@ -18,7 +18,10 @@ To keep commands like 'rm -rf' from irretrievably ruining our projects, we use
 
 TODO Explain somewhere that a commit summary should always start with 'Add'
 (new feature, usually new UI associated), 'Fix' (change program behavior to
-match intended behavior), 'Refactor' (improve internal implementation without
-changing perceivable behavior), or 'Explain' (write documentation).
+match intended behavior), 'Optimize' (make something run faster), 'Refactor'
+(improve internal implementation without changing perceivable behavior),
+'Explain' (write documentation). This might be related to the fundamental skill
+of 'Changing programs', because these are (intended to be) the only meaningful
+changes you can make to a program.
 
 .. _version control: http://en.wikipedia.org/wiki/Revision_control
