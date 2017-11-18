@@ -16,4 +16,9 @@ their tools, rather than conservative safety.
 To keep commands like 'rm -rf' from irretrievably ruining our projects, we use
 `version control`_.
 
+TODO Explain somewhere that a commit summary should always start with 'Add'
+(new feature, usually new UI associated), 'Fix' (change program behavior to
+match intended behavior), 'Refactor' (improve internal implementation without
+changing perceivable behavior), or 'Explain' (write documentation).
+
 .. _version control: http://en.wikipedia.org/wiki/Revision_control
