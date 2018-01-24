@@ -103,6 +103,9 @@ way is not ideal.
 Whether production software or a proof-of-concept, what are some indicators
 you should think more before building something?
 
+.. TODO Consider hyperlink to Shannon on problem solving?
+   http://www1.ece.neu.edu/~naderi/Claude%20Shannon.html
+
 * You cannot explain the problem clearly to a newcomer.
 * You cannot propose a solution to the problem.
 * You can find holes in your proposed solution.
