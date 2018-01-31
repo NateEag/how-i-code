@@ -20,10 +20,16 @@ probably be defined per-language).
 Names should be stored exactly as provided. Remember that names are
 language-specific so getting `character encodings`_ right is critical.
 
-A brave system might address people by nickname. It could construct nicknames
-by using all characters in their full name up to the first whitespace
-character. For languages where family name comes first, starting at the name's
-end would make more sense.
+A brave system might try to address people by nickname, but it would be
+difficult to get right. It could construct nicknames by splitting the full name
+on word separators for the user's specified language (usually whitespace
+characters), then choosing the first or last string based on the cultural
+convention for the language in question (e.g., in English family name comes
+last, but in Chinese it comes first). In languages that `have no word
+separators <https://linguistics.stackexchange.com/a/6135>`__, a nickname cannot
+be safely inferred so it should be left undefined unless the user chooses to add
+one. Any messages in the program that use the nickname would therefore require
+variants that do not use it.
 
 Users should be able to edit and remove their names at any time without side
 effects. If a program supports nicknames, it should let people change them.
