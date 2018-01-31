@@ -9,10 +9,9 @@ Human names cannot be `sanely validated`_.
 
 It is incorrect to assume that every person in a system has a name. Newborn
 babies don't always have names, and in `some cases it takes time`_ for them to
-be named.
+be named. Even for adults, who usually do have names, it's a bit intrusive to
+insist they give it out.
 
-It's also a bit intrusive to insist that every person using a system provide
-one.
 
 When relevant, software should let people add their full name. No restrictions
 should be enforced, but it might be wise to ask for confirmation for strange
