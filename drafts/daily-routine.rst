@@ -7,9 +7,12 @@ An attempt to define my daily workflow as a programmer.
 Start Of Day
 ------------
 
-Process email inbox
+Process voicemails
 
-Process RSS notifications (mostly useful for tracking software releases)
+Process software notifications (IM, alarm/warning systems, RSS [for tracking
+software releases], etc)
+
+Process email inbox
 
 Update local dev tools I track unstable with (Emacs packages, mostly)
 (twenty-minute limit)
