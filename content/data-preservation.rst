@@ -36,7 +36,7 @@ The most common storage media can fail in a `handful of years`_, or `just a few
 months`_.
 
 Even `theoretically-immutable media`_ can `degrade and fail`_ quickly. Although
-there are variations `meant to last a millenia`_, they are only a few years
+there are variations `meant to last a millennium`_, they are only a few years
 old. No digital storage system has existed for more than a few decades, and we
 do not know how long any of them will last.
 
@@ -84,7 +84,7 @@ dust on the wind`_.
 .. _an electron microscope: http://security.stackexchange.com/questions/26132/is-data-remanence-a-myth
 .. _theoretically-immutable media: https://en.wikipedia.org/wiki/CD-R#Lifespan
 .. _degrade and fail: https://en.wikipedia.org/wiki/DVD#Longevity
-.. _meant to last a millenia: http://www.mdisc.com/
+.. _meant to last a millennium: http://www.mdisc.com/
 .. _expensive experts: http://www.drivesaversdatarecovery.com/
 .. _intentionally-destroyed data is often feasible: https://en.wikipedia.org/wiki/Palimpsest#Modern_decipherment
 .. _it may be rediscovered: https://en.wikipedia.org/wiki/Rosetta_Stone#Hieroglyphic_text
