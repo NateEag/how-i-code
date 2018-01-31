@@ -12,10 +12,10 @@ babies don't always have names, and in `some cases it takes time`_ for them to
 be named. Even for adults, who usually do have names, it's a bit intrusive to
 insist they give it out.
 
-
-When relevant, software should let people add their full name. No restrictions
-should be enforced, but it might be wise to ask for confirmation for strange
-names.
+When it's useful, software should let people add their full name. No
+restrictions should be enforced, but it might be wise to ask for confirmation
+for strange names, as they might contain typos ('strangeness' metrics should
+probably be defined per-language).
 
 Names should be stored exactly as provided. Remember that names are
 language-specific so `character encodings`_ are critical.
