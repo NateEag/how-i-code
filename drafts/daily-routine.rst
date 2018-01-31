@@ -19,7 +19,7 @@ Update local dev tools I track unstable with (Emacs packages, mostly)
 
 Define goals for day (in shared task tracker)
 
-Publish goals for day (can wait for standups when applicable)
+Announce goals for day (can wait for standups if applicable)
 
 
 Goal-Achievement routine
