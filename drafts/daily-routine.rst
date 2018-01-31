@@ -83,9 +83,17 @@ emergency. Goals where failure to achieve them in time will immediately damage
 the company's ability to remain solvent?). Therefore, encourage humans to
 interrupt you by IM, face-to-face/video conversations, and phone calls (sigh).
 
+The best way to answer work-related conversations is a link to existing
+documentation that answers the question. In many ways, a developer serves as a
+human index for the docs she writes.
+
+If you know the answer to a question but do not have a link to documentation
+containing it, look for one, in case it already exists.
+
 After any work-related conversation, in any medium, do the following things:
 
-* Add new goals and tasks to the shared task list based on the discussion
+* Add any new goals and tasks that resulted to the shared task list
+* Add documentation tasks for any questions you answered that don't have docs
 * Re-check your priorities to see if you should jump to one of the new goals
 
 
