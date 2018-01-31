@@ -18,7 +18,7 @@ for strange names, as they might contain typos ('strangeness' metrics should
 probably be defined per-language).
 
 Names should be stored exactly as provided. Remember that names are
-language-specific so `character encodings`_ are critical.
+language-specific so getting `character encodings`_ right is critical.
 
 A brave system might address people by nickname. It could construct nicknames
 by using all characters in their full name up to the first whitespace
