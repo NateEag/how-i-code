@@ -11,7 +11,7 @@ while others are the byproduct of painful discovery.
 * Always tell the truth. Nothing good comes of lying, and when the victim finds
   out you lied, they will (rightly) not trust you again.
 
-* Do not be a go-between. If two people need to discuss something, put them in
+* Do not be a go-between. If two people need to discuss something, get them in
   touch and get out of the way. Having you in the middle will only make it
   harder for them to understand each other.
 
@@ -21,7 +21,8 @@ while others are the byproduct of painful discovery.
 
   You may not be the best person to do that - if the issue is a language
   barrier and you don't speak both the languages, you will likely just make it
-  worse. Always be ready and willing to facilitate
+  worse. Always be ready and willing to facilitate, but don't assume you're the
+  only option.
 
 * Manage expectations proactively, and do your best to keep them aligned with
   reality.
