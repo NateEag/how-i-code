@@ -12,8 +12,8 @@ Doing that also requires installing all dependencies - programs it depends on,
 libraries it depends on, and configuration to make it behave correctly on the
 target machine.
 
-https://zachholman.com/posts/deploying-software has a ton of very good info
-about this process.
+https://zachholman.com/posts/deploying-software has a ton of good info about
+this process.
 
 ------------------
 
@@ -21,8 +21,8 @@ For years I thought a static website needed only to use the 'symlink swap'
 trick to change its docroot for fully robust releases:
 http://blog.moertel.com/posts/2005-08-22-how-to-change-symlinks-atomically.html
 
-A week or two ago, as I pondered how the release process for Scriptlighter.com
-should work, I realized I was dead wrong.
+As I pondered how the release process for Scriptlighter.com should work, I
+realized I was dead wrong.
 
 Using that trick to change a project's docroot should mean no requests get
 lost.
@@ -62,8 +62,8 @@ Why does that feel ugly to me?
 - Defining a page template becomes more complex, as you must use an abstraction
   to refer to static assets.
 
-- Including images in a page requires the user to know about the asset()
-  abstraction we would be forced to add.
+- Including images in a page requires the content manager to know about the
+  asset() abstraction we would be forced to add.
 
 - I feel that user-visible URLs with hashes in them are ugly. They're hard to
   read, hard to say, hard to remember, hard to type, and they don't look nice.
