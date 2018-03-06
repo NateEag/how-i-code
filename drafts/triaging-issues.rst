@@ -3,22 +3,45 @@ Triaging Issues
 
 :date: 2013-01-01
 :category: fundamentals
-:summary: Weird stuff happens. We have to deal with it.
+:summary: Weird stuff happens. We deal with it.
+
+.. TODO Move below paragraph to overall 'issue management' essay?
+
+When a program `surprises someone </software-surprises.html>`__, the
+development team should respond to it.
+
+Issue triage is the process of turning issue reports into prioritized database
+entries with all available information to help developers resolve them.
+
+.. TODO Point out that the zeroth and most important step in issue flow is
+   receiving the report from a user, apologizing for the fact that they've
+   experienced an issue, and letting them know if it's a known issue.
+
+The first step in triaging an issue report is to add the new report to the
+issue database. The new entry should include:
+
+- The datetime the report was received
+- The original user report, exactly as provided
+- All additional data collected in first contact with the reporter
+
+If it's available, include the reporter's contact information, so we can update
+them with resolutions and workarounds as they're discovered. If the reporter
+prefers not to provide it, that is of course their right, so an issue database
+should not make it a required field.
+
+The next step is to determine whether this issue has been seen before.
+
+If you recognize the issue as an instance of a known issue, include a link to
+the canonical issue report. Many issue trackers have a formal 'duplicate of'
+field - if yours does, use it.
+
+It is crucial that every received issue report be added to the program's issue
+database for that program, which serves as the formal record of all incidents
+involving the program. Paired with the 'duplicate issue' formalism, it helps
+you see how common an issue is. It also helps you track all reporters who should
+be notified once an issue is resolved.
 
 
-When a program `surprises someone </software-surprises.html>`__, it represents
-an issue the development team should respond to.
-
-Triage is the act of turning issue reports into a plan of action to `take care
-of the user's problem </caring-for-users.html>`__.
-
-Every issue report from a program user should be put in an issue database for
-that program, which serves as the formal incident record.
-
-Even minor issues that are well-known and on the way to resolution should be
-entered, because that gives you a way to determine how frequent and how common
-an issue is, as well as a way to track all users who should be notified once the
-issue is resolved.
 
 Paired with human analysis of the issue's severity, that gives you exactly what
 you need to prioritize development work.
