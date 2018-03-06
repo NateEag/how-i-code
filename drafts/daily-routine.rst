@@ -20,7 +20,10 @@ Update local dev tools I track unstable with (Emacs packages, mostly)
 Define goals for day (in shared task tracker)
 
 Announce goals for day, to get accountability (can wait for standups if
-applicable)
+applicable). Automation can help here - a command that announces your defined
+goal for the day to the group chat half an hour after you've logged on, or "I
+don't know what I'm doing today" if you haven't yet defined one provides
+pressure in the right direction.
 
 
 Goal-Achievement routine
@@ -49,9 +52,11 @@ as appropriate based on discoveries.
 Scheduled Events
 ----------------
 
+.. TODO Link to essay on when to use what communications medium.
+
 The main value of email is that it leaves a written record of the discussion
 and that it doesn't require the recipient to handle the sender's communication
-immediately as their primary concern.
+immediately.
 
 Therefore, I handle email as follows.
 
@@ -62,32 +67,41 @@ anything important).
 Do not check it unprompted otherwise, and turn off notifications for regular
 email.
 
-When you check email, respond to any messages you need to.
+When you check email, your main goal is to convert inbound messages into tasks
+or goals in the shared task tracker for projects you are responsible for.
+Respond to any messages as needed, to clarify what goals or tasks should be
+created and to maintain good relationships. Forward messages concerning
+projects that are not your responsibility to the appropriate maintainer.
 
 Check email an hour before signing off for the day, so you have time to act on
 anything important that comes in.
 
-I'm considering setting up a post-mailcheck script to notify me when tagged
-threads receive new emails. That would help me be responsive in email exchanges
-with clients who don't have my internal phone number or IM.
+If you have an email thread where responses require immediate attention, flag
+it as 'watched', and have your email client send you a notification when new
+responses come in on watched threads.
+
+That way, you can treat most email as a background batch process, while still
+responding quickly to threads where it's necessary.
 
 
 Handling Interrupts
 -------------------
 
-Prune notifications ruthlessly. Their purpose is to trigger your interrupt
-handler, so any notification that shouldn't do that ought to be turned off.
+Prune notifications ruthlessly. Their essential nature is to let you know
+something has happened that may require your immediate attention, so turn off
+or pause all notifications that you know do not require it.
 
 
 Communications
 ~~~~~~~~~~~~~~
 
-People take priority over goals except in emergencies (TODO define business
-emergency. Goals where failure to achieve them in time will immediately damage
-the company's ability to remain solvent?). Therefore, encourage humans to
-interrupt you by IM, face-to-face/video conversations, and phone calls (sigh).
+People take priority over goals except when failing goals will severely damage
+the business (TODO define 'severely damage'. Goals where failure to achieve
+them in time will immediately damage the company's ability to remain solvent?).
+Therefore, encourage humans to interrupt you by IM, face-to-face/video
+conversations, and phone calls (sigh).
 
-The best way to answer work-related conversations is a link to existing
+The best way to answer project-related questions is a link to existing
 documentation that answers the question. In many ways, a developer serves as a
 human index for the docs she writes.
 
@@ -96,7 +110,7 @@ containing it, look for one, in case it already exists.
 
 After any work-related conversation, in any medium, do the following things:
 
-* Add any new goals and tasks that resulted to the shared task list
+* Add any new goals or tasks to the shared task list
 * Add documentation tasks for any questions you answered that don't have docs
 * Re-check your priorities to see if you should jump to one of the new goals
 
