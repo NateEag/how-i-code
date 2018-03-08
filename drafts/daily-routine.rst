@@ -52,6 +52,9 @@ as appropriate based on discoveries.
 Scheduled Events
 ----------------
 
+Handling Email
+--------------
+
 .. TODO Link to essay on when to use what communications medium.
 
 The main value of email is that it leaves a written record of the discussion
@@ -60,28 +63,58 @@ immediately.
 
 Therefore, I handle email as follows.
 
-Check email on arrival in the morning, before going to lunch (or after if lunch
-comes as a surprise), and and hour before EOD (so you have time to act on
-anything important).
+Add reminders to check email on arrival in the morning, before and after lunch,
+and an hour before EOD (so you have time to act on anything critical before
+EOD).
 
-Do not check it unprompted otherwise, and turn off notifications for regular
-email.
+Do not check it unprompted, and turn off notifications for regular email.
 
-When you check email, your main goal is to convert inbound messages into tasks
-or goals in the shared task tracker for projects you are responsible for.
-Respond to any messages as needed, to clarify what goals or tasks should be
-created and to maintain good relationships. Forward messages concerning
-projects that are not your responsibility to the appropriate maintainer.
+Practice inbox zero. The inbox does not have to literally be at zero - it's
+fine to keep active threads in it.
 
-Check email an hour before signing off for the day, so you have time to act on
-anything important that comes in.
+But rigorously archive, delete, or defer anything that's not by nature 'ongoing
+email thread which has not yet reached resolution'.
+
+.. TODO Link to explanation of task list vs issue list. Technically the issue
+   list could be a subset of the task list, so my terminology is probably
+   wrong. The point is that there's a difference between making changes to
+   deliverables (docs, software) and helping people use the software. You can
+   do the latter without having the skills to do the former.
+
+When checking project-related email (as opposed to personal correspondence),
+your goal is to convert messages into tasks in the project's shared task list
+or issues in the project's issue list. Anything that matters should not be
+living in your personal email collection.
+
+A secondary goal is to teach the people who sent you the emails to enter the
+items into the appropriate queues themselves, rather than routing them through
+you first (only relevant to teams with multiple people in each role).
+
+Begin with a quick pass through your inbox to eliminate any noise and be sure
+you know which items have the highest priority.
+
+Then take a second pass through the messages you didn't delete or archive,
+starting with the highest priority item and working your way down.
+
+Making sure you're filing the right tasks is not easy. Respond to messages and
+interact closely with the sender to `thoroughly understand problems
+</understanding-problems.html>`__ before you file tasks, and to make sure you
+are `really caring for </caring-for-users.html>`__ your users.
+
+When you receive messages that relate entirely to a project you don't work on,
+forward them to the appropriate maintainer. Reply directly to the original
+sender and let them know who you passed it on to, so they know their question
+isn't lost. By handling it this way instead of replying and adding the other
+maintainer, you avoid the noise of the thread that doesn't apply to you.
 
 If you have an email thread where responses require immediate attention, flag
-it as 'watched', and have your email client send you a notification when new
-responses come in on watched threads.
+it as 'watched', and set up your email client to send you a notification when
+new responses come in on watched threads.
 
 That way, you can treat most email as a background batch process, while still
-responding quickly to threads where it's necessary.
+responding quickly to threads as necessary.
+
+TODO Figure out how to handle the problem of inbound threads
 
 
 Handling Interrupts
