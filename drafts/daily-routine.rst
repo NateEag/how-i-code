@@ -131,8 +131,9 @@ Communications
 People take priority over goals except when failing goals will severely damage
 the business (TODO define 'severely damage'. Goals where failure to achieve
 them in time will immediately damage the company's ability to remain solvent?).
-Therefore, encourage humans to interrupt you by IM, face-to-face/video
-conversations, and phone calls (sigh).
+Therefore, `encourage humans to interrupt you
+<http://www.cs.virginia.edu/~robins/YouAndYourResearch.html>`__ by IM,
+face-to-face/video conversations, and phone calls.
 
 The best way to answer project-related questions is a link to existing
 documentation that answers the question. In many ways, a developer serves as a
