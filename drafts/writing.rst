@@ -59,15 +59,17 @@ Writing is ineffective with those who cannot or will not read. American
 literacy is poor enough that such people are extremely common - literacy is the
 rare exception, not the rule.
 
-If some knowledge exists only in a single person's head, writing is an
-excellent way to capture it, as it is then available for anyone to absorb.
-However, if someone needs that knowledge quickly, waiting for a good document
-to be written may take too long. In such cases, a conversation is usually
-fastest, but keep an audio recording of the conversation. The next time someone
-needs the information, the audio can be transcribed, and from there slowly
-massaged into a clear, well-structured written document.
-.. This should probably link to the idea of lazy-loading quality, as that's
-   exactly what it is - lazy-loading documentation.
+If some knowledge exists only in one person's head, writing is an excellent way
+to capture it, as it is then available for anyone to absorb. However, if
+someone needs the knowledge quickly, waiting for a good document to be written
+may take too long. In such cases, have a conversation for speed's sake, but
+make an audio recording of it.
+
+The next time someone needs the information, the audio can be transcribed, and
+from there slowly massaged into a clear, well-structured written document.
+
+.. This should link to the idea of lazy-loading quality, as that's exactly what
+   it is - lazy-loading documentation.
 
 .. TODO This is probably its own essay, actually - something about honesty?
    Transparency? Maybe two essays, actually - part of this belongs on the
