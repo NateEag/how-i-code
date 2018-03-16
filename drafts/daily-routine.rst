@@ -26,7 +26,7 @@ don't know what I'm doing today" if you haven't yet defined one provides
 pressure in the right direction.
 
 
-Goal-Achievement routine
+Goal Achievement routine
 ------------------------
 
 Break goal into tasks (in shared task tracker if supported)
@@ -70,10 +70,9 @@ EOD).
 Do not check it unprompted, and turn off notifications for regular email.
 
 Practice inbox zero. The inbox does not have to literally be at zero - it's
-fine to keep active threads in it.
-
-But rigorously archive, delete, or defer anything that's not by nature 'ongoing
-email thread which has not yet reached resolution'.
+fine to keep active threads in it to remind you to follow up on them later. But
+rigorously archive, delete, or defer everything other than 'unresolved thread I
+care about'.
 
 .. TODO Link to explanation of task list vs issue list. Technically the issue
    list could be a subset of the task list, so my terminology is probably
@@ -120,9 +119,10 @@ TODO Figure out how to handle the problem of inbound threads
 Handling Interrupts
 -------------------
 
-Prune notifications ruthlessly. Their essential nature is to let you know
-something has happened that may require your immediate attention, so turn off
-or pause all notifications that you know do not require it.
+Prune notifications ruthlessly. Their essence nature is to interrupt you in
+case an event requires immediate attention, so turn off notifications for any
+event you can safely handle via scheduled batch job (whether literal or
+figurative).
 
 
 Communications
