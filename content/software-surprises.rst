@@ -50,18 +50,18 @@ start (especially for graphical programs), as are log files or (for a batch
 command-line program) a copy of the terminal session.
 
 Once you have collected all the evidence you can, decide whether the surprise
-is a problem or not. Check program documentation to see if it mentions
-situations like yours.
+is a problem or not. Check program documentation and issue database to see if
+your situation has been encountered before, and whether there is a workaround
+or a fix for the issue available.
 
-If you cannot decide whether the surprise is a problem, show the programmer(s)
-your evidence and ask what they think.
+If you are not sure whether the surprise is a problem, create an issue report
+to find out what the programmers think.
 
 .. TODO Factor bug reporting out to its own essay?
 
-If the surprise is a problem, then file a bug report. Sometimes the project
-documentation will contain instructions on bug reporting, which you should
-follow if it's available. Some programs have built-in bug reporters, which can
-make your job simpler.
+If the project documentation has instructions on bug or issue reports, follow
+them. Some programs have built-in bug reporting functionality, which can make
+your job simpler.
 
 The first step in writing a bug report is to reproduce the problem. Your
 explanation of the surprise should guide you in the right direction, and can be
