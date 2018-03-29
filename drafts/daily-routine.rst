@@ -19,10 +19,10 @@ Update local dev tools I track unstable with (Emacs packages, mostly)
 
 Define goals for day (in shared task tracker)
 
-Announce goals for day, to get accountability (can wait for standups if
-applicable). Automation can help here - a command that announces your defined
-goal for the day to the group chat half an hour after you've logged on, or "I
-don't know what I'm doing today" if you haven't yet defined one provides
+Announce your goals for the day to get accountability. This is what standup
+meetings are for. Automation could help here - a command that announces your
+defined goal for the day to the group chat half an hour after you've logged on,
+or "I don't know what I'm doing today" if you haven't yet defined one provides
 pressure in the right direction.
 
 
