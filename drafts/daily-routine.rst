@@ -29,7 +29,7 @@ pressure in the right direction.
 Goal Achievement routine
 ------------------------
 
-Break goal into tasks (in shared task tracker if supported)
+Break goal into tasks in shared task tracker
 
 For each task:
 
