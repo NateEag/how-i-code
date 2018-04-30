@@ -7,11 +7,11 @@ components whose feasibility was unknown or whose nature was undecided before
 the POC was written. The user interface is the bare minimum required to
 demonstrate that the core of a programmer's idea is workable.
 
-Before writing a proof-of-concept, articulate clearly the core feature you need
-to see working. This is especially important if your POC involves integrating
-or embedding existing programs, as it is easy to see that the two processes are
-communicating and to think "It works, I'm done!", when in fact some crucial
-subtlety is actually malfunctioning and you just haven't noticed it yet.
+Before writing a proof-of-concept, articulate clearly the core behaviors that
+must be working to consider it a success. This is especially important if it
+involves integrating or embedding existing programs, as it is easy to see two
+processes communicating and think "It works, I'm done!", when some crucial
+subtlety is malfunctioning but you have not noticed.
 
 As mentioned above, a proof-of-concept must *not* be a viable product. If it
 is, you have a prototype with major holes, not a proof-of-concept, and you are
