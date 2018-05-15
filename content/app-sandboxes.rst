@@ -51,7 +51,7 @@ By running each project's sandbox on a distinct virtual machine connected to
 the local network, you ensure that they will not interfere with each other.
 Each virtual machine publishes its own network services, which will only impact
 machines that choose to interact with them, and non-network processes on the
-virutal machine cannot impact other machines on the network.
+virtual machine cannot impact other machines on the network.
 
 Thus, this approach makes it possible to have effectively infinite sandboxes,
 given sufficient computational resources.
