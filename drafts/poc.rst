@@ -24,3 +24,9 @@ Programmers write POCs to learn things they did not know:
 * Whether an idea is reasonable
 
 A prototype is used to
+
+
+------------------
+
+TODO Explain turning a POC into a task list for building a product (code reviw
+the diff, basically).
