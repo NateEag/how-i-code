@@ -1,11 +1,8 @@
-Optimizing Websites
-===================
+Optimizing Website Resource Consumption
+=======================================
 
-I just had a realization that may be obvious to most web devs, but until
-just now I had not realized it was an option.
-
-When you want to cut down on a site's resource consumption, drive the process
-with production webserver logs.
+When you want to cut down on a website's resource consumption, drive the
+process with production webserver logs.
 
 .. TODO Add link to essay on optimizing, as it's a fundamental skill.
 
@@ -18,26 +15,25 @@ all offer a way to log how long every request took.
 
 Add that to your server logging output and collect them for a few days.
 
-Analyze those logs to generate a list of extant HTTP resources (backend
-endpoints, if you will), sorted in descending order by total time taken to
-serve them.
+Analyze those logs to generate a list of extant HTTP resources sorted in
+descending order by total time taken to serve them.
 
-Grouping URLs correctly is the hardest part of this analysis, and may require a
-lot of quality time spent with the app's URL routing logic.
+Grouping URLs correctly is the hardest part of this analysis, and may require
+spending quality time with the site's URL routing logic.
 
 Now work your way down the list, optimizing each resource in turn.
 
-This process should guarantee that you're optimizing your most expensive
-operations first, and also that you aren't solving `hypothetical problems
+This process should guarantee that you optimize your most expensive operations
+first, and also that you aren't solving `hypothetical problems
 </hypotheticals-are-deadly.html>`__.
 
-I'm not fully confident in this analysis. I could conceive of situations where
-it might the wrong thing to take the long view, specifically when you have
-evidence of specific operations and bottlenecks being a problem.
-
-But, if you have vague reports like "The site is slow" or "this eats too many
-resources" and you aren't sure where to start, this should be a good way to
-organize an optimization effort.
-
 If you want to reduce bandwidth consumption, do an analogous process but
-measure response size rather than response time.
+measure response size rather than response time. Do not fall into the trap of
+tweaking textual responses to minimize their size - `gzip is smarter than you
+<https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Encoding>`__.
+Redesigning your data structures may be wise, but mangling your existing ones
+chasing bytes is not.
+
+Note that reducing resource consumption is a different goal than improving a
+product responsiveness for end users. The two goals are not entirely unrelated,
+but be careful not to aim for one when you should be focusing on the other.
