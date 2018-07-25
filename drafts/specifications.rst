@@ -16,6 +16,16 @@ the canonical version of the spec.
 I have also considered an idea I have nicknamed the 'specref' - a reference to
 a particular section of the spec, including a version number.
 
+The format for the specref is as yet undefined. Path access is not an
+unreasonable idea, as it provides both hierarchy and could map nicely to
+keeping disparate documents in the project repo that are used to collectively
+generate the full spec. You would still need a reasonable prefix, though, and
+one that reads cleanly in code comments.
+spec[@version]:feature/section/subsection[:startPos[:endPos]]? An example might
+look like spec@1.0.0:contacts-import/csv/validations/. Start/stop indices are
+probably too simplistic, but maybe instead we should ban them and force you to
+structure your doc finely enough that sub-ranges aren't necessary?
+
 If programmers include specrefs in all commit messages, and the specrefs
 provide enough resolution, it becomes feasible to see which parts of the
 specification have been implemented at a given point in the project's history.
