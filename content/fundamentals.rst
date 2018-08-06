@@ -26,6 +26,7 @@ software, the ones you should spend years mastering and refining:
 * Writing
 * Speaking
 * Triaging issues
+* Learning from mistakes
 * Data modeling
 * Not writing programs
 * Writing maintainable programs
