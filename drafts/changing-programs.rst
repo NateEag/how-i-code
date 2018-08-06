@@ -45,4 +45,12 @@ understand why you feel that way.
 
 .. TODO Describe the core technical loop programmers know so well.
 
+Add (an) item(s) to the project's changelog for the change(s) you are about to
+make.
+
+For each of those changes, outline the changes you will make to the codebase to
+implement them. Use that outline to decide whether to break the change into
+multiple commits.
+
+
 .. _deep understanding: /understanding-problems.html
