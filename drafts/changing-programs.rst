@@ -13,12 +13,11 @@ Changing Programs
    carefully', "user's best interest"
 
 
-First, listen carefully to the request for a change. Understand deeply why the
-asker is requesting the change, and exactly what change in behavior they're
-asking for.
-
-That requires a `deep understanding`_ of the program's current behavior
-(something the asker may not have themselves).
+First, listen carefully to the request for a change. `Understand deeply`_ why
+the asker is requesting the change and exactly what change in behavior they're
+asking for (they may not know either of those things). That requires a `deep
+understanding`_ of the program's current behavior (something the asker may not
+have themselves).
 
 To gain that, you must use the program as it currently exists, both for the
 specified task and other tasks.
@@ -53,4 +52,5 @@ implement them. Use that outline to decide whether to break the change into
 multiple commits.
 
 
+.. _Understand deeply: /understanding-problems.html
 .. _deep understanding: /understanding-problems.html
