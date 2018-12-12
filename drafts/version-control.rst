@@ -31,4 +31,8 @@ but it's still a decent list:
 
 https://news.ycombinator.com/item?id=18663520
 
+TODO Add a refined version of this HN post of mine to the essay:
+
+https://news.ycombinator.com/item?id=18664163
+
 .. _version control: http://en.wikipedia.org/wiki/Revision_control
