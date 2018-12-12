@@ -41,8 +41,6 @@ involving the program. Paired with the 'duplicate issue' formalism, it helps
 you see how common an issue is. It also helps you track all reporters who should
 be notified once an issue is resolved.
 
-
-
 Paired with human analysis of the issue's severity, that gives you exactly what
 you need to prioritize development work.
 
