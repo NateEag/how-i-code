@@ -21,8 +21,14 @@ TODO Explain somewhere that a commit summary should always start with 'Add'
 important thing to do whenever possible), 'Rename', 'Fix' (change program
 behavior to match intended behavior), 'Optimize' (make something run faster),
 'Refactor' (improve internal implementation without changing perceivable
-behavior), 'Explain' (write documentation). These are all related to the
-fundamental skill 'Changing programs', because these are precisely the kinds of
-changes you can make to a program.
+behavior), 'Explain' (write documentation), or 'Specify' (define expected
+behavior). These are all related to the fundamental skill 'Changing programs',
+because these are precisely the categories of changes you can make to a program.
+
+Someone else's list of patch summary verbs, which points out that 'Reformat' is
+also a valid option. They have a few others I'm not sure I quite agree with,
+but it's still a decent list:
+
+https://news.ycombinator.com/item?id=18663520
 
 .. _version control: http://en.wikipedia.org/wiki/Revision_control
