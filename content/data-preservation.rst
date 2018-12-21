@@ -26,10 +26,9 @@ cannot tell what bytes preceded them on the medium, even with
 
 On retrieving a new dataset, you could generate a cryptographic signature,
 which you could use to check whether it has changed the next time you retrieve
-it. However, such a signature is useless on first viewing the archived data. A
-signature and public key stored with the dataset can be trivially forged, but a
-signature and public key stored elsewhere will not be available for the user to
-verify.
+it. However, such a signature is useless to a first-time viewer. A signature
+and public key stored with the data are easily replaced by an adversary, while
+a signature and public key stored elsewhere are irrelevant to the viewer.
 
 Digital secondary storage is not vulnerable solely to computational mutation.
 The most common storage media can fail in a `handful of years`_, or `just a few
