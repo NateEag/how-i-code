@@ -54,7 +54,7 @@ interpreted an infinite number of ways.
 What custom hardware is needed to read the medium? Is there a working instance
 of the hardware? If not, are there blueprints for building one? Are there still
 extant drivers for this ancient device, and do they work on current operating
-systems? What filesystem was used on the storage medium? How is the data in a
+systems? What filesystem was used on the storage medium? How are the data in a
 given file structured? Even if a file's contents are just "text", how is that
 text encoded? EBCDIC? ASCII? UTF-8? UTF-32?
 
