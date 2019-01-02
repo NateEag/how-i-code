@@ -13,6 +13,18 @@ development team should respond to it.
 Issue triage is the process of turning issue reports into prioritized database
 entries with all available information to help developers resolve them.
 
+It is a business-critical function and should be one of the top priorities for
+any team that supports live software. Software is only useful when it `helps
+users </caring-for-users.html>`__, and by definition any untriaged issue
+could be a hard blocker for all current users, so untriaged issues should be
+treated as high-severity problems until they have been shown to be otherwise.
+
+Thus, the list of untriaged issues should contain zero items at end-of-day.
+Even if a team consists solely of one developer, that developer should take
+time every day to empty the untriaged issue queue. Otherwise, it becomes a
+minefield of potentially disastrous issues, and evidence that the development
+team does not really care what's happening to users in production.
+
 .. TODO Point out that the zeroth and most important step in issue flow is
    receiving the report from a user, apologizing for the fact that they've
    experienced an issue, and letting them know if it's a known issue.
