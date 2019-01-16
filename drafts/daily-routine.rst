@@ -14,6 +14,8 @@ software releases], etc)
 
 Process email inbox
 
+Empty the untriaged issues queues in my work projects (half-hour limit)
+
 Update local dev tools I track unstable with (Emacs packages, mostly)
 (twenty-minute limit)
 
@@ -119,10 +121,9 @@ TODO Figure out how to handle the problem of inbound threads
 Handling Interrupts
 -------------------
 
-Prune notifications ruthlessly. Their essence nature is to interrupt you in
-case an event requires immediate attention, so turn off notifications for any
-event you can safely handle via scheduled batch job (whether literal or
-figurative).
+Prune notifications ruthlessly. Their nature is to interrupt you in case an
+event requires immediate attention, so turn off notifications for any event you
+can safely handle via scheduled batch job (whether literal or figurative).
 
 
 Communications
@@ -130,7 +131,7 @@ Communications
 
 People take priority over goals except when failing goals will severely damage
 the business (TODO define 'severely damage'. Goals where failure to achieve
-them in time will immediately damage the company's ability to remain solvent?).
+them in time may quickly damage the company's ability to remain solvent?).
 Therefore, `encourage humans to interrupt you
 <http://www.cs.virginia.edu/~robins/YouAndYourResearch.html>`__ by IM,
 face-to-face/video conversations, and phone calls.
