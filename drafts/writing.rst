@@ -3,14 +3,18 @@ Writing
 
 :date: 2013-01-01
 :category: Fundamentals
-:summary: ???
+:summary:
 
 When a programmer makes tools for other people, she has to communicate with
 them.
 
-Writing is a powerful tool for doing so. It creates a long-lasting, accessible
+.. TODO Hyperlink 'read' to the not-yet-extant essay on reading.
+
+Writing is a powerful tool for doing so. It creates a durable, accessible
 record of thought. Even those who cannot read can still experience it, by way
 of text-to-speech software or a human reader.
+
+.. TODO Hyperlink 'Speaking' and 'listening' to their respective essays.
 
 Speaking and listening are crucial skills for a programmer, but they apply
 mainly in face-to-face conversations, which are not always practicable, and
@@ -31,39 +35,38 @@ long outlive the program it describes. Indeed, the best way to preserve a
 program for centuries is probably printing out its source code and storing it
 (along with a copy of `Knuth`_).
 
-Text is referenceable. People can remember or record where a particular idea
-is written, and refer other people to it. This is a crucial attribute for
-technical communications, and is at the heart of formal documentation and
-specifications.
+Text is referenceable. People can remember or record where a particular idea is
+written and refer other people to it. This is a crucial attribute for technical
+communications, and is at the heart of formal documentation and specifications.
 
-Writing can be processed out-of-band. Recipients need not disrupt their
-schedule for the author's convenience, nor must the author bend his schedule to
-the listeners' whims.
+Text is durable. If a writer wants specific people to understand his ideas, he
+can write them down and distribute them in a document. Recipients need not
+disrupt their schedule to read the document, nor must the author bend his
+schedule to the listeners' whims.
 
 .. This is a controversial opinion. It may be wrong.
 .. TODO Decide whether I really believe this, and publish or remove accordingly.
+..
 .. Because of these benefits, prefer written communication by default.
 
 What are writing's weak points?
 
-In interactions with users and other collaborators, personal interactions are
-critical, and in a vacuum, writing is not always sufficient to convey that.
-Most people only really engage when they feel `cared for`_, and interacting
-solely via text rarely achieves that.
+People only engage when they feel `cared for`_, and interacting solely via text
+rarely achieves that.
 
 For the same reason, face-to-face conversation is best when discussing
 emotionally charged topics. It is much harder to read moods and reactions in
 text, and text makes it much easier to disguise those things.
 
-Writing is ineffective with those who cannot or will not read. American
-literacy is poor enough that such people are extremely common - literacy is the
-rare exception, not the rule.
+Writing is hard with those who cannot or will not read. American literacy is
+poor enough that such people are extremely common - literacy is the rare
+exception, not the rule.
 
-If some knowledge exists only in one person's head, writing is an excellent way
-to capture it, as it is then available for anyone to absorb. However, if
-someone needs the knowledge quickly, waiting for a good document to be written
-may take too long. In such cases, have a conversation for speed's sake, but
-make an audio recording of it.
+If knowledge exists only in one person's head, writing is an excellent way to
+capture it, as it is then available for anyone to absorb. However, if someone
+needs the knowledge quickly, waiting for a good document to be written may take
+too long. In such cases, have a conversation for speed's sake, but make an
+audio recording of it.
 
 The next time someone needs the information, the audio can be transcribed, and
 from there slowly massaged into a clear, well-structured written document.
@@ -79,8 +82,8 @@ On software projects, prefer writing in public to private, and digital media to
 static ones. Private communications, like email, can only ever benefit the
 people they are sent directly to, but a `wiki`_ page can be useful to anyone in
 the company (and beyond, if the wiki is public). Finding information in a
-binder full of documentation can take hours, but searching the same docs on a
-hard drive can be done in seconds.
+binder full of printed documentation can take hours, but searching the same
+documents on a hard drive can be done in seconds.
 
 However, you should print a copy if you want it to `last`_.
 
