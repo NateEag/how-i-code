@@ -15,6 +15,10 @@ target machine.
 https://zachholman.com/posts/deploying-software has a ton of good info about
 this process.
 
+https://blog.philipphauer.de/databases-challenge-continuous-delivery/ touches
+on the complexities of zero-downtime deployments with database schema changes.
+I haven't tried the approach myself but it sounds about right.
+
 ------------------
 
 For years I thought a static website needed only to use the 'symlink swap'
