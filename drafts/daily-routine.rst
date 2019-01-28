@@ -14,17 +14,17 @@ software releases], etc)
 
 Process email inbox
 
-Empty the untriaged issues queues in my work projects (half-hour limit)
+Empty the untriaged issues queues in my work projects (fifteen minute limit)
 
 Update local dev tools I track unstable with (Emacs packages, mostly)
 (twenty-minute limit)
 
-Define goals for day (in shared task tracker)
+Define goal for day (in shared task tracker)
 
-Announce your goals for the day to get accountability. This is what standup
-meetings are for. Automation could help here - a command that announces your
-defined goal for the day to the group chat half an hour after you've logged on,
-or "I don't know what I'm doing today" if you haven't yet defined one provides
+Announce goal for the day to get accountability. This is what standup meetings
+are for. Automation could help here - a command that announces your defined
+goal for the day to the group chat half an hour after you've logged on, or "I
+don't know what I'm doing today" if you haven't yet defined one provides
 pressure in the right direction.
 
 
