@@ -5,7 +5,7 @@ A proof-of-concept (POC) is, by definition, not fit for an end user's purpose.
 It usually seems meaningless to a layperson. It is a collection of software
 components whose feasibility was unknown or whose nature was undecided before
 the POC was written. The user interface is the bare minimum required to
-demonstrate that the core of a programmer's idea is workable.
+demonstrate that the core of an idea is workable.
 
 Before writing a proof-of-concept, articulate clearly the core behaviors that
 must be working to consider it a success. This is especially important if it
