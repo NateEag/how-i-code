@@ -2,6 +2,10 @@ Programs should do the right thing.
 
 That is easier said than done.
 
+
+Formal Methods
+==============
+
 One approach to making them Do The Right Thing is what computer scientists call
 'formal methods'. Some interesting thoughts on those live here:
 
@@ -10,6 +14,10 @@ https://infohost.nmt.edu/~al/cseet-paper.html
 
 TODO Articulate when and how to apply what formal methods. Obviously they help
 sometimes, but some of them are obviously overkill for some cases.
+
+
+Automated Tests
+===============
 
 Automated testing is a way to ensure programs continue to do what they have
 done before. They are largely a tool for avoiding regressions. Do not
@@ -36,6 +44,8 @@ native desktop programs. In some cases, the only reason for that is inertia -
 if the desktop environment you're writing in has [programmatic tools for GUI
 introspection and
 manipulation](https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/index.html#//apple_ref/doc/uid/TP40016239),
-you can use them to implement a decent range of functional tests.
+you can use them to implement a decent range of functional tests. You can often
+find these tools by looking for accessibility APIs, as automated GUI testing
+and accessibility tools share the exact same needs.
 
 I have some notes in drafts/testing.txt that should be merged into here.
