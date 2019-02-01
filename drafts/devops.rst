@@ -1,7 +1,7 @@
 Just keeping some notes as I read Google's SRE O'Reilly book.
 
-They may eventually evolve into a set of essays strongly inspired by the
-aforementioned book. I guess we'll see.
+They may eventually evolve into a set of essays strongly inspired by (and
+credited to) the aforementioned book. I guess we'll see.
 
 
 Chapter 1 - What Does An SRE Actually Do?
@@ -52,10 +52,10 @@ Chapter 3 - Embracing Risk
 ==========================
 
 The classic war between ops and dev is that ops locks down the environment as
-hard as possible, making it horribly painful to release software to reduce
-risk, while dev wants to push things out with wild abandon, taking on risk for
-things like renaming a function that's only called seven times throughout a
-codebase.
+hard as possible, making it horribly painful to release software in a
+well-meant attempt to reduce risk, while dev wants to push things out with wild
+abandon, incurring risk for things like renaming a function that's only called
+seven times throughout a codebase.
 
 Google's resolution to this conflict is to observe (correctly) that 100%
 reliability is nigh-impossible and is the wrong target for all but extreme
@@ -64,7 +64,7 @@ cases (pacemakers and rockets).
 They also point out that even if you achieve 99.999% uptime, your users will
 not perceive it as such due to other problems along the delivery chain - ISP
 outages, their own hardware failures, and the like, will prevent them from
-having an actual experience of 99.999% uptime.
+experiencing 99.999% uptime even if you achieve it.
 
 "Uptime" is misleading, they point out - in distributed systems like theirs,
 even major outages usually leave some of their systems responding properly, so
@@ -86,16 +86,25 @@ With that decision in hand, the team defines a reliability budget (e.g. 99.5%
 request success rate this quarter). Dev can push new code as long as they
 haven't violated the budget.
 
-This strategy sounds like it works very well for them, but it only works if
-ultimate authority to control releases lies with the SRE team. At Google, IIRC
-from other sources, SRE is allowed to stop supporting product teams that don't
-keep the rules, and the highest level of management has backed SRE
-consistently.
+This strategy sounds like it works well for them, but it only works if ultimate
+authority to control releases lies with the SRE team. At Google, IIRC from
+other sources, SRE is allowed to stop supporting product teams that don't keep
+the rules, and the highest level of management has backed SRE consistently.
 
 
 Chapter 4 - Service Level Objectives
 ====================================
 
+In many ways this is an extension of chapter 3.
+
+It suggests that SLA is an overloaded term, and using different words for
+several of its meanings improves clarity of mission and communication.
+
+SLI - Service Level Indicator. A quantitative metric that rigorously describes
+the level of service being provided by some aspect of the service. Availability
+(a.k.a. request success rate in chapter 3), request latency, error rate, and
+system throughput (in requests per second) are several examples of standard
+SLIs. SLIs are usually considered in aggregate over some time window.
 
 
 Chapter 5 - Eliminating Toil
