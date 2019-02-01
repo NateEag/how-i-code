@@ -35,5 +35,5 @@ Redesigning your data structures may be wise, but mangling your existing ones
 chasing bytes is not.
 
 Note that reducing resource consumption is a different goal than improving a
-product responsiveness for end users. The two goals are not entirely unrelated,
-but be careful not to aim for one when you should be focusing on the other.
+product responsiveness for end users. The two goals are not unrelated, but be
+careful not to aim for one when you should be focusing on the other.
