@@ -25,4 +25,4 @@ bottlenecks, in debugging, and probably in other places I haven't thought about
 yet.
 
 So, at some point, I should analyze and explain experimental design as a
-fundamental skillset for a developer.
+fundamental skill for a developer.
