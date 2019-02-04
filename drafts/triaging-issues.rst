@@ -57,3 +57,6 @@ Paired with human analysis of the issue's severity, that gives you exactly what
 you need to prioritize development work.
 
 .. TODO Finish writing this.
+
+.. TODO Digest this monster essay thoroughly, as it's full of good ideas:
+   https://apenwarr.ca/log/20171213
