@@ -2,7 +2,7 @@ Optimizing Website Resource Consumption
 =======================================
 
 When you want to cut down on a website's resource consumption, drive the
-process with production webserver logs.
+process from production webserver logs.
 
 .. TODO Add link to essay on optimizing, as it's a fundamental skill.
 
@@ -13,15 +13,22 @@ process with production webserver logs.
 <https://support.microsoft.com/en-us/help/944884/description-of-the-time-taken-field-in-iis-6-0-and-iis-7-0-http-loggin>`__
 all offer a way to log how long every request took.
 
-Add that to your server logging output and collect them for a few days.
+Add time to fulfill request to your webserver logs. Collect logs for a few
+days.
 
-Analyze those logs to generate a list of extant HTTP resources sorted in
-descending order by total time taken to serve them.
+Use the logs to generate a list of extant HTTP resources sorted in descending
+order by total time taken to serve them.
 
-Grouping URLs correctly is the hardest part of this analysis, and may require
-spending quality time with the site's URL routing logic.
+Grouping URLs correctly is the only interesting part of this analysis, and may
+require spending quality time with the site's URL routing logic.
 
 Now work your way down the list, optimizing each resource in turn.
+
+Pay special attention to how dynamic resources need to be - many can be [cached
+client-side](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304) or
+[server-side](https://varnish-cache.org/faq/what.html#vcl). Resources that are
+created and updated via a clear 'publish' action can be precomputed at publish
+time.
 
 This process should guarantee that you optimize your most expensive operations
 first, and also that you aren't solving `hypothetical problems
@@ -31,9 +38,9 @@ If you want to reduce bandwidth consumption, do an analogous process but
 measure response size rather than response time. Do not fall into the trap of
 tweaking textual responses to minimize their size - `gzip is smarter than you
 <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Encoding>`__.
-Redesigning your data structures may be wise, but mangling your existing ones
-chasing bytes is not.
+Redesigning your data structures to only include necessary information may be
+wise, but mangling your existing ones chasing bytes is not.
 
-Note that reducing resource consumption is a different goal than improving a
-product responsiveness for end users. The two goals are not unrelated, but be
-careful not to aim for one when you should be focusing on the other.
+Note that reducing resource consumption is a different goal than improving
+perceived end user experience. The two goals are not entirely unrelated, but be
+careful not to optimize one when you should be focusing on the other.
