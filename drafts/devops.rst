@@ -86,6 +86,9 @@ With that decision in hand, the team defines a reliability budget (e.g. 99.5%
 request success rate this quarter). Dev can push new code as long as they
 haven't violated the budget.
 
+Once the error budget is spent, dev doesn't get to push new code until the next
+budget period begins.
+
 This strategy sounds like it works well for them, but it only works if ultimate
 authority to control releases lies with the SRE team. At Google, IIRC from
 other sources, SRE is allowed to stop supporting product teams that don't keep
@@ -102,9 +105,25 @@ several of its meanings improves clarity of mission and communication.
 
 SLI - Service Level Indicator. A quantitative metric that rigorously describes
 the level of service being provided by some aspect of the service. Availability
-(a.k.a. request success rate in chapter 3), request latency, error rate, and
-system throughput (in requests per second) are several examples of standard
-SLIs. SLIs are usually considered in aggregate over some time window.
+(a.k.a. request success rate in chapter 3), durability (percentage of stored
+data that are successfully retrieved from the system), request latency, error
+rate, and system throughput (in requests per second) are several examples of
+standard SLIs. SLIs are usually considered in aggregate over some time window.
+
+SLO - Service Level Objective. A value range the organization chooses to taret
+for a given SLI; e.g. keeping system availability >= 99.5%, or 200 ms <=
+request latency <= 1000 ms. SLOs should be published and advertised to users.
+Google has had the comical problem of a service massively exceeding its SLOs,
+so internal development teams made the dangerous assumption that it was
+perfectly reliable. Their solution was to schedule sufficient downtime to stay
+within their SLO's upper bound, so that other teams would stop writing code
+that assumed perfect reliability.
+
+SLA - Service Level Agreement. A legal contract defining the consequences for
+failing to meet SLOs.
+
+What SLIs you should collect is a business question, as touched on in
+chapter 3. Don't define too many or you'll drown in trying to track them all.
 
 
 Chapter 5 - Eliminating Toil
