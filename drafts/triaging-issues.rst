@@ -10,20 +10,27 @@ Triaging Issues
 When a program `surprises someone </software-surprises.html>`__, the
 development team should respond to it.
 
-Issue triage is the process of turning issue reports into prioritized database
-entries with all available information to help developers resolve them.
+Triage is taking the inbound user problem reports, figuring out how to resolve
+the user's problem, doing any internal bookkeeping to get the team started on
+necessary actions, then letting the user know what's happening.
 
-It is a business-critical function and should be one of the top priorities for
-any team that supports live software. Software is only useful when it `helps
-users </caring-for-users.html>`__, and by definition any untriaged issue
-could be a hard blocker for all current users, so untriaged issues should be
-treated as high-severity problems until they have been shown to be otherwise.
+Issue triage is the process of receiving user feedback, determining the
+problem's severity, scope into well-defined, units of work in the project task
+database entries.
+
+Issue triage is a business-critical function and should be the top priority for
+any team that supports live software.
+
+Software is only useful when it `helps users </caring-for-users.html>`__. By
+definition any untriaged issue could be a hard blocker for all current users,
+so untriaged issues should be treated as high-severity problems until they have
+been shown to be otherwise.
 
 Thus, the list of untriaged issues should contain zero items at end-of-day.
 Even if a team consists solely of one developer, that developer should take
 time every day to empty the untriaged issue queue. Otherwise, it becomes a
 minefield of potentially disastrous issues, and evidence that the development
-team does not really care what's happening to users in production.
+team does not care about what's happening to users in production.
 
 .. TODO Point out that the zeroth and most important step in issue flow is
    receiving the report from a user, apologizing for the fact that they've
