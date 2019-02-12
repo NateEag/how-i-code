@@ -121,9 +121,9 @@ TODO Figure out how to handle the problem of inbound threads
 Handling Interrupts
 -------------------
 
-Prune notifications ruthlessly. Their nature is to interrupt you in case an
-event requires immediate attention, so turn off notifications for any event you
-can safely handle via scheduled batch job (whether literal or figurative).
+Prune notifications ruthlessly. Their purpose is to tell you about events that
+require immediate attention, so turn off notifications for any event you can
+safely handle via scheduled batch job (whether literal or figurative).
 
 
 Communications
