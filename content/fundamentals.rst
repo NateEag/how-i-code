@@ -15,9 +15,11 @@ Knowing Python's file APIs, understanding the vagaries of MySQL configuration,
 grokking C's dereference operator - these are valuable skills, but they are not
 essential to writing software. They apply only to certain tools.
 
-A small set of fundamental skills, however, are useful in all software projects,
-regardless of environment or tools. These are the essential skills in writing
-software, the ones you should spend years mastering and refining:
+A small set of fundamental skills, however, are useful in all software
+projects, regardless of environment or tools. You need not be an expert in any
+of these to make valuable contributions, but learning any of them will make you
+much more effective. These are the essential skills in writing software, the
+ones you should spend years mastering and refining:
 
 * `Caring for users`_
 * `Understanding problems deeply`_
