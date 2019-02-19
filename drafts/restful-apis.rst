@@ -28,7 +28,7 @@ PUTs, for instance, you can cache by URL, not just GETs. DELETEs, too.
 And you can do much of this caching transparently in your request creator. You
 give back the promise and the asker has no idea it was a cached one.
 
-Of course, you only give back a cached promise if the request-maker said
+Of course, you only give back a cached promise if the requester said
 cached data was acceptable.
 
 You invalidate GET caches on PUTs and DELETEs, rather than based on timeouts,
