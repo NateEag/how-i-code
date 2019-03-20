@@ -39,6 +39,10 @@ Estimate completion time (again, in tracker if supported)
 
 If estimate > 1 hour, break into smaller tasks, enqueue them, and continue loop
 
+If task is essential to the parent task/goal and not just plumbing/glue, add a
+new task to develop a proof-of-concept, add it to the top of the subtask list,
+and continue the task definition loop.
+
 Set timer for estimated time
 
 Attempt to complete task
