@@ -115,7 +115,8 @@ new responses come in on watched threads.
 That way, you can treat most email as a background batch process, while still
 responding quickly to threads as necessary.
 
-TODO Figure out how to handle the problem of inbound threads
+TODO Figure out how to handle new threads from new contacts that are
+highly time-sensitive.
 
 
 Handling Interrupts
