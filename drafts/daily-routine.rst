@@ -134,10 +134,10 @@ safely handle via scheduled batch job (whether literal or figurative).
 Communications
 ~~~~~~~~~~~~~~
 
-People take priority over goals except when failing goals will severely damage
-the business (TODO define 'severely damage'. Goals where failure to achieve
-them in time may quickly damage the company's ability to remain solvent?).
-Therefore, `encourage humans to interrupt you
+People take priority over daily goals except when failing goals will severely
+damage the business (TODO define 'severely damage'. Goals where failure to
+achieve them in time may quickly damage the company's ability to remain
+solvent?). Therefore, `encourage humans to interrupt you
 <http://paulgraham.com/hamming.html>`__ by IM, face-to-face/video
 conversations, and phone calls.
 
