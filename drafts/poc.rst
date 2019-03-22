@@ -30,3 +30,12 @@ A prototype is used to
 
 TODO Explain turning a POC into a task list for building a product (code reviw
 the diff, basically).
+
+TODO Explain that the first step for taking a POC further is a simple code
+review. The code itself will be junk in a POC, so it's not about code quality.
+The review is to get another programmer to double-check the basic approach for
+completeness, sustainability, and sanity. By consistently doing a review at
+this phase, you should significantly reduce the amount of time spent making and
+polishing changes that contain fundamental errors. This may entail some updates
+to the code review essay (which I suspect needs to be split into several essays
+anyway).
