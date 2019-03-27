@@ -18,8 +18,8 @@ Date fields should include ``date`` in their name, often as a prefix to a
 past-tense verb (``date_created``). Similarly, datetime fields should include
 ``datetime`` in their name (``datetime_updated``).
 
-Precision is important when dealing with time. "An hour ago" specifies a time,
-as does "one hour, seven minutes, and thirty-three seconds ago", but they
+`Precision`_ is important when dealing with time. "An hour ago" specifies a
+time, as does "one hour, seven minutes, and thirty-three seconds ago", but they
 communicate different things. Libraries tend to use a precision of seconds or
 higher, and don't always offer a way to handle lower-precision times, so think
 carefully about precision when writing time-related code.
@@ -71,6 +71,7 @@ an option.
 `Dealing with time`_ can be much more involved. Sometimes it has to be.
 
 .. _calendar: http://en.wikipedia.org/wiki/Calendar
+.. _Precision: https://en.wikipedia.org/wiki/Accuracy_and_precision
 .. _timezones: http://en.wikipedia.org/wiki/Time_zone
 .. _wall clock time changes unpredictably: http://www.ntp.org/
 .. _monotonic clock: https://www.softwariness.com/articles/monotonic-clocks-windows-and-posix/
