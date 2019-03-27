@@ -61,12 +61,13 @@ use that.
 
 .. TODO Simplify this paragraph.
 
-To compare A.D. Gregorian dates in environments with no native support (like
-bash), concatenate their elements from largest unit to smallest and compare the
-results as integers. For times or datetimes, do the same, using twenty-four
-hour time. If the dates involved are guaranteed to be after January 1st, 1970,
-converting them to `Unix time`_ and comparing the resulting integers is also
-an option.
+To compare A.D. Gregorian dates in environments without date types (such as
+`bash`_), concatenate their elements from largest unit to smallest and compare
+the results as integers. This approach also works for times and datetimes using
+twenty-four hour time.
+
+If the dates involved are guaranteed to be after January 1st, 1970, converting
+them to `Unix time`_ and comparing the resulting integers is also an option.
 
 `Dealing with time`_ can be much more involved. Sometimes it has to be.
 
@@ -75,5 +76,6 @@ an option.
 .. _timezones: http://en.wikipedia.org/wiki/Time_zone
 .. _wall clock time changes unpredictably: http://www.ntp.org/
 .. _monotonic clock: https://www.softwariness.com/articles/monotonic-clocks-windows-and-posix/
+.. _bash: https://www.gnu.org/software/bash/manual/bashref.html
 .. _Unix time: https://en.wikipedia.org/wiki/Unix_time
 .. _Dealing with time: http://news.ycombinator.com/item?id=5083321
