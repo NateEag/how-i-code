@@ -35,6 +35,7 @@ records can make even pinning down a year difficult.
 .. TODO Think about how to integrate these authors' observations about
    timezones: http://tantek.com/2015/218/b1/use-timezone-offsets
    https://www.creativedeletion.com/2015/03/19/persisting_future_datetimes.html
+   https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/
 
 The most common timekeeping systems use `timezones`_. For portability's sake,
 that means most systems should include a timezone in their datetime data
