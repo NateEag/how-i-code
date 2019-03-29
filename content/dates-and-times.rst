@@ -32,15 +32,52 @@ always available, which is not always the case. That possibility is especially
 significant in historical research, where having only fragments of incomplete
 records can make even pinning down a year difficult.
 
-.. TODO Think about how to integrate these authors' observations about
-   timezones: http://tantek.com/2015/218/b1/use-timezone-offsets
-   https://www.creativedeletion.com/2015/03/19/persisting_future_datetimes.html
-   https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/
+Some programs need to know how much time has passed since an event to function
+but do not need to make reference to the datetime events took place. Audio
+synthesis programs use time this way to implement things like [delay
+lines](https://en.wikipedia.org/wiki/Analog_delay_line), while task schedulers
+may want to express ideas like "run this job every 5 minutes". Do not use the
+OS's system clock to measure the passage of time in these cases, because
+`system time changes unpredictably`_. Use your platform's `monotonic clock`_
+instead.
 
-The most common timekeeping systems use `timezones`_. For portability's sake,
-that means most systems should include a timezone in their datetime data
-structures. In almost all cases, stored times should be normalized to the same
-timezone (UTC is a good choice).
+Programs that do deal with datetimes need to choose a strategy for handling
+`timezones`_.
+
+.. TODO Think about how to integrate these authors' observations about
+   timezones:
+
+   http://tantek.com/2015/218/b1/use-timezone-offsets is interesting, but not
+   as much so as I thought when I first found it. He's right that storing UTC
+   without further thought is harder to read, but that's about the only useful
+   thing I found in his essay. His claim that seeing named timezones in your
+   data means you're making a mistake is demonstrably wrong (as he admits in a
+   footnote to the article).
+
+https://www.creativedeletion.com/2015/01/28/falsehoods-programmers-date-time-zones.html
+   is a great piece of work and should be linked somewhere from this essay.
+
+   https://www.creativedeletion.com/2015/03/19/persisting_future_datetimes.html
+   has the germ of a good approach to building systems for users who care about
+   local times, but is wrong on several points (recent past is *not* safe to
+   persist as UTC if users want to see it as localtime because of delays in
+   getting timezone updates, and assuming the user wants localtime will lead to
+   surprising failures)
+
+   https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/
+   is annoying as it wastes a ton of time on examples of what not to do, when
+   he could have led with a clear problem statement, shown his solution, then
+   finished with a few quick notes on the consequences of getting it wrong. I
+   hate article padding. Nonetheless, it is a decent articulation of the
+   problem and it got me to think about timezones again.
+
+As of the late twentieth century, most regions define their `civil times`_ with
+timezones relative to UTC. `IANA`_ `maintains`_ an indispensable `database of
+time zones`_ for writing programs that deal with datetimes.
+
+As timezones are human constructs defined by governments, they change slowly
+but unpredictably, usually with advance notice `but not always`_, and programs
+should not assume their tzinfo database instance is `current or complete`_.
 
 If perceived time impacts system behavior, record each user's active timezone.
 To track perceived times accurately, when a user sets their timezone, record it
@@ -51,13 +88,6 @@ preceding the user's creation, you could assume their first timezone applies
 
 Not all software needs this behavior across history, but it cannot be
 introduced after the fact, so think about it up front.
-
-Some programs need to reliably compute the amount of time that has passed
-between two events (for instance, audio synthesis programs). Do not use wall
-clock time to do this, because `wall clock time changes unpredictably`_ on most
-systems, and your program likely does not care what perceived time the events
-were, just how far apart they were. Find your platform's `monotonic clock`_ and
-use that.
 
 .. TODO Simplify this paragraph.
 
@@ -73,7 +103,13 @@ them to `Unix time`_ and comparing the resulting integers is also an option.
 
 .. _calendar: http://en.wikipedia.org/wiki/Calendar
 .. _Precision: https://en.wikipedia.org/wiki/Accuracy_and_precision
+.. _civil time: https://en.wikipedia.org/wiki/Civil_time
 .. _timezones: http://en.wikipedia.org/wiki/Time_zone
+.. _IANA: https://www.iana.org/
+.. _maintains: https://tools.ietf.org/html/rfc6557
+.. _database of time zones: https://www.iana.org/time-zones
+.. _but not always: https://codeofmatt.com/on-the-timing-of-time-zone-changes/
+.. _current or complete: https://data.iana.org/time-zones/theory.html#accuracy
 .. _wall clock time changes unpredictably: http://www.ntp.org/
 .. _monotonic clock: https://www.softwariness.com/articles/monotonic-clocks-windows-and-posix/
 .. _bash: https://www.gnu.org/software/bash/manual/bashref.html
