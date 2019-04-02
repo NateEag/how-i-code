@@ -33,11 +33,19 @@ ones you should spend years mastering and refining:
 * Naming
 * Data modeling
 * Using programs
+.. TODO Consider calling this 'Explaining programs'? Writing is better than
+   talking but both are helpful, and they're both higher up the list of
+   fundamentals.
+* Documenting programs
 * Writing maintainable programs
-* Changing programs
-* Debugging programs
+* Adding features to programs
+* Removing features from programs
+* Removing errors from programs
+* Improving program internals
 * Designing interfaces
 * Designing algorithms
+.. TODO Figure out if editing text is just a sub-point of writing. It probably
+   is.
 * Editing text
 * Optimizing programs
 

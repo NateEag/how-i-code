@@ -24,7 +24,9 @@ one that reads cleanly in code comments.
 spec[@version]:feature/section/subsection[:startPos[:endPos]]? An example might
 look like spec@1.0.0:contacts-import/csv/validations/. Start/stop indices are
 probably too simplistic, but maybe instead we should ban them and force you to
-structure your doc finely enough that sub-ranges aren't necessary?
+structure your doc finely enough that sub-ranges aren't necessary? No, don't
+require that - just warn people clearly that structuring is superior to
+indexing.
 
 If programmers include specrefs in all commit messages, and the specrefs
 provide enough resolution, it becomes feasible to see which parts of the
@@ -32,7 +34,7 @@ specification have been implemented at a given point in the project's history.
 
 Commit messages are not the only places specrefs could be relevant. Rather than
 duplicating the justifications for user interface decisions in code comments,
-programmers could provide specrefs pointing to. Given a little tooling,
+programmers could provide specrefs pointing to them. Given a little tooling,
 maintainers could quickly see not just the relevant part of the spec, but how
 it evolved over time, and even the discussions that led to the spec being what
 it is.
@@ -49,4 +51,4 @@ details of branching behind a "Suggest A Change" button, and offering a simple
 "Publish" button that generates the static site and pushes it to a webserver,
 and that system would be exactly what I want for letting normal people
 contribute to the specs. It just needs to allow access only to the specs
-somehow...
+somehow. If only Git had a per-repo access control mechanism built-in.

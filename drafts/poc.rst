@@ -7,18 +7,22 @@ components whose feasibility was unknown or whose nature was undecided before
 the POC was written. The user interface is the bare minimum required to
 demonstrate that the core of an idea is workable.
 
-Before writing a proof-of-concept, articulate clearly the core behaviors that
-must be working to consider it a success. This is especially important if it
-involves integrating or embedding existing programs, as it is easy to see two
-processes communicating and think "It works, I'm done!", when some crucial
-subtlety is malfunctioning but you have not noticed.
+.. TODO Link 'specification' to the essay(s?) on specs.
 
-As mentioned above, a proof-of-concept must *not* be a viable product. If it
-is, you have a prototype with major holes, not a proof-of-concept, and you are
-at risk of users pushing it into production service even though it is not ready
-and will bite them.
+Before writing a proof-of-concept, articulate clearly in a draft specification
+the core behaviors that must be working to consider it a success. Have another
+person give you a sanity check on the spec'd goals before you start making the
+POC itself. This is especially important if it involves integrating or
+embedding existing programs, as it is easy to see two processes technically
+communicating and think "It works, I'm done!", when some crucial subtlety is
+malfunctioning but you have not noticed.
 
-Programmers write POCs to learn things they did not know:
+As mentioned above, a proof-of-concept should *not* be a usable tool. If it is,
+you have a prototype, not a proof-of-concept. That means you spent too much time
+building it, and that you are at risk of people pushing it into production
+service even though it is not ready,
+
+Programmers write proofs of concept to learn things they did not know:
 
 * Whether an idea is feasible
 * Whether an idea is reasonable
