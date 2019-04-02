@@ -10,6 +10,8 @@ INPUTDIR=$BASEDIR/content
 OUTPUTDIR=$BASEDIR/output
 CONFFILE=$BASEDIR/pelicanconf.py
 
+source "$basedir/pythonenv/bin/activate"
+
 ###
 # Don't change stuff below here unless you are sure
 #
