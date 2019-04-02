@@ -43,10 +43,12 @@ time changes unpredictably`_. Use your platform's `monotonic clock`_ instead.
 Programs that deal with datetimes must choose a strategy for handling
 `timezones`_, as a datetime without a timezone is ambiguous.
 
-If such a program's users value simplicity and clarity over ease of use, record
-and show all times in `UTC`_. The US military uses this approach in their
-operations to avoid confusion over timezones, at the cost of having no
-correlation between time of day and exterior light.
+If a feature's users value simplicity and ease of coordination over ease of
+use, store and display all dates using a globally-configurable timezone,
+defaulting to `UTC`_. Make sure the timezone itself is clearly displayed in the
+displayed date and time objects. This technique is mainly useful in network
+server logs, as using a single explicit timezone reduces the complexity in
+communicating with other team members about when events happened.
 
 .. TODO Think about how to integrate these authors' observations about
    timezones:
