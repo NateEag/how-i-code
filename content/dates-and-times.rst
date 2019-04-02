@@ -32,17 +32,21 @@ always available, which is not always the case. That possibility is especially
 significant in historical research, where having only fragments of incomplete
 records can make even pinning down a year difficult.
 
-Some programs need to know how much time has passed since an event to function
-but do not need to make reference to the datetime events took place. Audio
-synthesis programs use time this way to implement things like [delay
+Some programs need to know how much time passes between events but are not
+concerned with event datetime. Audio synthesis programs use time this way to
+implement things like [delay
 lines](https://en.wikipedia.org/wiki/Analog_delay_line), while task schedulers
-may want to express ideas like "run this job every 5 minutes". Do not use the
-OS's system clock to measure the passage of time in these cases, because
-`system time changes unpredictably`_. Use your platform's `monotonic clock`_
-instead.
+often support statements like "run this job every 5 minutes". Do not use the
+system clock to measure the passage of time in these cases, because `system
+time changes unpredictably`_. Use your platform's `monotonic clock`_ instead.
 
-Programs that do deal with datetimes need to choose a strategy for handling
-`timezones`_.
+Programs that deal with datetimes must choose a strategy for handling
+`timezones`_, as a datetime without a timezone is ambiguous.
+
+If such a program's users value simplicity and clarity over ease of use, record
+and show all times in `UTC`_. The US military uses this approach in their
+operations to avoid confusion over timezones, at the cost of having no
+correlation between time of day and exterior light.
 
 .. TODO Think about how to integrate these authors' observations about
    timezones:
@@ -110,8 +114,9 @@ them to `Unix time`_ and comparing the resulting integers is also an option.
 .. _database of time zones: https://www.iana.org/time-zones
 .. _but not always: https://codeofmatt.com/on-the-timing-of-time-zone-changes/
 .. _current or complete: https://data.iana.org/time-zones/theory.html#accuracy
-.. _wall clock time changes unpredictably: http://www.ntp.org/
+.. _system time changes unpredictably: http://www.ntp.org/
 .. _monotonic clock: https://www.softwariness.com/articles/monotonic-clocks-windows-and-posix/
+.. _UTC: https://en.wikipedia.org/wiki/Coordinated_Universal_Time
 .. _bash: https://www.gnu.org/software/bash/manual/bashref.html
 .. _Unix time: https://en.wikipedia.org/wiki/Unix_time
 .. _Dealing with time: http://news.ycombinator.com/item?id=5083321
