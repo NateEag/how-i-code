@@ -51,17 +51,43 @@ but unpredictably, usually with advance notice `but not always`_. Thus,
 programs should not assume their tzinfo database instance is `current or
 complete`_.
 
-In particular, when a user enters a time or datetime for a specific timezone,
-do not store it as a UTC timestamp, as there may be future, present, or even
-past changes to timezone definitions your copy of the tzinfo database does not
-have yet. Thus, if you store it
+When a user enters a time or datetime in a specific timezone, do not convert it
+to another timezone for storage (note if you store everything as UTC you are
+violating this rule). There may be future, present, or even past changes to
+timezone definitions your tzinfo instance does not know about yet. If such a
+change exists and applies to the saved time, then your data is wrong, and you
+are exposing your users to risk of silent failure. No one likes missing
+appointments or being late to work. Do timezone conversions when you need them,
+not before.
+
+When a user enters a datetime, do not assume you know what timezone they
+wanted. Make them specify it, because if you guess, you will be wrong
+sometimes, and that in turn will lead to a nasty surprise.
+
+That doesn't have to mean a proliferation of dialog boxes, though, as there are
+several reasonable ways to infer a timezone. If you involve the user in the
+inference process, they should not be surprised by the results. For instance,
+if the time is linked to a physical address or the user's current location, you
+could use a GIS lookup to `guess the timezone`_. If the user has specified a
+default timezone, you could show a timezone dropdown that starts with their
+default selected.
+
+If perceived time impacts system behavior, then the system should record each
+user's active timezone. To track perceived times accurately, when a user sets
+their timezone, record it and the datetime it was chosen. The resulting
+timezone log can be used to compute correct user-relative times across the
+project's history. For datetimes preceding the user's creation, you could
+assume their first timezone applies (if you warn the user the time is
+extrapolated).
 
 If a feature's users value simplicity and ease of coordination over ease of
-use, store and display all dates using a globally-configurable timezone,
-defaulting to UTC. Make sure the timezone itself is clearly displayed in the
-displayed date and time objects. This technique is useful for network server
-logs, as using a single explicit timezone reduces the complexity in
-communicating with other team members about when events happened.
+use, you can spare them the need to think about multiple timezones by storing
+and displaying all dates using a single timezone. UTC works well for this
+purpose, but it may make sense to support a single globally-configurable
+timezone. Regardless, always display the timezone itself clearly in the
+displayed date and time objects, to avoid ambiguity. This approach is useful for
+network server logs and postmortems, as using a single explicit timezone makes
+it easier for people in different timezones to talk about when things happened.
 
 .. TODO Think about how to integrate these authors' observations about
    timezones:
@@ -90,13 +116,6 @@ https://www.creativedeletion.com/2015/01/28/falsehoods-programmers-date-time-zon
    hate article padding. Nonetheless, it is a decent articulation of the
    problem and it got me to think about timezones again.
 
-If perceived time impacts system behavior, record each user's active timezone.
-To track perceived times accurately, when a user sets their timezone, record it
-and the datetime it was chosen. The resulting timezone log can be used to
-compute correct user-relative times across the project's history. For datetimes
-preceding the user's creation, you could assume their first timezone applies
-(if you warn the user the time is extrapolated).
-
 Not all software needs this behavior across history, but it cannot be
 introduced after the fact, so think about it up front.
 
@@ -122,6 +141,7 @@ them to `Unix time`_ and comparing the resulting integers is also an option.
 .. _database of time zones: https://www.iana.org/time-zones
 .. _but not always: https://codeofmatt.com/on-the-timing-of-time-zone-changes/
 .. _current or complete: https://data.iana.org/time-zones/theory.html#accuracy
+.. _guess the timezone: https://github.com/evansiroky/timezone-boundary-builder/releases
 .. _system time changes unpredictably: http://www.ntp.org/
 .. _monotonic clock: https://www.softwariness.com/articles/monotonic-clocks-windows-and-posix/
 .. _UTC: https://en.wikipedia.org/wiki/Coordinated_Universal_Time
