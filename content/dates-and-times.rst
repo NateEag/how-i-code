@@ -34,20 +34,33 @@ records can make even pinning down a year difficult.
 
 Some programs need to know how much time passes between events but are not
 concerned with event datetime. Audio synthesis programs use time this way to
-implement things like [delay
-lines](https://en.wikipedia.org/wiki/Analog_delay_line), while task schedulers
-often support statements like "run this job every 5 minutes". Do not use the
-system clock to measure the passage of time in these cases, because `system
-time changes unpredictably`_. Use your platform's `monotonic clock`_ instead.
+implement features like `delay lines`_, while task schedulers often support
+statements like "run this job every 5 minutes". Do not use the system clock to
+measure the passage of time in these cases, because `system time changes
+unpredictably`_. Use your platform's `monotonic clock`_ instead.
 
-Programs that deal with datetimes must choose a strategy for handling
-`timezones`_, as a datetime without a timezone is ambiguous.
+Programs that deal with datetimes must deal with `timezones`_, as a datetime
+without a timezone is ambiguous.
+
+As of the late twentieth century, most regions define their `civil times`_ as
+timezones relative to `UTC`_. `IANA`_ `maintains`_ an indispensable `database
+of time zones`_ for writing programs that deal with datetimes.
+
+As timezones are human constructs defined by governments, they change slowly
+but unpredictably, usually with advance notice `but not always`_. Thus,
+programs should not assume their tzinfo database instance is `current or
+complete`_.
+
+In particular, when a user enters a time or datetime for a specific timezone,
+do not store it as a UTC timestamp, as there may be future, present, or even
+past changes to timezone definitions your copy of the tzinfo database does not
+have yet. Thus, if you store it
 
 If a feature's users value simplicity and ease of coordination over ease of
 use, store and display all dates using a globally-configurable timezone,
-defaulting to `UTC`_. Make sure the timezone itself is clearly displayed in the
-displayed date and time objects. This technique is mainly useful in network
-server logs, as using a single explicit timezone reduces the complexity in
+defaulting to UTC. Make sure the timezone itself is clearly displayed in the
+displayed date and time objects. This technique is useful for network server
+logs, as using a single explicit timezone reduces the complexity in
 communicating with other team members about when events happened.
 
 .. TODO Think about how to integrate these authors' observations about
@@ -77,14 +90,6 @@ https://www.creativedeletion.com/2015/01/28/falsehoods-programmers-date-time-zon
    hate article padding. Nonetheless, it is a decent articulation of the
    problem and it got me to think about timezones again.
 
-As of the late twentieth century, most regions define their `civil times`_ with
-timezones relative to UTC. `IANA`_ `maintains`_ an indispensable `database of
-time zones`_ for writing programs that deal with datetimes.
-
-As timezones are human constructs defined by governments, they change slowly
-but unpredictably, usually with advance notice `but not always`_, and programs
-should not assume their tzinfo database instance is `current or complete`_.
-
 If perceived time impacts system behavior, record each user's active timezone.
 To track perceived times accurately, when a user sets their timezone, record it
 and the datetime it was chosen. The resulting timezone log can be used to
@@ -107,6 +112,7 @@ them to `Unix time`_ and comparing the resulting integers is also an option.
 
 `Dealing with time`_ can be much more involved. Sometimes it has to be.
 
+.. _delay lines: https://en.wikipedia.org/wiki/Analog_delay_line
 .. _calendar: http://en.wikipedia.org/wiki/Calendar
 .. _Precision: https://en.wikipedia.org/wiki/Accuracy_and_precision
 .. _civil time: https://en.wikipedia.org/wiki/Civil_time
