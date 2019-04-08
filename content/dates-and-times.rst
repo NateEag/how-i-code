@@ -62,7 +62,11 @@ not before.
 
 When a user enters a datetime, do not assume you know what timezone they
 wanted. Make them specify it, because if you guess, you will be wrong
-sometimes, and that in turn will lead to a nasty surprise.
+sometimes, and that in turn will lead to unpleasant surprises for them.
+
+Analogously, always store the timezone when dealing with date and time objects,
+and always display it in the user interface (it need not be shown by default,
+but when it is not it must be discoverable).
 
 That doesn't have to mean a proliferation of dialog boxes, though, as there are
 several reasonable ways to infer a timezone. If you involve the user in the
@@ -72,22 +76,27 @@ could use a GIS lookup to `guess the timezone`_. If the user has specified a
 default timezone, you could show a timezone dropdown that starts with their
 default selected.
 
-If perceived time impacts system behavior, then the system should record each
-user's active timezone. To track perceived times accurately, when a user sets
-their timezone, record it and the datetime it was chosen. The resulting
-timezone log can be used to compute correct user-relative times across the
-project's history. For datetimes preceding the user's creation, you could
-assume their first timezone applies (if you warn the user the time is
-extrapolated).
+.. TODO Choose timezone for user timezone log change entries and justify it.
+
+If perceived event time is significant to a program's semantics (as when
+computing a user's `daily chain`_), then the system must know each user's
+active timezone across the user's existence. To support that, maintain a list
+of each user's timezones, in which each entry is a tzinfo timezone name and a
+begin datetime. Whenever a user sets their timezone, append an entry to that
+user's timezone list. The resulting timezone log can be used to compute correct
+user-relative times across a deployment's history. For datetimes preceding the
+user's creation, you could assume their first timezone applies (if you warn the
+user the time is extrapolated). Not all software needs this behavior across
+history, but it cannot be correctly introduced after the fact, so decide
+whether you need it before initial release.
 
 If a feature's users value simplicity and ease of coordination over ease of
 use, you can spare them the need to think about multiple timezones by storing
 and displaying all dates using a single timezone. UTC works well for this
-purpose, but it may make sense to support a single globally-configurable
-timezone. Regardless, always display the timezone itself clearly in the
-displayed date and time objects, to avoid ambiguity. This approach is useful for
-network server logs and postmortems, as using a single explicit timezone makes
-it easier for people in different timezones to talk about when things happened.
+purpose, but it can be reasonable to let users choose the common timezone. This
+approach is useful for network server logs and postmortems, as using a single
+explicit timezone makes it easier for people in different timezones to talk
+about when things happened.
 
 .. TODO Think about how to integrate these authors' observations about
    timezones:
@@ -116,9 +125,6 @@ https://www.creativedeletion.com/2015/01/28/falsehoods-programmers-date-time-zon
    hate article padding. Nonetheless, it is a decent articulation of the
    problem and it got me to think about timezones again.
 
-Not all software needs this behavior across history, but it cannot be
-introduced after the fact, so think about it up front.
-
 .. TODO Simplify this paragraph.
 
 To compare A.D. Gregorian dates in environments without date types (such as
@@ -145,6 +151,7 @@ them to `Unix time`_ and comparing the resulting integers is also an option.
 .. _system time changes unpredictably: http://www.ntp.org/
 .. _monotonic clock: https://www.softwariness.com/articles/monotonic-clocks-windows-and-posix/
 .. _UTC: https://en.wikipedia.org/wiki/Coordinated_Universal_Time
+.. _daily chain: http://dontbreakthechain.com/
 .. _bash: https://www.gnu.org/software/bash/manual/bashref.html
 .. _Unix time: https://en.wikipedia.org/wiki/Unix_time
 .. _Dealing with time: http://news.ycombinator.com/item?id=5083321
