@@ -76,37 +76,40 @@ could use a GIS lookup to `guess the timezone`_. If the user has specified a
 default timezone, you could show a timezone dropdown that starts with their
 default selected.
 
-.. TODO Choose timezone for user timezone log change entries and justify it.
+.. TODO Drop this. If you store datetimes with the user's local timezone ID,
+   and possibly the offset from UTC at the time of entry, you do not need to
+   keep a record of their past timezones - their datetime entries retain the
+   information themselves. TODO Choose timezone for user timezone log change
+   entries and justify it. TODO Move this out to a data structure note?
+   Timezone logs are a bit implementation-focused for what's otherwise a fairly
+   abstract piece.
 
-If perceived event time is significant to a program's semantics (as when
-computing a user's `daily chain`_), then the system must know each user's
-active timezone across the user's existence. To support that, maintain a list
-of each user's timezones, in which each entry is a tzinfo timezone name and a
-begin datetime. Whenever a user sets their timezone, append an entry to that
-user's timezone list. The resulting timezone log can be used to compute correct
+If users care about what day they see past actions as having happened (for
+instance, when tracking a `daily chain`_), the system must be able to retrieve
+their local timezone for any time after they begin using the deployment.
+
+To handle such cases, model users has having a list of historical timezones,
+where the tzinfo timezone identifier and the datetime the user chose the
+timezone. When a user sets their timezone, append it to a list of user
+timezones in which each entry contains a tzinfo timezone name and a begin
+datetime. When a user sets their timezone, append an entry to that user's
+timezone list. The resulting timezone log can be used to compute correct
 user-relative times across a deployment's history. For datetimes preceding the
 user's creation, you could assume their first timezone applies (if you warn the
-user the time is extrapolated). Not all software needs this behavior across
-history, but it cannot be correctly introduced after the fact, so decide
-whether you need it before initial release.
+user the time is extrapolated). Not all software needs this level of
+user-relative history, but it cannot be correctly introduced after the fact, so
+consider it before a first release.
 
-If a feature's users value simplicity and ease of coordination over ease of
+If a program's users value simplicity and ease of coordination over ease of
 use, you can spare them the need to think about multiple timezones by storing
 and displaying all dates using a single timezone. UTC works well for this
 purpose, but it can be reasonable to let users choose the common timezone. This
 approach is useful for network server logs and postmortems, as using a single
 explicit timezone makes it easier for people in different timezones to talk
-about when things happened.
+about what happened when.
 
 .. TODO Think about how to integrate these authors' observations about
    timezones:
-
-   http://tantek.com/2015/218/b1/use-timezone-offsets is interesting, but not
-   as much so as I thought when I first found it. He's right that storing UTC
-   without further thought is harder to read, but that's about the only useful
-   thing I found in his essay. His claim that seeing named timezones in your
-   data means you're making a mistake is demonstrably wrong (as he admits in a
-   footnote to the article).
 
 https://www.creativedeletion.com/2015/01/28/falsehoods-programmers-date-time-zones.html
    is a great piece of work and should be linked somewhere from this essay.
