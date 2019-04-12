@@ -1,6 +1,15 @@
 Optimizing Website Resource Consumption
 =======================================
 
+.. TODO Generalize this advice to be about the value of replayable logs? Given
+   a codebase that logs all inbound HTTP requests and black-box infrastructure
+   running it (like an AMI), you can use the logs to get the list of unique
+   URLs, establish a control set of unique requests and responses, then build a
+   new, version-controlled infrastructure. Add nginx as a load balancer with
+   the ngx_http_mirror_module and you could even run a control and experimental
+   server against live prod data to see how the two compare, like a
+   language-agnostic version of Ruby's Scientist library.
+
 When you want to cut down on a website's resource consumption, drive the
 process from production webserver logs.
 
