@@ -39,42 +39,46 @@ statements like "run this job every 5 minutes". Do not use the system clock to
 measure the passage of time in these cases, because `system time changes
 unpredictably`_. Use your platform's `monotonic clock`_ instead.
 
-Programs that deal with datetimes must deal with `timezones`_, as a datetime
-without a timezone is ambiguous.
+Programs that deal with datetimes must deal with `timezones`_.
 
-As of the late twentieth century, most regions define their `civil times`_ as
-timezones relative to `UTC`_. `IANA`_ `maintains`_ an indispensable `database
-of time zones`_ for writing programs that deal with datetimes.
+As of the late twentieth century, most regions define their `civil times`_
+relative to `UTC`_. `IANA`_ `maintains`_ an indispensable `database of time
+zones`_ for writing programs that deal with datetimes.
 
-As timezones are human constructs defined by governments, they change slowly
-but unpredictably, usually with advance notice `but not always`_. Thus,
-programs should not assume their tzinfo database instance is `current or
-complete`_.
+.. TODO Explain that offset does not a timezone make. Storing offset + name is
+   safest.
 
-When a user enters a time or datetime in a specific timezone, do not convert it
-to another timezone for storage (note if you store everything as UTC you are
-violating this rule). There may be future, present, or even past changes to
-timezone definitions your tzinfo instance does not know about yet. If such a
-change exists and applies to the saved time, then your data is wrong, and you
-are exposing your users to risk of silent failure. No one likes missing
-appointments or being late to work. Do timezone conversions when you need them,
-not before.
+Since a time without a timezone is ambiguous, always store times with a
+timezone and always make it available in the interface. It may be hidden by
+default, but if it is make it easy to discover.
 
-When a user enters a datetime, do not assume you know what timezone they
-wanted. Make them specify it, because if you guess, you will be wrong
-sometimes, and that in turn will lead to unpleasant surprises for them.
+When a user enters a datetime, do not guess what timezone they wanted. Make
+them specify it, because heuristics are wrong sometimes, and that wrongness
+will lead to unpleasant surprises.
 
-Analogously, always store the timezone when dealing with date and time objects,
-and always display it in the user interface (it need not be shown by default,
-but when it is not it must be discoverable).
+That doesn't require a proliferation of dialog boxes, as there are several
+reasonable ways to help users specify timezone.
 
-That doesn't have to mean a proliferation of dialog boxes, though, as there are
-several reasonable ways to infer a timezone. If you involve the user in the
-inference process, they should not be surprised by the results. For instance,
-if the time is linked to a physical address or the user's current location, you
-could use a GIS lookup to `guess the timezone`_. If the user has specified a
-default timezone, you could show a timezone dropdown that starts with their
-default selected.
+The simplest is to let the user specify a default timezone for use across the
+application and to use that for all times they enter.
+
+For cases where the default may not be what the user wants, suggest a
+reasonable choice but let them override it. If the time is linked to a physical
+address or the user's current location, `use a GIS lookup`_ to find a
+suggestion. If they're interacting with a user whose default differs from
+theirs, suggest the other user's timezone.
+
+As timezones are defined by governments, they change slowly but unpredictably,
+usually with advance notice `but not always`_. Thus, programs should not assume
+their tzinfo database instance is `current or complete`_. There may be future,
+present, or even past changes to timezone definitions your tzinfo instance does
+not know about yet.
+
+Therefore, store times with the user-specified timezone and do timezone
+conversions as needed. Converting user-entered times or datetimes to UTC (or
+another timezone) for storage means that saved times will be incorrect in the
+face of timezone changes and your users will be exposed to silent failures. No
+one likes missing appointments or being late to work.
 
 .. TODO Drop this. If you store datetimes with the user's local timezone ID,
    and possibly the offset from UTC at the time of entry, you do not need to
@@ -150,7 +154,7 @@ them to `Unix time`_ and comparing the resulting integers is also an option.
 .. _database of time zones: https://www.iana.org/time-zones
 .. _but not always: https://codeofmatt.com/on-the-timing-of-time-zone-changes/
 .. _current or complete: https://data.iana.org/time-zones/theory.html#accuracy
-.. _guess the timezone: https://github.com/evansiroky/timezone-boundary-builder/releases
+.. _use a GIS lookup: https://github.com/evansiroky/timezone-boundary-builder
 .. _system time changes unpredictably: http://www.ntp.org/
 .. _monotonic clock: https://www.softwariness.com/articles/monotonic-clocks-windows-and-posix/
 .. _UTC: https://en.wikipedia.org/wiki/Coordinated_Universal_Time
