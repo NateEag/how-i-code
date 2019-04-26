@@ -14,13 +14,13 @@ A website can be auto-generated from the main line of development, serving as
 the canonical version of the spec.
 
 I have also considered an idea I have nicknamed the 'specref' - a reference to
-a particular section of the spec, including a version number.
+a particular section of the spec, supporting an optional version number.
 
 The format for the specref is as yet undefined. Path access is not an
-unreasonable idea, as it provides both hierarchy and could map nicely to
-keeping disparate documents in the project repo that are used to collectively
-generate the full spec. You would still need a reasonable prefix, though, and
-one that reads cleanly in code comments.
+unreasonable idea, as it provides hierarchy and could map nicely to keeping
+disparate documents in the project repo that are used to collectively generate
+the full spec. You would still need a reasonable prefix, though, and one that
+reads cleanly in code comments.
 spec[@version]:feature/section/subsection[:startPos[:endPos]]? An example might
 look like spec@1.0.0:contacts-import/csv/validations/. Start/stop indices are
 probably too simplistic, but maybe instead we should ban them and force you to
@@ -28,25 +28,30 @@ structure your doc finely enough that sub-ranges aren't necessary? No, don't
 require that - just warn people clearly that structuring is superior to
 indexing.
 
+Projects using specrefs would need a tool to update specrefs across the project
+whenever someone changes an anchor's identifier (e.g., changes a section
+title), to make sure they don't drift out-of-date. A corresponding tool to
+check that all specrefs are valid would also be important.
+
 If programmers include specrefs in all commit messages, and the specrefs
 provide enough resolution, it becomes feasible to see which parts of the
 specification have been implemented at a given point in the project's history.
 
-Commit messages are not the only places specrefs could be relevant. Rather than
-duplicating the justifications for user interface decisions in code comments,
-programmers could provide specrefs pointing to them. Given a little tooling,
-maintainers could quickly see not just the relevant part of the spec, but how
-it evolved over time, and even the discussions that led to the spec being what
-it is.
+Commit messages are not the only places specrefs could be relevant. Programmers
+can use specrefs in comments to link code directly to the spot in the
+specification that describing the behavior being implemented. Given some
+tooling, maintainers could see not just the relevant part of the spec, but how
+that part of the spec evolved over time, and if code review tools integrate
+support, even the discussions that led to the spec's current state.
 
 Functional tests could also be annotated with specrefs, giving rise to the idea
 of 'spec coverage' - you can measure which parts of your specification are
 actually verified by functional tests. I suspect that metric would be far more
 useful than code coverage to a project.
 
-Generating the spec document itself from the various source files is actually
-an interesting problem. I've wanted to do a human-friendly centralized wrapper
-around Git or similar for a static CMS for quite a while, hiding the gory
+Generating the spec document itself from the various source files is a mildly
+interesting problem. I've wanted to do a human-friendly centralized wrapper
+around Git or similar for a static-site CMS for quite a while, hiding the gory
 details of branching behind a "Suggest A Change" button, and offering a simple
 "Publish" button that generates the static site and pushes it to a webserver,
 and that system would be exactly what I want for letting normal people
