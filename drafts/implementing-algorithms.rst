@@ -21,8 +21,8 @@ Implement the algorithm. Give it a few test runs and fix the oversights they
 reveal.
 
 Where reasonable, replace each section headed by an algorithmic comment with a
-call to another algorithm. Name the sub-algorithms so that the comments can be
-removed.
+call to another algorithm. Name the sub-algorithms clearly so that the comments
+are no longer necessary.
 
 Finally, once you've used the algorithm in a few different cases and see no
 drastic changes, add public documentation so that future programmers do not
