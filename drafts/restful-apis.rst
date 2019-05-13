@@ -56,6 +56,7 @@ intelligently.
 You can hook promise handlers to invalidate the cache in event of an error,
 too, and you can do that inside your request handler.
 
+
 ## Nesting Resources
 
 If you want to support simpler general case nesting of resources than
@@ -93,3 +94,15 @@ idea server-side.
 
 this all falls down once you have to go distributed, but that's a problem I'll
 never have, because nothing I write will ever be that popular.
+
+
+Links Vs. IDs
+=============
+
+This article argues you should use links in your responses, not ID fields:
+
+https://cloud.google.com/blog/products/application-development/api-design-why-you-should-use-links-not-keys-to-represent-relationships-in-apis
+
+There were some plausible rebuttals on HN, IIRC, but there are good arguments
+for it, too. My guess is that eventually you wind up doing both, if you care
+about the developer experience.
