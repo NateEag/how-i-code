@@ -80,57 +80,25 @@ another timezone) for storage means that saved times will be incorrect in the
 face of timezone changes and your users will be exposed to silent failures. No
 one likes missing appointments or being late to work.
 
-.. TODO Drop this. If you store datetimes with the user's local timezone ID,
-   and possibly the offset from UTC at the time of entry, you do not need to
-   keep a record of their past timezones - their datetime entries retain the
-   information themselves. TODO Choose timezone for user timezone log change
-   entries and justify it. TODO Move this out to a data structure note?
-   Timezone logs are a bit implementation-focused for what's otherwise a fairly
-   abstract piece.
+This approach also makes it easier to do business logic that hinges on user
+perception of event times - for instance, what day entries in a `daily chain`_
+happened on. If you denormalize all timestamps to UTC, then you must maintain a
+historical log of each user's timezone settings to work it out. When you store
+each user event's local timezone as part of the datetime, then the datetime
+itself stores the user's perception of when the event happened.
 
-If users care about what day they see past actions as having happened (for
-instance, when tracking a `daily chain`_), the system must be able to retrieve
-their local timezone for any time after they begin using the deployment.
-
-To handle such cases, model users has having a list of historical timezones,
-where the tzinfo timezone identifier and the datetime the user chose the
-timezone. When a user sets their timezone, append it to a list of user
-timezones in which each entry contains a tzinfo timezone name and a begin
-datetime. When a user sets their timezone, append an entry to that user's
-timezone list. The resulting timezone log can be used to compute correct
-user-relative times across a deployment's history. For datetimes preceding the
-user's creation, you could assume their first timezone applies (if you warn the
-user the time is extrapolated). Not all software needs this level of
-user-relative history, but it cannot be correctly introduced after the fact, so
-consider it before a first release.
+Keep in mind, though, that if software needs to know the UTC equivalent of a
+local time, it should save the timezone offset from UTC alongside the
+timestamp, as some local times `cannot be unambiguously converted to UTC`_
+without it.
 
 If a program's users value simplicity and ease of coordination over ease of
 use, you can spare them the need to think about multiple timezones by storing
 and displaying all dates using a single timezone. UTC works well for this
-purpose, but it can be reasonable to let users choose the common timezone. This
-approach is useful for network server logs and postmortems, as using a single
-explicit timezone makes it easier for people in different timezones to talk
-about what happened when.
-
-.. TODO Think about how to integrate these authors' observations about
-   timezones:
-   
-.. https://www.creativedeletion.com/2015/01/28/falsehoods-programmers-date-time-zones.html
-   is a great piece of work and should be linked somewhere from this essay.
-   
-.. https://www.creativedeletion.com/2015/03/19/persisting_future_datetimes.html
-   has the germ of a good approach to building systems for users who care about
-   local times, but is wrong on several points (recent past is *not* safe to
-   persist as UTC if users want to see it as localtime because of delays in
-   getting timezone updates, and assuming the user wants localtime will lead to
-   surprising failures)
-   
-.. https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/
-   is annoying as it wastes a ton of time on examples of what not to do, when
-   he could have led with a clear problem statement, shown his solution, then
-   finished with a few quick notes on the consequences of getting it wrong. I
-   hate article padding. Nonetheless, it is a decent articulation of the
-   problem and it got me to think about timezones again.
+purpose, but it can be reasonable to let an administrator choose the common
+timezone. This approach is useful for network server logs and postmortem
+documents, as using a single explicit timezone makes it easier for people in
+different timezones to talk about what happened when.
 
 .. TODO Simplify this paragraph.
 
@@ -161,5 +129,6 @@ them to `Unix time`_ and comparing the resulting integers is also an option.
 .. _UTC: https://en.wikipedia.org/wiki/Coordinated_Universal_Time
 .. _daily chain: http://dontbreakthechain.com/
 .. _bash: https://www.gnu.org/software/bash/manual/bashref.html
+.. _cannot be unambiguously converted to UTC: https://www.creativedeletion.com/2015/01/28/falsehoods-programmers-date-time-zones.html
 .. _Unix time: https://en.wikipedia.org/wiki/Unix_time
 .. _Dealing with time: http://news.ycombinator.com/item?id=5083321
