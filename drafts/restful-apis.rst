@@ -106,3 +106,21 @@ https://cloud.google.com/blog/products/application-development/api-design-why-yo
 There were some plausible rebuttals on HN, IIRC, but there are good arguments
 for it, too. My guess is that eventually you wind up doing both, if you care
 about the developer experience.
+
+
+Are Single-Page Apps A Good Idea?
+=================================
+
+TODO Figure out where this should live. SPAs are RESTful API clients, and as
+such have little to do with the API themselves.
+
+I really like decoupling the frontend from the backend, and I appreciate that
+for many tasks rich apps are better than the lean things we used to do.
+
+I lean towards SPAs myself because of how cleanly they enforce decoupling, and
+how they lead you to a backend that encodes the business logic and is therefore
+reusable in multiple client contexts.
+
+That said, this article does make a solid case that SPAs as such have some
+problems and are forced to reinvent several wheels:
+https://adamsilver.io/articles/the-disadvantages-of-single-page-applications/
