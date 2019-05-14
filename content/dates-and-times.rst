@@ -33,11 +33,11 @@ significant in historical research, where having only fragments of incomplete
 records can make even pinning down a year difficult.
 
 Some programs need to know how much time passes between events but are not
-concerned with event datetime. Audio synthesis programs use time this way to
-implement features like `delay lines`_, while task schedulers often support
-statements like "run this job every 5 minutes". Do not use the system clock to
-measure the passage of time in these cases, because `system time changes
-unpredictably`_. Use your platform's `monotonic clock`_ instead.
+concerned with event datetime. Audio synthesis programs use elapsed time to
+implement features like `delay lines`_, while task schedulers often use it in
+specifications like "run this job every 5 minutes". Do not use the system clock
+to measure the passage of time, because `system time changes unpredictably`_.
+Use the platform's `monotonic clock`_ instead.
 
 Programs that deal with datetimes must deal with `timezones`_.
 
@@ -49,12 +49,12 @@ zones`_ for writing programs that deal with datetimes.
    safest.
 
 Since a time without a timezone is ambiguous, always store times with a
-timezone and always make it available in the interface. It may be hidden by
-default, but if it is make it easy to discover.
+timezone and show the timezone in the interface. It may be hidden by default,
+but if it is make it easy to discover.
 
-When a user enters a datetime, do not guess what timezone they wanted. Make
-them specify it, because heuristics are wrong sometimes, and that wrongness
-will lead to unpleasant surprises.
+When a user enters a datetime, do not guess what timezone applies. Make them
+specify it, because guesses are wrong sometimes, and that wrongness will
+eventually cause an unpleasant `surprise`_.
 
 That doesn't require a proliferation of dialog boxes, as there are several
 reasonable ways to help users specify timezone.
@@ -114,18 +114,18 @@ about what happened when.
 
 .. TODO Think about how to integrate these authors' observations about
    timezones:
-
-https://www.creativedeletion.com/2015/01/28/falsehoods-programmers-date-time-zones.html
+   
+.. https://www.creativedeletion.com/2015/01/28/falsehoods-programmers-date-time-zones.html
    is a great piece of work and should be linked somewhere from this essay.
-
-   https://www.creativedeletion.com/2015/03/19/persisting_future_datetimes.html
+   
+.. https://www.creativedeletion.com/2015/03/19/persisting_future_datetimes.html
    has the germ of a good approach to building systems for users who care about
    local times, but is wrong on several points (recent past is *not* safe to
    persist as UTC if users want to see it as localtime because of delays in
    getting timezone updates, and assuming the user wants localtime will lead to
    surprising failures)
-
-   https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/
+   
+.. https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/
    is annoying as it wastes a ton of time on examples of what not to do, when
    he could have led with a clear problem statement, shown his solution, then
    finished with a few quick notes on the consequences of getting it wrong. I
@@ -147,11 +147,12 @@ them to `Unix time`_ and comparing the resulting integers is also an option.
 .. _delay lines: https://en.wikipedia.org/wiki/Analog_delay_line
 .. _calendar: http://en.wikipedia.org/wiki/Calendar
 .. _Precision: https://en.wikipedia.org/wiki/Accuracy_and_precision
-.. _civil time: https://en.wikipedia.org/wiki/Civil_time
+.. _civil times: https://en.wikipedia.org/wiki/Civil_time
 .. _timezones: http://en.wikipedia.org/wiki/Time_zone
 .. _IANA: https://www.iana.org/
 .. _maintains: https://tools.ietf.org/html/rfc6557
 .. _database of time zones: https://www.iana.org/time-zones
+.. _surprise: /software-surprises.html
 .. _but not always: https://codeofmatt.com/on-the-timing-of-time-zone-changes/
 .. _current or complete: https://data.iana.org/time-zones/theory.html#accuracy
 .. _use a GIS lookup: https://github.com/evansiroky/timezone-boundary-builder
