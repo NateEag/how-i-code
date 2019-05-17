@@ -138,3 +138,21 @@ will spend at most 50% of a quarter toiling.
 
 Chapter 6 - Monitoring Distributed Systems
 ==========================================
+
+Terms:
+
+Monitoring - Collecting, analyzing, and displaying quantitative data about a
+system in real time [I will argue near-real-time is smarter, especially if
+you're not Google - real-time is hard to engineer and buys you what? An alert
+one minute sooner?].
+
+White-box monitoring - monitoring data from system internals.
+
+Black-box monitoring - monitoring data from the system user's frame of
+reference.
+
+Dashboard - HUD with summary of service's core metrics (perhaps along with
+other mission-critical data, like who's on call or how many open tickets there
+are)
+
+Alert - notification meant to be read and acted upon by a human.
