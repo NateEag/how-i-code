@@ -27,10 +27,9 @@ carefully about precision when writing time-related code.
 Precision applies to dates, too. Do not use dates to store years, or years and
 months, since the extra fields will become broken clocks.
 
-That may seem like strange advice, but many systems assume an exact date is
-always available, which is not always the case. That possibility is especially
-significant in historical research, where having only fragments of incomplete
-records can make even pinning down a year difficult.
+That may seem like strange advice, but exact dates are not always available.
+That is especially true in historical research, where having only fragments of
+incomplete records can make even pinning down a year difficult.
 
 Some programs need to know how much time passes between events but are not
 concerned with event datetime. Audio synthesis programs use elapsed time to
