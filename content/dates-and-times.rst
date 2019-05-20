@@ -31,14 +31,14 @@ That may seem like strange advice, but exact dates are not always available.
 That is especially true in historical research, where having only fragments of
 incomplete records can make even pinning down a year difficult.
 
-Some programs need to know how much time passes between events but are not
-concerned with event datetime. Audio synthesis programs use elapsed time to
-implement features like `delay lines`_, while task schedulers often use it in
-specifications like "run this job every 5 minutes". Do not use the system clock
-to measure the passage of time, because `system time changes unpredictably`_.
-Use the platform's `monotonic clock`_ instead.
+Some programs need to know how much time passes between events but do not care
+when the events actually happens. Audio synthesis programs use time this way to
+implement features like `delay lines`_, while task schedulers often support job
+specifications like "run every 5 minutes". Do not use the system clock to
+measure elapsed time, because `system time changes unpredictably`_. Use the
+platform's `monotonic clock`_ instead.
 
-Programs that deal with datetimes must deal with `timezones`_.
+Programs that do care about when events occur must deal with `timezones`_.
 
 As of the late twentieth century, most regions define their `civil times`_
 relative to `UTC`_. `IANA`_ `maintains`_ an indispensable `database of time
