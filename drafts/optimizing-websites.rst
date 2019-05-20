@@ -20,7 +20,11 @@ Use the logs to generate a list of extant HTTP resources sorted in descending
 order by total time taken to serve them.
 
 Grouping URLs correctly is the only interesting part of this analysis, and may
-require spending quality time with the site's URL routing logic.
+require spending quality time with the site's URL routing logic. Alternatively,
+you can customize your backend to set `custom response headers
+<https://docs.honeycomb.io/getting-data-in/integrations/webservers/nginx/#embedding-custom-response-headers>`__
+so that all requests to dynamic endpoints are augmented with an *endpoint*
+identifier, making it much easier to do the aggregate analysis.
 
 Now work your way down the list, optimizing each resource in turn.
 
