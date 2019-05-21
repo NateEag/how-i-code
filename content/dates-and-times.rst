@@ -32,13 +32,13 @@ That is especially true in historical research, where having only fragments of
 incomplete records can make even pinning down a year difficult.
 
 Some programs need to know how much time passes between events but do not care
-when the events actually happens. Audio synthesis programs use time this way to
-implement features like `delay lines`_, while task schedulers often support job
+when the events actually happen. Audio synthesis programs use time this way for
+things like `delay lines`_, while task schedulers often support job
 specifications like "run every 5 minutes". Do not use the system clock to
 measure elapsed time, because `system time changes unpredictably`_. Use the
 platform's `monotonic clock`_ instead.
 
-Programs that do care about when events occur must handle `timezones`_.
+Programs that care when events occur must handle `timezones`_.
 
 As of the late twentieth century, most regions define their `civil times`_
 relative to `UTC`_. `IANA`_ `maintains`_ an indispensable `database of time
@@ -47,6 +47,17 @@ zones`_ for writing programs that deal with datetimes.
 Since a time without a timezone is ambiguous, always store times with a
 timezone and show the timezone in the interface. It may be hidden by default,
 but if it is make it easy to discover.
+
+"Current local timezone" is an acceptable timezone setting for reminders and
+events visible only to one user. It is useful for users who travel frequently
+and want to trigger an event at a consistent local time no matter where they
+are. If the event is visible to multiple users then communication about
+timezones matters so that value is not acceptable, but for a single user no
+meaningful inconsistency can occur. Any computer the user accesses will be set
+to a specific timezone, and if the user is using multiple computers with
+different timezone settings simultaneously (such as a laptop and a phone), they
+can decide which one to trust (though it might be wise to detect the
+inconsistent local times and warn the user about the inconsistency).
 
 When a user enters a datetime, do not guess its timezone. Make them specify it,
 because guesses are wrong sometimes, and that wrongness will eventually cause
