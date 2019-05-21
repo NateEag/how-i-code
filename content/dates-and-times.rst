@@ -38,22 +38,19 @@ specifications like "run every 5 minutes". Do not use the system clock to
 measure elapsed time, because `system time changes unpredictably`_. Use the
 platform's `monotonic clock`_ instead.
 
-Programs that do care about when events occur must deal with `timezones`_.
+Programs that do care about when events occur must handle `timezones`_.
 
 As of the late twentieth century, most regions define their `civil times`_
 relative to `UTC`_. `IANA`_ `maintains`_ an indispensable `database of time
 zones`_ for writing programs that deal with datetimes.
 
-.. TODO Explain that offset does not a timezone make. Storing offset + name is
-   safest.
-
 Since a time without a timezone is ambiguous, always store times with a
 timezone and show the timezone in the interface. It may be hidden by default,
 but if it is make it easy to discover.
 
-When a user enters a datetime, do not guess what timezone applies. Make them
-specify it, because guesses are wrong sometimes, and that wrongness will
-eventually cause an unpleasant `surprise`_.
+When a user enters a datetime, do not guess its timezone. Make them specify it,
+because guesses are wrong sometimes, and that wrongness will eventually cause
+an `unpleasant surprise`_.
 
 That doesn't require a proliferation of dialog boxes, as there are several
 reasonable ways to help users specify timezone.
@@ -61,11 +58,11 @@ reasonable ways to help users specify timezone.
 The simplest is to let the user specify a default timezone for use across the
 application and to use that for all times they enter.
 
-For cases where the default may not be what the user wants, suggest a
-reasonable choice but let them override it. If the time is linked to a physical
-address or the user's current location, `use a GIS lookup`_ to find a
-suggestion. If they're interacting with a user whose default differs from
-theirs, suggest the other user's timezone.
+When the user may not want the default timezone, suggest a reasonable one but
+let them change it. For example, if the time is related to a physical address
+or location, `use a GIS lookup`_ to find a suggestion. If they're interacting
+with a user whose default differs from theirs, it may make sense to suggest the
+other user's timezone.
 
 As timezones are defined by governments, they change slowly but unpredictably,
 usually with advance notice `but not always`_. Thus, programs should not assume
@@ -86,10 +83,9 @@ historical log of each user's timezone settings to work it out. When you store
 each user event's local timezone as part of the datetime, then the datetime
 itself stores the user's perception of when the event happened.
 
-Keep in mind, though, that if software needs to know the UTC equivalent of a
-local time, it should save the timezone offset from UTC alongside the
-timestamp, as some local times `cannot be unambiguously converted to UTC`_
-without it.
+Remember, though, that if software needs the UTC equivalent of a local time, it
+should save the timezone's offset from UTC alongside the timestamp, as local
+times `cannot be unambiguously converted to UTC`_ without it.
 
 If a program's users value simplicity and ease of coordination over ease of
 use, you can spare them the need to think about multiple timezones by storing
@@ -119,7 +115,7 @@ them to `Unix time`_ and comparing the resulting integers is also an option.
 .. _IANA: https://www.iana.org/
 .. _maintains: https://tools.ietf.org/html/rfc6557
 .. _database of time zones: https://www.iana.org/time-zones
-.. _surprise: /software-surprises.html
+.. _unpleasant surprise: /software-surprises.html
 .. _but not always: https://codeofmatt.com/on-the-timing-of-time-zone-changes/
 .. _current or complete: https://data.iana.org/time-zones/theory.html#accuracy
 .. _use a GIS lookup: https://github.com/evansiroky/timezone-boundary-builder
