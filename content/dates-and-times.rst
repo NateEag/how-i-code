@@ -55,8 +55,8 @@ an `unpleasant surprise`_.
 That doesn't require a proliferation of dialog boxes, as there are several
 reasonable ways to help users specify timezone.
 
-The simplest is to let the user specify a default timezone for use across the
-application and to use that for all times they enter.
+One is to let the user specify a default timezone and to use it for all times
+they enter.
 
 When the user may not want the default timezone, suggest a reasonable one but
 let them change it. For example, if the time is related to a physical address
