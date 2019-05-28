@@ -48,16 +48,17 @@ Since a time without a timezone is ambiguous, always store times with a
 timezone and show the timezone in the interface. It may be hidden by default,
 but if it is make it easy to discover.
 
-"Current local timezone" is an acceptable timezone setting for reminders and
-events visible only to one user. It is useful for users who travel frequently
-and want to trigger an event at a consistent local time no matter where they
-are. If the event is visible to multiple users then communication about
-timezones matters so that value is not acceptable, but for a single user no
-meaningful inconsistency can occur. Any computer the user accesses will be set
-to a specific timezone, and if the user is using multiple computers with
-different timezone settings simultaneously (such as a laptop and a phone), they
-can decide which one to trust (though it might be wise to detect the
-inconsistent local times and warn the user about the inconsistency).
+"Current local timezone" is a valid timezone for events relative to exactly one
+user or location. It is not valid when the event relates to multiple users as
+there may be multiple "local" timezones. The same is true for multiple
+locations (even if all the locations happen to be in the same timezone, that
+timezone's boundaries may change before the event occurs). For a single user,
+no such ambiguity exists. If she uses multiple computers with different
+timezone settings simultaneously (such as a laptop and a phone) she can decide
+which one to trust (though it could be nice to warn her if her devices are
+configured inconsistently). Similarly, if she's physically near a timezone
+boundary, she can decide which timezone applies to her (implication: when
+feasible, software should notify users who are near timezone boundaries).
 
 When a user enters a datetime, do not guess its timezone. Make them specify it,
 because guesses are wrong sometimes, and that wrongness will eventually cause
