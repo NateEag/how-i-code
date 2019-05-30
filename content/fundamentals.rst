@@ -28,6 +28,7 @@ ones you should spend years mastering and refining:
 * Writing
 * Speaking
 * Triage
+* Learning new tools
 * Learning from mistakes
 * Experimenting
 * Naming
