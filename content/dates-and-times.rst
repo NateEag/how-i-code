@@ -5,14 +5,24 @@ Dates And Times
 :category: data modeling
 :summary: A brief summary of time.
 
-A date marks a particular day in history (possibly in the future) using a
+Some programs need to know how much time passes between events but do not care
+when the events actually happen. Audio synthesis programs use time this way for
+things like `delay lines`_, while task schedulers often support job
+specifications like "run every 5 minutes". Do not use the system clock to
+measure elapsed time, because `system time changes unpredictably`_. Use the
+platform's `monotonic clock`_ instead.
+
+Programs that tell humans when events occur use dates and times to do so
+(including `timezones`_).
+
+A date marks a particular day in history (perhaps in the future) using a
 specific `calendar`_ (frequently Gregorian).
 
 A time marks a specific moment during an unspecified day with a reasonable
 degree of precision.
 
-A datetime stores a date and a time together to identify a particular moment in
-history.
+A datetime identifies a particular moment in history by storing a date and a
+time together.
 
 Date fields should include ``date`` in their name, often as a prefix to a
 past-tense verb (``date_created``). Similarly, datetime fields should include
@@ -20,8 +30,8 @@ past-tense verb (``date_created``). Similarly, datetime fields should include
 
 `Precision`_ is important when dealing with time. "An hour ago" specifies a
 time, as does "one hour, seven minutes, and thirty-three seconds ago", but they
-communicate different things. Libraries tend to use a precision of seconds or
-higher, and don't always offer a way to handle lower-precision times, so think
+mean different things. Libraries tend to use a precision of seconds or higher,
+and don't always offer a way to handle lower-precision times, so think
 carefully about precision when writing time-related code.
 
 Precision applies to dates, too. Do not use dates to store years, or years and
@@ -31,34 +41,29 @@ That may seem like strange advice, but exact dates are not always available.
 That is especially true in historical research, where having only fragments of
 incomplete records can make even pinning down a year difficult.
 
-Some programs need to know how much time passes between events but do not care
-when the events actually happen. Audio synthesis programs use time this way for
-things like `delay lines`_, while task schedulers often support job
-specifications like "run every 5 minutes". Do not use the system clock to
-measure elapsed time, because `system time changes unpredictably`_. Use the
-platform's `monotonic clock`_ instead.
-
-Programs that care when events occur must handle `timezones`_.
+Since recent dates and times are ambiguous without a timezone, include
+timezones on date and time fields and expose them in the interface. They may be
+hidden by default, but if so make them easy to discover.
 
 As of the late twentieth century, most regions define their `civil times`_
 relative to `UTC`_. `IANA`_ `maintains`_ an indispensable `database of time
 zones`_ for writing programs that deal with datetimes.
 
-Since a time without a timezone is ambiguous, always store times with a
-timezone and show the timezone in the interface. It may be hidden by default,
-but if it is make it easy to discover.
+.. TODO Come up with a real use case for "current local timezone". Perhaps it's
+   just a hypothetical, in which case I should obliterate it.
 
 "Current local timezone" is a valid timezone for events relative to exactly one
-user or location. It is not valid when the event relates to multiple users as
-there may be multiple "local" timezones. The same is true for multiple
-locations (even if all the locations happen to be in the same timezone, that
-timezone's boundaries may change before the event occurs). For a single user,
-no such ambiguity exists. If she uses multiple computers with different
-timezone settings simultaneously (such as a laptop and a phone) she can decide
-which one to trust (though it could be nice to warn her if her devices are
-configured inconsistently). Similarly, if she's physically near a timezone
-boundary, she can decide which timezone applies to her (implication: when
-feasible, software should notify users who are near timezone boundaries).
+user. It is not valid when the event relates to multiple users as each one of
+them may be in a different timezone. For a single user, no such ambiguity
+exists. If she uses multiple computers with different timezone settings
+simultaneously (such as a laptop and a smartphone) she can decide which one to
+trust (though warning her when they have inconsistent timezone settings might
+be nice). Similarly, if she's physically near a timezone boundary, she can
+decide which timezone applies to her (note that when feasible, software should
+notify users who are near timezone boundaries).
+
+.. TODO Figure out whether it's useful to apply current local timezone to
+   datetimes linked to locations.
 
 When a user enters a datetime, do not guess its timezone. Make them specify it,
 because guesses are wrong sometimes, and that wrongness will eventually cause
@@ -67,7 +72,7 @@ an `unpleasant surprise`_.
 That doesn't require a proliferation of dialog boxes, as there are several
 reasonable ways to help users specify timezone.
 
-One is to let the user specify a default timezone and to use it for all times
+One is to let the user define a default timezone and to use it for all times
 they enter.
 
 When the user may not want the default timezone, suggest a reasonable one but
