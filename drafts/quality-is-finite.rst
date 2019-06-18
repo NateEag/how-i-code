@@ -16,4 +16,10 @@ up more of your team's available quality creation ability (and potentially
 burning more of it out of them with death marches and other slogs)
 
 Thus, there is an absolute limit to the potential quality any software system
-can be imbued with.]
+can be imbued with.
+
+Also explain that a perfect program is probably not theoretically possible, and
+that even if it is, in practice the pursuit of perfection is the enemy of all
+practical goals like stability and reliability - each change represents a risk
+of breakage or failure, and each step towards perfection gains you an
+ever-decreasing amount of value.]
