@@ -22,4 +22,10 @@ Also explain that a perfect program is probably not theoretically possible, and
 that even if it is, in practice the pursuit of perfection is the enemy of all
 practical goals like stability and reliability - each change represents a risk
 of breakage or failure, and each step towards perfection gains you an
-ever-decreasing amount of value.]
+ever-decreasing amount of value.
+
+This relates closely to the "definition of done" - since no program is ever
+perfect, it follows that no program is ever truly "done". Instead you should
+talk about what changes have been made in a version of a program, where those
+changes have been deployed, and what data is being monitored to detect any
+issues with those deployments.]
