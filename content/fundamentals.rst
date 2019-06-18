@@ -21,6 +21,12 @@ of these to make valuable contributions, but learning any of them will make you
 much more effective. These are the essential skills in writing software, the
 ones you should spend years mastering and refining:
 
+.. TODO Consider renaming 'Documenting programs ' to 'Explaining programs'?
+   Writing is better than talking but both are helpful, and they're both higher
+   up the list of fundamentals.
+
+.. TODO Decide whether editing text is just a sub-point of writing.
+
 * `Caring for users`_
 * `Understanding problems deeply`_
 * Listening
@@ -34,9 +40,6 @@ ones you should spend years mastering and refining:
 * Naming
 * Data modeling
 * Using programs
-.. TODO Consider calling this 'Explaining programs'? Writing is better than
-   talking but both are helpful, and they're both higher up the list of
-   fundamentals.
 * Documenting programs
 * Writing maintainable programs
 * Adding features to programs
@@ -45,8 +48,6 @@ ones you should spend years mastering and refining:
 * Improving program internals
 * Designing interfaces
 * Designing algorithms
-.. TODO Figure out if editing text is just a sub-point of writing. It probably
-   is.
 * Editing text
 * Optimizing programs
 
