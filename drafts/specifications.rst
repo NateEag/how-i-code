@@ -3,12 +3,20 @@ the past few years.
 
 I've concluded that specs should be kept in text-based files and
 collaboratively edited much as software is, since specs are living, changing
-documents. It makes sense to organize a program's source code by features and
-to keep each feature's specification with the code implementing it.
+documents.
+
+It makes sense to organize a program's source code by features and to keep each
+feature's specification with the code implementing it.
 
 That way, a workflow where anyone may suggest changes to a spec, and proposed
 changes can be previewed, modified, and discussed by the team is enabled, much
 as programmers do with code review.
+
+The project's changelog entries should all link to the relevant specifications,
+making it much, much faster to hunt down the gory details of a given change, as
+the git history of the spec should help a dev figure out what commits were made
+to support a given change quickly (see the specref idea below for some thoughts
+on how linking could work).
 
 A website can be auto-generated from the main line of development, serving as
 the canonical version of the spec.
