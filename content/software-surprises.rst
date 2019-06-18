@@ -43,7 +43,7 @@ and if enough have, the interface or manual should be improved. In this case,
 you have no other responsibilities.
 
 If instead the insight is about the nature of the problem, or a theory about
-why the surprise might have occurred, write it down after your explanation.
+why the surprise happened, write it down.
 
 Next collect evidence the surprise happened. A screenshot is a good place to
 start (especially for graphical programs), as are log files or (for a batch
