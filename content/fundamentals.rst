@@ -27,6 +27,10 @@ ones you should spend years mastering and refining:
 
 .. TODO Decide whether editing text is just a sub-point of writing.
 
+.. TODO Decide whether 'Learning new tools' is a subpoint of 'Using programs'.
+   I think it is not, but if I decide that I should explain why in the
+   respective essays.
+
 * `Caring for users`_
 * `Understanding problems deeply`_
 * Listening
