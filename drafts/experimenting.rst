@@ -26,3 +26,6 @@ yet.
 
 So, at some point, I should analyze and explain experimental design as a
 fundamental skill for a developer.
+
+This article on expecting chaos in production has some useful insights about
+experiment design: http://principlesofchaos.org/
