@@ -10,3 +10,8 @@ thing, and most software developers do neither.
 
 I put a few thoughts about this on HN:
 https://news.ycombinator.com/item?id=19965640
+
+Note that this question ties closely to the "quality is finite" essay -
+engineering is applying a high level of rigor to get really high quality on
+several specific axes, reliability and robustness being two of the big ones.
+Efficiency is another value FAMANGs tend to apply the engineering approach to.
