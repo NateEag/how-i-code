@@ -44,6 +44,8 @@ understand why you feel that way.
 
 .. TODO Describe the core technical loop programmers know so well.
 
+.. TODO Link to the article on changelogs once it's published.
+
 Add (an) item(s) to the project's changelog for the change(s) you are about to
 make.
 
