@@ -11,6 +11,11 @@ Debugging Programs
 
 When a program does not behave as expected, it should be fixed.
 
+The first step in doing so is to understand the behavior and the expectation.
+Sometimes user expectations are the problem, in which case documentation and
+user interfaces should be improved to stop misleading users. In other cases,
+the program's behavior is bad, in which case the behavior should be changed.
+
 To fix unintended or unexpected behavior, you must first understand the root
 cause of the behavior.
 
