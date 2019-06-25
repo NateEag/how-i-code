@@ -26,7 +26,7 @@ A good first step in data collection is checking for any useful logs, as many
 programs output a lot of diagnostic and informational data. If there are
 monitoring systems for the program you are analyzing, look at those too.
 
-The production data from the impacted users is always helpful (though it is not
+The production data from the impacted users are always helpful (though it is not
 always practical to obtain them due to security and privacy constraints).
 
 You can also run experiments on the program to collect data and falsify
