@@ -36,9 +36,9 @@ changes to the program to gain a clearer understanding of the issue's root
 cause.
 
 Reading the source code is another way to gather data and confirm or reject
-hypotheses about the program, but it tends to take longer than the methods
-listed above. It is also more vulnerable to human error. Make no mistake, it is
-a valuable tool, but not as helpful as you might hope.
+hypotheses about the program, but it takes longer than the methods listed
+above. It is also more vulnerable to human error. Make no mistake, it is a
+valuable tool, but not as helpful as you might hope.
 
 No one of these techniques is a silver bullet. They are listed in order of
 preference, but the goal is to understand the problem quickly and fully.
