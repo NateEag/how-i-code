@@ -42,8 +42,8 @@ a valuable tool, but not as helpful as you might hope.
 
 No one of these techniques is a silver bullet. They are listed in order of
 preference, but the goal is to understand the problem quickly and fully.
-Combine them as needed. Do not prefer one excessively over the others, as they
-are most effective when combined.
+Combine them as needed. Do not prefer one excessively over the others, as no
+one of them is always the best answer.
 
 .. TODO Figure out if these are all the reasons a bug may disappear in dev.
 
