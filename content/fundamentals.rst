@@ -48,7 +48,7 @@ ones you should spend years mastering and refining:
 * Writing maintainable programs
 * Adding features to programs
 * Removing features from programs
-* Removing errors from programs
+* `Removing errors from programs`_
 * Improving program internals
 * Designing interfaces
 * Designing algorithms
@@ -57,3 +57,4 @@ ones you should spend years mastering and refining:
 
 .. _Caring for users: /caring-for-users.html
 .. _Understanding problems deeply: /understanding-problems.html
+.. _Removing errors from programs: /debugging-programs.html

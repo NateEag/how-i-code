@@ -52,8 +52,8 @@ volume, differences between the development and production versions of the
 program, environment differences between development and production,
 configuration differences between development and production, differences
 between the production and development dataloads for the program, or
-differences in program execution when run with development tooling (these
-bugs are colloquially known as `heisenbugs`__).
+differences in program execution when run with development tooling (these bugs
+are colloquially known as `heisenbugs`_).
 
 .. TODO Find more conceptual links for `collect data` and `run experiments`.
    statsd and Scientist seem like fine tools but I've not actually had the
@@ -65,8 +65,8 @@ environment thoroughly in hopes of finding more clues. If none can be found,
 roll up your sleeves and figure out why the bug is not reproducible in a
 development context. If you can then make the bug reproducible in a development
 context, do so (unless the change would be prohibitively expensive). If
-necessary, make changes to the program that let you `collect data`__ and `run
-experiments`__ safely in production.
+necessary, make changes to the program that let you `collect data`_ and `run
+experiments`_ safely in production.
 
 When a bug is not reliably reproducible in any installation, though, be very
 cautious not to destroy any instances of it you have available for
@@ -80,15 +80,14 @@ read-only experiment on modern computer systems. Even simple programs often
 write to multiple logfiles during normal usage, which could theoretically
 influence the behavior you are investigating.
 
-When testing behavior that you have only seen on one computer, remember that
-tests run as a different user may not be safely isolated. If either account has
-write access to a shared data source, or if the experiment is run with
-administrative privileges, it is capable of influencing the unexplained
-behavior.
+When testing behavior you have only seen on one computer, remember that tests
+run as a different user may not be safely isolated. If either account has write
+access to a shared data source, or if the experiment is run with administrative
+privileges, it is capable of influencing the unexplained behavior.
 
 If an experiment seems hard to execute, risky to carry out, or tricky to
 reproduce, look for a simpler one. A few more minutes of thought will often
-lead to a `clearer understanding of the issue`__, helping you see a simpler,
+lead to a `clearer understanding of the issue`_, helping you see a simpler,
 better path forward.
 
 If you do not have a clear way to reproduce the behavior, be extremely careful
@@ -96,7 +95,7 @@ to protect environments showing the behavior from your experiments. Look
 carefully for ways to falsify your theory with pre-existing data, as that
 rarely damages unexplained behavior.
 
-.. heisenbugs: https://en.wikipedia.org/wiki/Heisenbug
-.. collect data: https://github.com/statsd/statsd
-.. run experiments: https://github.com/github/scientist
-.. clearer understanding of the issue: /understanding-problems.html
+.. _heisenbugs: https://en.wikipedia.org/wiki/Heisenbug
+.. _collect data: https://github.com/statsd/statsd
+.. _run experiments: https://github.com/github/scientist#alternatives
+.. _clearer understanding of the issue: /understanding-problems.html
