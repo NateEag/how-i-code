@@ -9,7 +9,8 @@ It's the bus factor. The programmer dies, changes jobs, gets bored, gets
 amnesia, receives new priorities... The list is infinite.
 
 Note: it's okay for projects to die. If necessary they can be resurrected, and
-most projects aren't that important.
+most projects aren't that important. Programs dying can be natural selection in
+action.
 
 If you're a business, though, you really don't want your core products to die.
 Not until you've extracted the value you can from them.
