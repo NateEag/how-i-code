@@ -69,8 +69,8 @@ TODO Write essay about intersection of specs and automation.
 ## Build Features In Branches
 
 and (see essay on POCs, prototypes, etc) you do it in hunks, starting with POC
-scope/plan doc to building the POC to a drat spec to actually building it, with
-peer review forming a loop for each step.
+scope/plan doc to building the POC to a draft spec to actually building it,
+with peer review forming a loop for each step.
 
 That gets you big wins in terms of teammates catching flaws in your approach
 before you discover them the hard way yourself.
