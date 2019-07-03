@@ -5,6 +5,10 @@ I've seen several good sets of guidelines for this.
 
 I should synthesize the important bits and link the best ones from here.
 
+This provides a nice clear overview of the basics:
+
+https://restapitutorial.com
+
 This one's really good:
 
 http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
