@@ -51,6 +51,10 @@ Since recent dates and times are ambiguous without a `timezone`_, include them
 on date and time fields and show them in the interface. They may be hidden by
 default, but if so make them easy to discover.
 
+.. TODO Figure out where to link https://qntm.org/abolish, which makes an
+   excellent case that timezones are in fact useful constructs and setting a
+   global timezone would be a stupid mistake.
+
 .. TODO Hyperlink 'it is not perfect' to the finite quality essay once it's
    done.
 
