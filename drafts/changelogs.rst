@@ -10,7 +10,7 @@ how Emacs handles it:
 https://news.ycombinator.com/item?id=10839146
 
 I finally realized that the answer is to maintain a [project
-changelog](https://keepachangelog.com/en/1.0.0/) in the project's codebase
+changelog](https://keepachangelog.com) in the project's codebase
 under version control.
 
 As long as every meaningful change is mentioned in it, a developer can skim
@@ -19,9 +19,15 @@ like the one under consideration. Further, the commit history of the changelog
 itself will often point you towards changes involving a specific feature.
 
 One difficulty there is that the history is more useful to developers if it
-mentions changes to developer tooling and significant refactorings, but those
-are just noise to end-users.
+mentions changes to developer tooling and major refactorings, but those are
+just noise to end-users as long as the user interface has not changed.
 
 That suggests making an extension to the Keep A Changelog format so the full
-changelog can be filtered for end user viewing vs. developer usage, but I'm not
-sure what it might be.
+changelog can be filtered for end user viewing vs. developer usage. A
+reasonable one might be to add 'Tooling' and 'Refactored' `change types`_,
+representing changes to developer tooling and refactorings, respectively (if
+you want to keep the past-tense verbs convention, you could go with
+'Toolsmithed').
+
+.. _project changelog: https://keepachangelog.com/
+.. _change types: https://keepachangelog.com/en/1.0.0/#how
