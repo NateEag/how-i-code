@@ -24,8 +24,8 @@ In some cases, it's immediately obvious.
 .. TODO Expound on 'collecting data'. There are many ways to do it in software.
 
 When it is not, apply the scientific method. Collect data about the behavior
-until you derive a plausible explanation for it, then look for a simple, fast
-way to falsify or confirm your hypothesis.
+until you derive a plausible explanation for it, then design a simple, fast
+experiment to falsify or confirm your hypothesis.
 
 A good first step in data collection is checking for any useful logs, as many
 programs output a lot of diagnostic and informational data. If there are
@@ -40,15 +40,24 @@ development context and using a debugger, additional log statements, or other
 changes to the program to gain a clearer understanding of the issue's root
 cause.
 
-Reading the source code is another way to gather data and confirm or reject
-hypotheses about the program, but it takes longer than the methods listed
-above. It is also more vulnerable to human error. Make no mistake, it is a
-valuable tool, but not as helpful as you might hope.
+Finally, programmers have a great advantage that most experimental scientists
+do not. We can read the definition of the program we are investigating. In most
+cases we have the program's source code. In some cases we may not, but even
+then it is possible to decode the bytes comprising the program and gain an
+understanding of what they do, and there are tools to make that process easier
+(though even those are rarely used, as hexadecimal instructions have not been a
+preferred programming tool since the days of `punchcards`_). Reading code lets
+you confirm hypotheses, rather than simply fail to reject them as the pure
+scientific method must resign itself to. Be wary, however, of comprehension
+errors in your reading, as they are extremely common. As a data collection
+tool, reading code is the slowest option, but it can still be helpful in a
+pinch. Make no mistake, it is a valuable tool, but not as helpful as you might
+hope.
 
-No one of these techniques is a silver bullet. They are listed in order of
-preference, but the goal is to understand the problem quickly and fully.
-Combine them as needed. Do not prefer one excessively over the others, as no
-one of them is always the best answer.
+No one of these techniques is a silver bullet. The goal is to understand the
+problem fully with minimal time spent. Combine them as needed to achieve that
+goal. Do not prefer one excessively over the others, as no one of them is
+always the best answer.
 
 .. TODO Figure out if these are all the reasons a bug may disappear in dev.
 
@@ -100,6 +109,7 @@ to protect environments showing the behavior from your experiments. Look
 carefully for ways to falsify your theory with pre-existing data, as that
 rarely damages unexplained behavior.
 
+.. _punchcards: https://en.wikipedia.org/wiki/Punched_card
 .. _heisenbugs: https://en.wikipedia.org/wiki/Heisenbug
 .. _collect data: https://github.com/statsd/statsd
 .. _run experiments: https://github.com/github/scientist#alternatives
