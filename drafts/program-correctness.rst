@@ -19,10 +19,10 @@ sometimes, but some of them are obviously overkill for some cases.
 Automated Tests
 ===============
 
-Automated testing is a way to ensure programs continue to do what they have
-done before. They are largely a tool for avoiding regressions. Do not
+Automated testing is a way to check that programs still do what they have done
+in the past. They are largely a tool for avoiding regressions. Do not
 underestimate their value, though - a good test suite means you can refactor
-fearlessly, which itself can pay large dividend.
+fearlessly, which itself can pay large dividends.
 
 Functional tests, or end-to-end tests as they're sometimes called, are by far
 the most valuable ones. They are correspondingly the most difficult to write.
