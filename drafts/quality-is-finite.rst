@@ -28,4 +28,9 @@ This relates closely to the "definition of done" - since no program is ever
 perfect, it follows that no program is ever truly "done". Instead you should
 talk about what changes have been made in a version of a program, where those
 changes have been deployed, and what data is being monitored to detect any
-issues with those deployments.]
+issues with those deployments.
+
+A good example of quality being finite is how close to impossible it actually
+is to handle files correctly: https://danluu.com/deconstruct-files/ . Something
+that appears to work most of the time is incredibly easy, while something
+that's actually reliable at Google's scale is brutally difficult.]
