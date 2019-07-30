@@ -31,6 +31,7 @@ changes have been deployed, and what data is being monitored to detect any
 issues with those deployments.
 
 A good example of quality being finite is how close to impossible it actually
-is to handle files correctly: https://danluu.com/deconstruct-files/ . Something
-that appears to work most of the time is incredibly easy, while something
-that's actually reliable at Google's scale is brutally difficult.]
+is to handle files correctly: https://danluu.com/deconstruct-files/,
+https://apenwarr.ca/log/20101213 . Something that appears to work most of the
+time is incredibly easy, while something that's actually reliable at Google's
+scale is brutally difficult.]
