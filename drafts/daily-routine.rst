@@ -86,17 +86,20 @@ care about'.
    deliverables (docs, software) and helping people use the software. You can
    do the latter without having the skills to do the former.
 
-When checking project-related email (as opposed to personal correspondence),
-your goal is to convert messages into tasks in the project's shared task list
-or issues in the project's issue list. Anything that matters should not be
-living in your personal email collection.
+When checking work-related email (as opposed to personal correspondence), your
+goal is to convert messages into tasks in the appropriate project's shared task
+list or issues in the project's issue list. Anything that matters should not be
+living in your personal email collection, because then that item has a bus
+factor of 1.
 
 A secondary goal is to teach the people who sent you the emails to enter the
 items into the appropriate queues themselves, rather than routing them through
 you first (only relevant to teams with multiple people in each role).
 
-Begin with a quick pass through your inbox to eliminate any noise and be sure
-you know which items have the highest priority.
+Begin with a quick read of all unread emails pass through your inbox to
+eliminate any noise, be sure you know which items have the highest priority,
+and to make sure you don't act on stale information (e.g., responding to an
+email before seeing a more recent update).
 
 Then take a second pass through the messages you didn't delete or archive,
 starting with the highest priority item and working your way down.
