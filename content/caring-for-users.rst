@@ -47,6 +47,10 @@ it makes their lives better, `automate processes entirely`_, but give them
 simple, robust ways to bypass and override the automation, because `all systems
 fail`_.
 
+.. TODO Add link to The Moral Economy of Tech. It might pair well with the
+   observation that you need to care for the people who do *not* use your
+   software as well as your users: https://idlewords.com/talks/sase_panel.htm
+
 Protect them. If someone who does not use the software requests a feature,
 discuss it with actual users. Only add it if it helps them. If users request a
 feature that seems short-sighted or unwise, work with them to fully understand
