@@ -35,4 +35,10 @@ TODO Add a refined version of this HN post of mine to the essay:
 
 https://news.ycombinator.com/item?id=18664163
 
+TODO Discuss monorepos vs many repos. Maybe not in this essay, but somewhere.
+Mostly I see people argue the monorepo is better, but this defense of multirepo
+definitely hit me in the confirmation bias happy-place (could still be true,
+though - suffering confirmation bias doesn't actually mean you're wrong):
+https://yosefk.com/blog/dont-ask-if-a-monorepo-is-good-for-you-ask-if-youre-good-enough-for-a-monorepo.html
+
 .. _version control: http://en.wikipedia.org/wiki/Revision_control
