@@ -5,6 +5,13 @@ Debugging Programs
 :category: fundamentals
 :summary: Once you have understood a problem, it is nine-tenths solved.
 
+.. TODO Break this essay into pieces. It's getting large and unwieldy.
+
+.. TODO Consider extracting bug definition out to a core definitions doc for
+   workflow?
+
+A bug is a program behavior that does not match the expected behavior.
+
 .. TODO Link 'behave as expected' to an appropriate essay, maybe something
    about gathering requirements and how what devs and normals expect are often
    quite different.
@@ -15,6 +22,24 @@ The first step in doing so is to understand the behavior and the expectation.
 Sometimes user expectations are the problem, in which case documentation and
 user interfaces should be improved to stop misleading users. In other cases,
 the program's behavior is bad, in which case the behavior should be changed.
+
+If there is no formal definition of expected behavior, then classifying
+behaviors as bugs is a subjective undertaking.
+
+If you have a different support process for bugs than for feature development
+(e.g. "Bug fixes are free but new features are not."), it is important to have
+a way to know whether a behavior is a bug.
+
+A specification is useful for defining expected behavior. Once a client agrees
+in writing that the spec is an adequate description of what they want, the dev
+team is responsible for delivering only what it describes.
+
+Defining undefined behavior, redefining misfeatures, and defining new features
+are all enhancements, not bugfixes. They should be handled and billed
+accordingly.
+
+A simplified litmus test: If a change requires a change to the specification,
+it is an enhancement. If it does not, it is a bug fix.
 
 To fix unintended or unexpected behavior, you must first understand the root
 cause of the behavior.
