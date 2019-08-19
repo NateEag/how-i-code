@@ -31,6 +31,12 @@ ones you should spend years mastering and refining:
    I think it is not, but if I decide that I should explain why in the
    respective essays.
 
+.. TODO Put link to https://www.hillelwayne.com/post/performance-matters/ in
+   the not-yet-created essay on optimizing - you don't usually need to do it,
+   but baseline UI lagginess can be a major problem. See also Knuth on
+   optimization, Google's "performance is a feature", "measure before you
+   optimize", etc., etc., etc...
+
 * `Caring for users`_
 * `Understanding problems deeply`_
 * Listening
