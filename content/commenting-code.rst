@@ -46,12 +46,13 @@ That standard can be `enforced automatically`_, and with it your tools can
 help you understand abstractions quickly, by showing their documentation
 whenever and wherever you need it.
 
-.. _Programs must be written for people to read: https://mitpress.mit.edu/sicp/front/node3.html
+.. _Programs must be written for people to read:
+   https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-7.html
 .. _When they do: http://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/annotations/routing.html
 .. _just: https://www.python.org/dev/peps/pep-0257/
 .. _fine: http://usejsdoc.org/
 .. _maybe: http://ternjs.net/doc/manual.html#plugin_doc_comment
-.. _even: http://jedi.jedidjah.ch/en/latest/
+.. _even: https://jedi.readthedocs.io/en/latest/
 .. _wise: http://www.naturaldocs.org/
 .. _every line of code is a user interface: http://www.yacoset.com/Home/every-line-of-code-is-a-user-interface
 .. _adding: http://www.refactoring.com/catalog/extractVariable.html
