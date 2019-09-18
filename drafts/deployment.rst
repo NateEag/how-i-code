@@ -118,3 +118,11 @@ Finally, we fire up the inverse redirect - redirect all requests beginning with
 '/release-804ba2/' to a URL that doesn't have them, so that any users who are
 browsing on the old version of the site get sent back to the newly-released
 version.
+
+
+
+Bob Stouffer told me that Yahoo solved this by putting version numbers in their
+static file names and updating them for each release. As he pointed out, if
+you're smart you can update the file versions only for files that changed,
+thereby taking better advantage of caching. This is a lot like the above
+hashing approach, but not perhaps identical.
