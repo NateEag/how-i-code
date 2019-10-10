@@ -1,14 +1,15 @@
-Formalized workflows and processes eliminate certain types of mistakes at
+Formalized workflows and processes eliminate certain kinds of mistakes at
 the cost of flexibility.
 
 Be careful about introducing them.
 
-The goal of a process for humans should be to make it easier to do the right
-thing than the wrong thing.
+A process for humans should make it easier to do the right thing than the wrong
+thing.
 
-It is an error to try to make a human process in which it is impossible to do
-the wrong thing. If preventing all errors is conceptually possible and valuable
-enough to be achieved, then the process should be one for machines and
-therefore automated.
+It is an error to define a human process where the wrong thing is impossible.
+
+If it is possible to prevent all errors in the process is and that goal appears
+to have a positive return on investment, then the process should be automated
+and executed by machines.
 
 .. This one needs some time to sit and stew, obviously.
