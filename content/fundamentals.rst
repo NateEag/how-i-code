@@ -7,7 +7,7 @@ Fundamentals
 
 There is a never-ending torrent of technology and information screaming for
 your attention, insisting that without it, you are an inferior developer,
-incapable of doing anything of value.
+incapable of creating value.
 
 It is not so.
 
