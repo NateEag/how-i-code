@@ -16,6 +16,10 @@ the whole, no matter how complex it is. Only a deep-seated hunger to know will
 compel you into every last corner, driven more by obsessive curiousity than the
 need to solve.
 
+.. TODO Hyperlink this glorious exposition on the inherent complexity of text
+   editing. I think this essay is the right place to put it, but not 100% sure
+   of that. https://lord.io/blog/2019/text-editing-hates-you-too/
+
 Alas, the world is not perfect, and humans `have very small brains`_. There
 will always be unseen flaws in your grasp on a problem.
 
