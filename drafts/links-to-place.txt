@@ -1,0 +1,9 @@
+Here's a place to stack links whose appropriate home I don't know yet:
+
+http://rachelbythebay.com/w/2019/11/10/scale/ - a wonderful story of how
+autoscaling can bite you in the butt.
+
+https://www.jefftk.com/p/shared-cache-is-going-away - caches are no longer
+shared across domains as that turns out to be a security leak, so there's no
+longer any point to pulling files from a third-party JS CDN (if there ever was
+at all).
