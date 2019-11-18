@@ -7,3 +7,6 @@ https://www.jefftk.com/p/shared-cache-is-going-away - caches are no longer
 shared across domains as that turns out to be a security leak, so there's no
 longer any point to pulling files from a third-party JS CDN (if there ever was
 at all).
+
+I should read through The Programmer's Stone and see if parts of it are
+relevant for linking: http://programmersstone.com/
