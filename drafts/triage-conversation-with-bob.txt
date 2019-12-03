@@ -1,0 +1,95 @@
+A mildly-redacted instant message exchange I had with Bob Stouffer:
+
+Me:
+
+The correct name for user feedback from production that needs to be triaged is
+a "complaint". I cannot believe how long it took me to figure that out. "Issue"
+is such a tarpit of a name and idea.
+
+Triage is therefore the process of turning complaints into one of:
+
+- a duplicate of a canonical complaint
+- a bug report (does not work as specified)
+- a change request (specified behavior appears insufficient for user's self-reported needs)
+- a request for behavior clarification (specification is not clear and behavior is not self-evidently correct to user)
+
+then annotating the complaint with all needed information:
+
+- original report
+- reproduction steps
+- problem severity for user
+- problem frequency [deriveable from # of duplicate reports])
+- contact information for plaintiff [when feasible]
+
+and finally making sure the development team for the product updates its priorities as needed based on the complaint's resolution.
+
+Sat 12:18am
+
+I also realized that in a sane VCS, meant for human consumption, "merge
+requests" and "pull requests" are called "suggestions".
+
+Sat 12:20am
+
+That led to the realization that for projects that keep specs and bugs in the
+codebase and also have a canonicsl VCS node with a Web UI that supports editing
+files, the official bug report and feature request interfaces are just using
+that editor to create new files (i.e. "suggestions" above).
+
+The code review tools are then used for discussing the new suggestions.
+Suggestions that get made several times but which have been rejected for good
+reasons wind up in the project in the "rejected features" doc.
+
+ The end users and business people never have to know about the fact that this
+is all very programmer-friendly.
+
+Sat 12:25am
+
+Side bonus: this also shows how mortals can contribute to the specs without
+learning version control or text editing, and how a non-programmer can own the
+specifications when appropriate, while still having them live in the codebase.
+
+Sat 5:48pm
+
+Does that all make sense?
+
+If so, is it just so obvious that no one else needed to say it?
+
+Bob:
+Sat 6:07pm
+
+I think the wording insights would prove problematic if user-facing. And it's
+not a problem I have enough experience with to know whether it would be an
+improvement.
+
+Me:
+
+Sun 8:19am
+
+Ah, I see your point indeed.
+
+I was pondering how hard it would be to get traction for "complaint" even
+internally at most American companies, since they have such a deeply ingrained
+culture of avoiding any truth that is remotely unpleasant.
+
+I hadn't thought at all about how it could look to an outsider.
+
+Guess I should look up complaint in the thesaurus.
+
+Sun 8:21am
+
+Well, that was no help.
+
+Sun 8:27am
+
+I suppose you could argue that triage is about handling all user feedback, and
+step 1 is separating complaints and thank yous.
+
+I left that unsaid because it seems like a no-op.
+
+I guess, strictly speaking, not all actionable feedback is actually a
+complaint. There are suggestions and questions, too.
+
+Maybe actionable feedback should be filed as one of those three categories?
+
+Though that collides with my lovely oversimplified "suggestions" label for
+version control... ah well.

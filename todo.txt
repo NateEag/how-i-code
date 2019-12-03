@@ -1,3 +1,6 @@
+2019-12-03 Cut apart the insights from drafts/triage-conversation-with-bob.txt
+and put them where they go.
+
 2016-02-26 Store nginx config to prevent invalid caching in repository. This is
 currently an issue in prod.
 
@@ -15,7 +18,8 @@ human signs off on the verification process.
 
 2013-02-28 An article on indentation (category 'formatting') would be good. Why
 it matters, why use spaces, why nesting level matters (and thus why to wrap at
-80 chars).
+80 chars), and why above all formatting should be automated by the project
+tooling.
 
 2013-11-12 The "Fail Gracefully" article needs to explain what is meant by
 failing gracefully. Running it past Stephanie as a test made it clear that it
