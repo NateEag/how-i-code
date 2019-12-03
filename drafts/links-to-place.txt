@@ -10,3 +10,13 @@ at all).
 
 I should read through The Programmer's Stone and see if parts of it are
 relevant for linking: http://programmersstone.com/
+
+In the "how to do a specific technical job" category, here's a nice overview of
+how to monitor MySQL/MariaDB queries in progress:
+https://www.spinellis.gr/blog/20191103/
+
+The fact that I don't know where to put the query tracking link suggests that
+maybe I need a 'Trivia' section where I just keep specific knowledge of
+technical things I want to remember? Might sort of pollute the spirit of the
+site, not sure. Flip side is, the site is fundamentally about how I program,
+and looking up technical trivia instead of memorizing it is a big part of that.
