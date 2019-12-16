@@ -1,5 +1,11 @@
 Here's a place to stack links whose appropriate home I don't know yet:
 
+I'm a firm believer that many things don't need a computer at all.
+https://calmtech.com has a nice articulation of that concept (and seems to
+roughly align with my instincts about how technology should work [though I like
+having details more than they do, I think, usually available by drilling down
+past the core status signals]). This one probably deserves its own essay.
+
 http://rachelbythebay.com/w/2019/11/10/scale/ - a wonderful story of how
 autoscaling can bite you in the butt.
 
