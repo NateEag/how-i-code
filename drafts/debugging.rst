@@ -6,7 +6,7 @@ works almost everywhere, and is therefore critical for any programmer to
 learn - if you know it, you will rarely be without the tools to investigate a
 bug.
 
-It is generally more efficient to use a debugger for those jobs. I did use
+It is often more efficient to use a debugger for those jobs. I did use
 JBuilder's debugger extensively back when I wrote desktop Java, and more
 recently I've used Xcode's to help me debug issues with Cordova plugins that
 support iOS, and I use Emacs' built-in debuggers occasionally to help me with
@@ -32,8 +32,10 @@ which appear to be magical for debugging intermittent issues, especially when
 they support reverse debugging (a.k.a. [time-travel
 debuggers](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/time-travel-debugging-overview)).
 These are the debuggers I've vaguely wished for over the years of my career
-thus far. I have yet to use record/replay debugging for anything, but
-apparently [GDB supports
+thus far.
+
+I have yet to use record/replay debugging for anything, but apparently [GDB
+supports
 it](https://sourceware.org/gdb/current/onlinedocs/gdb/Process-Record-and-Replay.html#Process-Record-and-Replay),
 and there are [tools like rr](https://rr-project.org/) for C/C++ (I don't
 understand why it sits on top of GDB which already supports it - subject for
@@ -41,9 +43,9 @@ research if I ever care). Of special interest is that someone [did get this
 working for PHP 5](https://github.com/sidkshatriya/dontbug), that [MS built it
 in a ChakraCore-based NodeJS
 environment](https://github.com/Microsoft/ChakraCore/wiki/Roadmap#enhancing-host--platform-support)
-(which appears to use the Chrome Debug Protocol), and that [Firefox actually
-supports it right
-now](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/WebReplay#Comparison_with_other_projects).
+(which appears to use the Chrome Debug Protocol), and that [Firefox supports it
+right now in the built-in JS
+debugger](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/WebReplay#Comparison_with_other_projects).
 
 It is not clear to me whether DAP has any level of support for record/replay or
 reverse debugging. Looks like at least the VS Code Node.js debugger [uses
@@ -54,9 +56,15 @@ just one language. At the least it has to be using a semi-reasonable extension
 approach, and I know what to look for in code / specs to figure out what the
 deal is here.
 
+It is not as neat as replay/record debuggers, but Space Tracer looks handy for
+Python debugging. It is a command-line tool to unfolds your debugged code's
+execution into a set of annotations over the actual source code, showing a
+trace of how the values changed as it ran:
+http://donkirkby.github.io/live-py-plugin/space_tracer
+
 In summary:
 
 I have a good grasp of the fundamentals of debugging, which I need to explain
 here.
 
-My technique sucks and I should improve it.
+My technique is far from optimal and I should improve it.
