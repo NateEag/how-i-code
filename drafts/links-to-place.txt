@@ -17,6 +17,12 @@ at all).
 I should read through The Programmer's Stone and see if parts of it are
 relevant for linking: http://programmersstone.com/
 
+https://mobile.twitter.com/mcfunley/status/1194713711337852928 is a glorious
+overview of how not to scale a website, and how not to choose your technology
+stack. I feel like it's a good example of the risks of abstraction and why POCs
+are useful (if they'd written one and tested it at scale, they'd have realized
+it didn't work).
+
 In the "how to do a specific technical job" category, here's a nice overview of
 how to monitor MySQL/MariaDB queries in progress:
 https://www.spinellis.gr/blog/20191103/
