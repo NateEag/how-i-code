@@ -32,3 +32,7 @@ maybe I need a 'Trivia' section where I just keep specific knowledge of
 technical things I want to remember? Might sort of pollute the spirit of the
 site, not sure. Flip side is, the site is fundamentally about how I program,
 and looking up technical trivia instead of memorizing it is a big part of that.
+
+I have nowhere discussed the power of plain text. I'm a huge fan of it, so I
+probably should. I want to dig through this link to see what's interesting
+there: https://plaintextproject.online/articles.html
