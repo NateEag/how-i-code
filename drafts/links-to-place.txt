@@ -36,3 +36,15 @@ and looking up technical trivia instead of memorizing it is a big part of that.
 I have nowhere discussed the power of plain text. I'm a huge fan of it, so I
 probably should. I want to dig through this link to see what's interesting
 there: https://plaintextproject.online/articles.html
+
+Dan Luu has a ton of great stuff, but some standouts are:
+
+* https://danluu.com/keyboard-v-mouse/ on whether keyboards or mice are
+  actually consistently faster
+
+* https://danluu.com/empirical-pl/ on studies about whether static or
+  dynamically typed languages have generally lower defect rates
+
+* https://danluu.com/testing/ on automated testing and how to make programs
+  better with it (he does not subscribe to the "write lots of unit tests"
+  worldview)
