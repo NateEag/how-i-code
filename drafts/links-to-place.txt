@@ -1,27 +1,33 @@
 Here's a place to stack links whose appropriate home I don't know yet:
 
+
 I'm a firm believer that many things don't need a computer at all.
 https://calmtech.com has a nice articulation of that concept (and seems to
 roughly align with my instincts about how technology should work [though I like
 having details more than they do, I think, usually available by drilling down
 past the core status signals]). This one probably deserves its own essay.
 
+
 http://rachelbythebay.com/w/2019/11/10/scale/ - a wonderful story of how
 autoscaling can bite you in the butt.
+
 
 https://www.jefftk.com/p/shared-cache-is-going-away - caches are no longer
 shared across domains as that turns out to be a security leak, so there's no
 longer any point to pulling files from a third-party JS CDN (if there ever was
 at all).
 
+
 I should read through The Programmer's Stone and see if parts of it are
 relevant for linking: http://programmersstone.com/
+
 
 https://mobile.twitter.com/mcfunley/status/1194713711337852928 is a glorious
 overview of how not to scale a website, and how not to choose your technology
 stack. I feel like it's a good example of the risks of abstraction and why POCs
 are useful (if they'd written one and tested it at scale, they'd have realized
 it didn't work).
+
 
 In the "how to do a specific technical job" category, here's a nice overview of
 how to monitor MySQL/MariaDB queries in progress:
@@ -33,9 +39,11 @@ technical things I want to remember? Might sort of pollute the spirit of the
 site, not sure. Flip side is, the site is fundamentally about how I program,
 and looking up technical trivia instead of memorizing it is a big part of that.
 
+
 I have nowhere discussed the power of plain text. I'm a huge fan of it, so I
 probably should. I want to dig through this link to see what's interesting
 there: https://plaintextproject.online/articles.html
+
 
 Dan Luu has a ton of great stuff, but some standouts are:
 
