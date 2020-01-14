@@ -22,6 +22,11 @@ I should read through The Programmer's Stone and see if parts of it are
 relevant for linking: http://programmersstone.com/
 
 
+I should also finish reading through The Codeless Code, which has some
+magnificent bits. Reminiscent of The Tao of Programming.
+http://thecodelesscode.com/contents
+
+
 https://mobile.twitter.com/mcfunley/status/1194713711337852928 is a glorious
 overview of how not to scale a website, and how not to choose your technology
 stack. I feel like it's a good example of the risks of abstraction and why POCs
