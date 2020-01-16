@@ -51,10 +51,10 @@ ones you should spend years mastering and refining:
 * Data modeling
 * Using programs
 * Documenting programs
-* Writing maintainable programs
 * Adding features to programs
 * Removing features from programs
 * `Removing errors from programs`_
+* Writing maintainable programs
 * Improving program internals
 * Designing interfaces
 * Designing algorithms
