@@ -8,18 +8,43 @@ Triaging Issues
 .. TODO Move below paragraph to overall 'issue management' essay?
 
 When a program `surprises someone </software-surprises.html>`__, the
-development team should respond to it.
+project team should respond to it.
 
-Triage is taking the inbound user problem reports, figuring out how to resolve
-the user's problem, doing any internal bookkeeping to get the team started on
-necessary actions, then letting the user know what's happening.
+.. TOD Hyperlink to the not-yet-written 'listening' fundamental skills essay.
+
+Feedback triage is the act of converting user feedback into problem statements,
+prioritizing problems relative to one another, resolving problems in the
+prioritized order, and communicating clearly and promptly with the user
+throughout the process.
+
+Issue triage is a business-critical function and should be the top priority for
+any team that supports live software. `Caring for users
+</caring-for-users.html>`__ is the point of making software, and it is what
+sustainable software businesses get paid to do.
+
+It requires the whole team to work together well, and that each team member
+understand their role on the team.
+
+.. TODO Find a less ridiculous title than 'technical supporter'.
+
+A technical supporter is someone who handles communication with users, creates
+problem statements, and solves problems, but who does so without changing code
+(in more formal environments).
+
+A developer may do
+
+to user complaints and questions, `understanding their
+problem is </understanding-problems.html>`__, coming up with a solution to the
+problem, doing the internal bookkeeping to get the team started on corrective
+actions, and keeping the user up-to-date on the process.
 
 Issue triage is the process of receiving user feedback, determining the
 problem's severity, scope into well-defined, units of work in the project task
 database entries.
 
-Issue triage is a business-critical function and should be the top priority for
-any team that supports live software.
+There is a distinction between feedback and problems. Feedback is an initial
+communication from an end user. A problem is are clear descriptions of
+deficiencies
 
 Software is only useful when it `helps users </caring-for-users.html>`__. By
 definition any untriaged issue could be a hard blocker for all current users,
