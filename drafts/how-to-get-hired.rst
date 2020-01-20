@@ -131,6 +131,8 @@ they mostly enable a few crucial things:
 
 - sharing saved versions of the folder with other programmers.
 
+- Comparing two versions of the folder to see how they differ
+
 If you want to work as a professional software developer, you need to learn
 version control.
 
