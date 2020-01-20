@@ -188,7 +188,7 @@ of how JS works, as well as knowledge and skills that will serve you well in
 software development generally, even when using or learning other languages.
 
 You do not need to do all of Eloquent Javascript before doing anything else.
-Once you finish chapter 7, in fact, you should probably take a extended break
+Once you finish chapter 7, in fact, you should probably take an extended break
 to focus on other technical skills.
 
 It's probably worth keeping your exercises in Eloquent JS in a git repository,
