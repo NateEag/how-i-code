@@ -50,6 +50,12 @@ probably should. I want to dig through this link to see what's interesting
 there: https://plaintextproject.online/articles.html
 
 
+RFC 7282 contains a lot of deep insight about how to make sure all views are
+heard and accomodated in a large, decentralized organization. That could be
+helpful for technical leads in large orgs (though also for anyone in a position
+of power in a large organization): https://tools.ietf.org/html/rfc7282
+
+
 Dan Luu has a ton of great stuff, but some standouts are:
 
 * https://danluu.com/keyboard-v-mouse/ on whether keyboards or mice are
