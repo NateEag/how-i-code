@@ -21,3 +21,15 @@ sh-compatible, so newbies will never find them, but if they are sh-compatible,
 they're likely too confusing for a newbie.
 
 Is that true?
+
+
+
+Useful bash scripting tidbit I want to not forget:
+
+'tput cols' gets you the number of columns for the current terminal.
+
+'fold -sw <int>' wraps input text to be at most <int> columns wide.
+
+Write your multiline messages unwrapped in bash scripts, and tadaaa - you can
+use those to make your UI a little nicer. Just remember that 80 is about the
+widest an output message should ever be.
