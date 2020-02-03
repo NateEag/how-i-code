@@ -16,10 +16,13 @@ Process email inbox
 
 Empty the untriaged issues queues in my work projects (fifteen minute limit)
 
-Update local dev tools I track unstable with (Emacs packages, mostly)
-(twenty-minute limit)
+Update Emacs packages. Doing it daily keeps me from falling behind, which
+becomes a problem when breaking changes to packages stack up. Five-minute time
+limit; if there's a problem after updating, roll back changes and schedule time
+to deal with it later.
 
-Define goal for day (in shared task tracker)
+Define goal for day in shared task tracker. Create/assign task to myself, set
+due date to EOD.
 
 Announce goal for the day to get accountability. This is what standup meetings
 are for. Automation could help here - a command that announces your defined
