@@ -18,6 +18,10 @@ providers:
 
 https://github.com/interagent/http-api-design
 
+Also note that there is an IETF draft of a specification for using headers to
+warn about API deprecations / sunsets. Should keep an eye on it and adopt it if
+it gets accepted. https://tools.ietf.org/html/draft-dalal-deprecation-header-02
+
 This may be more a related article, but note also my realizations from a few
 months ago about caching in a RESTful client app, which I dump here for
 posterity:
