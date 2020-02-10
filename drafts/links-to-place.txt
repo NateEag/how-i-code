@@ -50,6 +50,13 @@ probably should. I want to dig through this link to see what's interesting
 there: https://plaintextproject.online/articles.html
 
 
+This a link I think it might be worth pondering, not one I'm already convinced
+belongs on the site. Proposes a format for capturing architectural decisions
+that's clearly modeled on the classic user story format ("As an administrator,
+I want to ban spammers so that my good commenters don't abandon the forum"):
+https://adr.github.io/
+
+
 RFC 7282 contains a lot of deep insight about how to make sure all views are
 heard and accomodated in a large, decentralized organization. That could be
 helpful for technical leads in large orgs (though also for anyone in a position
