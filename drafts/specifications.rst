@@ -1,3 +1,5 @@
+.. TODO Merge the documentation.rst draft with this one.
+
 I've been vaguely pondering how to keep specs and code tightly synchronized for
 the past few years.
 
@@ -42,9 +44,8 @@ reads cleanly in code comments.
 spec[@version]:feature/section/subsection[:startPos[:endPos]]? An example might
 look like spec@1.0.0:contacts-import/csv/validations/. Start/stop indices are
 probably too simplistic, but maybe instead we should ban them and force you to
-structure your doc finely enough that sub-ranges aren't necessary? No, don't
-require that - just warn people clearly that structuring is superior to
-indexing.
+structure your doc finely enough that sub-ranges aren't necessary. I think I
+like that.
 
 Projects using specrefs would need a tool to update specrefs across the project
 whenever someone changes an anchor's identifier (e.g., changes a section title)
@@ -57,10 +58,10 @@ specification have been implemented at a given point in the project's history.
 
 Commit messages are not the only places specrefs could be relevant. Programmers
 can use specrefs in comments to link code directly to the spot in the
-specification that describing the behavior being implemented. Given some
-tooling, maintainers could see not just the relevant part of the spec, but how
-that part of the spec evolved over time, and if code review tools integrate
-support, even the discussions that led to the spec's current state.
+specification describing the behavior being implemented. Given some tooling,
+maintainers could see not just the relevant part of the spec, but how that part
+of the spec evolved over time, and if code review tools integrate support, even
+the discussions that led to the spec's current state.
 
 Functional tests could also be annotated with specrefs, giving rise to the idea
 of 'spec coverage' - you can measure which parts of your specification are
