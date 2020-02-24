@@ -17,21 +17,28 @@ prioritizing problems relative to one another, resolving problems in the
 prioritized order, and communicating clearly and promptly with the user
 throughout the process.
 
-Issue triage is a business-critical function and should be the top priority for
-any team that supports live software. `Caring for users
+Feedback triage is a business-critical function and should be the top priority
+for any team that supports live software. `Caring for users
 </caring-for-users.html>`__ is the point of making software, and it is what
-sustainable software businesses get paid to do.
+sustainable software businesses are paid for.
 
-It requires the whole team to work together well, and that each team member
-understand their role on the team.
+Issue triage requires that the whole team work together well, and that all team
+members understand their role on the team.
 
 .. TODO Find a less ridiculous title than 'technical supporter'.
 
 A technical supporter is someone who handles communication with users, creates
-problem statements, and solves problems, but who does so without changing code
-(in more formal environments).
+problem statements based on user feedback, and solves problems, but who does so
+without changing code (in more formal environments).
 
-A developer may do
+A developer solves problems by changing programs.
+
+Developers may perform the technical supporter role when appropriate. Remember
+that they can move seamlessly to changing programs as the situation calls for
+it, which is both a strength and a weakness in technical support (it is easy to
+run down the rabbit-hole of changing software if you have the option, instead
+of staying relentlessly focused on communication and solving the user's problem
+by hook or crook).
 
 to user complaints and questions, `understanding their
 problem is </understanding-problems.html>`__, coming up with a solution to the
