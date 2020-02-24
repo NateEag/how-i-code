@@ -7,33 +7,45 @@ An attempt to define my daily workflow as a programmer.
 Start Of Day
 ------------
 
+Set reminder to eat lunch four hours from breakfast time. Reminder should go
+off five minutes before lunchtime.
+
 Process voicemails
 
-Process software notifications (IM, alarm/warning systems, RSS [for tracking
-software releases], etc)
+When on pager / production support duty, triage alerts and any auto-filed
+tickets. For any projects that do not yet have proper alerting / ticketing for
+production incidents, check system logs and triage any unusual entries.
 
-Process email inbox
+Triage email inbox. That means get everything read and see if anything urgent
+has come in since yesterday.
 
-Empty the untriaged issues queues in my work projects (fifteen minute limit)
+When on project management duty, empty the untriaged issue lists in the
+projects I'm managing (fifteen minute limit, so I don't burn all day on triage
+in huge, messy projects). When there's a dedicated PM for my projects that
+isn't me, skip this, but sometimes that's not how it goes.
 
-Review all assigned tasks with deadlines to make sure they're not falling
+Review my assigned tasks with deadlines to make sure they're not falling
 behind.
 
-Define goals for day in shared task tracker. Create/assign tasks to myself and
-make sure they're highest on my task list (hack for this in systems without
-support for universal task ordering - set due dates to EOD and find a view that
-shows your tasks sorted by due date).
+Now that I've gotten up to date on what's happening in the projects, define my
+goals for the day in the shared task tracker. Create/assign tasks as needed and
+make sure they're highest on my priority list (hack for this in systems without
+support for defining an order on individual user task lists - set due dates to
+EOD and find a view that shows your tasks sorted by due date).
 
-Update Emacs packages. Doing it daily keeps me from falling behind, which
-becomes a problem when breaking changes to packages stack up. Five-minute time
-limit; if there's a problem after updating, roll back changes and schedule time
-to deal with it later.
+Announce goals for the day to get accountability. This is what standup meetings
+are for, but I want to make sure I do this promptly and even in contexts that
+don't use daily goal setting.
 
-Announce goal for the day to get accountability. This is what standup meetings
-are for. Automation could help here - a command that announces your defined
-goal for the day to the group chat half an hour after you've logged on, or "I
-don't know what I'm doing today" if you haven't yet defined one provides
-pressure in the right direction.
+If involved in projects that do not have functional alerting/auto-ticketing,
+monitoring, and logging systems, spend thirty minutes working on getting
+alerting/auto-ticketing, monitoring, and logging systems in place. Reason:
+without those components silent failures may be destroying you.
+
+Process low-priority software notifications (RSS [for tracking software
+releases], desktop software update notifications).
+
+Kick into goal achievement routine for the day.
 
 
 Goal Achievement routine
@@ -161,9 +173,32 @@ containing it, look for one, in case it already exists.
 
 After any work-related conversation, in any medium, do the following things:
 
-* Add any new goals or tasks to the shared task list
-* Add documentation tasks for any questions you answered that don't have docs
-* Re-check your priorities to see if you should jump to one of the new goals
+* Add any new tasks to the shared task list
+
+* Add documentation tasks for any questions you answered without doc links (if
+  you cannot find a link for the relevant docs as above)
+
+* Re-check your current goals to see if you should replace any of them with one
+  of the new tasks
+
+
+Noticing Unrelated Issues
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+I notice things that are broken (or at least not ideal) multiple times an hour,
+at least. Yay for detail-orientation.
+
+To keep that from derailing me completely, I do *not* address those problems
+when I see them. Instead, I throw a task into the appropriate project's
+untriaged tasks list for future consideration and research, with just enough
+information that I don't lose track of it.
+
+Exceptions are made for low-risk changes (erroneous comments/docs/etc) where
+making the change is faster than filing a task for it.
+
+Even this can keep me pretty interrupted. This may need further refinement.
+
+TODO Find a smoother, quicker way to note such things without distraction.
 
 
 Tooling Defects
@@ -195,3 +230,35 @@ encounters is important).
 If you decide not to fix it, leave the reason why in the todo list entry, so
 you (and others) know why you decided not to, for the next time the issue comes
 up.
+
+
+Lunchtime
+---------
+
+When reminder goes off, set five-minute timer. Take the five minutes to freeze
+my current mental state (commit WIP, push, update task with status), then let
+the team know I'm eating lunch.
+
+After lunch, set "done for day" reminders for four hours from resuming work.
+Reminders should fire at thirty minutes and five minutes before day's
+completion (see EOD section).
+
+
+End Of Day
+----------
+
+When it goes off, take five minutes to save mental state on the current
+project. That means making/pushing a WIP commit and updating the corresponding
+task with notes to help me restore my state (or help a coworker do so should
+someone else pick it up from me).
+
+Update Emacs packages. Doing it daily keeps me from falling behind, which
+becomes a problem when breaking changes to packages stack up. 10 minute time
+limit, implemented as a 5-minute timer and a second 5-minute timer. If I catch
+a problem after updating I can't solve within the limit, roll back changes and
+schedule time to deal with it tomorrow.
+
+Take the remaining fifteenish minutes to chip away at a piece of technical
+debt. Set a reminder to stop 5 minutes before EOD, so I have time to freeze
+mental state. TODO Extract "freeze mental state" to its own essay. The why
+behind it is worth explaining, because it isn't just about me.
