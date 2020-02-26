@@ -76,6 +76,10 @@ reliability:
 
 service reliability = number of successful requests / number of requests
 
+(Note that the G Suite team proposes a better metric for reliability, windowed
+user-uptime, as described in this post:
+https://blog.acolyer.org/2020/02/26/meaningful-availability/ )
+
 The obvious question is then "What is the right level of reliability?"
 
 That, they argue, is a business decision, based on the importance of the
