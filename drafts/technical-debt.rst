@@ -21,3 +21,11 @@ Specifically, it talks about "normalization of deviance".
 
 It's one thing to have technical debt, or to take it on intentionally - it's
 another entirely to insist that you don't have any when you actually have lots.
+
+Here is an article on the subject of rewrites and how you do them. The author
+claims to have done two major ones by the strategy I would naively endorse at
+this point: keep the UI working the same throughout, draw hard internal API
+lines, and work systematically towards removing the old problems. Well worth
+reflecting on.
+
+https://increment.com/software-architecture/exit-the-haunted-forest/
