@@ -50,7 +50,7 @@ probably should. I want to dig through this link to see what's interesting
 there: https://plaintextproject.online/articles.html
 
 
-This a link I think it might be worth pondering, not one I'm already convinced
+Here's a link I think might be worth pondering, not one I'm already convinced
 belongs on the site. Proposes a format for capturing architectural decisions
 that's clearly modeled on the classic user story format ("As an administrator,
 I want to ban spammers so that my good commenters don't abandon the forum"):
