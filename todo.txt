@@ -1,9 +1,16 @@
 2020-03-09 Explain dealing with third-party dependencies, including "always
 subscribe to/monitor all news/update channels they provide", as it's a mistake
-to depend on them to warn you about changes that will impact you (see the
-Google Play v2 purchase verification API shutdown, where they never sent an
-email notification and our workflows at work meant we happened to never see the
-dashboard notifications [presumably our clients never did either])
+to depend on them to warn you about changes that will impact you. This lesson
+brought to you by the Google Play v2 purchase verification API shutdown, where
+they never sent an email notification to work's developer account and our
+workflows meant we happened to never see the dashboard notifications
+[presumably our clients never did either, or at least didn't bother to tell
+us], and also by the Apple UIWebView deprecation, where they didn't establish a
+cutoff date for a year, but when they did we saw nothing about it for two
+months after it was announced (because, again, they sent us nothing about it
+specifically and we didn't happen to upload new apps for a while after the
+announcement happened). Mildly striking coincidence that both of those happened
+so close to each other.
 
 2019-12-03 Cut apart the insights from drafts/triage-conversation-with-bob.txt
 and put them where they go.
