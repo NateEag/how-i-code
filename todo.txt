@@ -1,3 +1,10 @@
+2020-03-09 Explain dealing with third-party dependencies, including "always
+subscribe to/monitor all news/update channels they provide", as it's a mistake
+to depend on them to warn you about changes that will impact you (see the
+Google Play v2 purchase verification API shutdown, where they never sent an
+email notification and our workflows at work meant we happened to never see the
+dashboard notifications [presumably our clients never did either])
+
 2019-12-03 Cut apart the insights from drafts/triage-conversation-with-bob.txt
 and put them where they go.
 
