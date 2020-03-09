@@ -1,6 +1,9 @@
 2019-12-03 Cut apart the insights from drafts/triage-conversation-with-bob.txt
 and put them where they go.
 
+2020-03-09 Share realization that unit tests are a great fit for writing pure
+functions.
+
 2016-02-26 Store nginx config to prevent invalid caching in repository. This is
 currently an issue in prod.
 
