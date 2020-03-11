@@ -37,7 +37,7 @@ Not sure it's quite true, but there's the germ of a good idea there, I think.
 
 When novice programmers flail wildly making apparently-random changes to code
 in response to unexpected behavior, they're refusing to introspect, because it
-is hard, frightening, humbling work.
+is hard, intimidating, humbling work.
 
 The mark of the master is the casual head-nod when their old friend failure
 steps across the threshold of their terminal once again.
