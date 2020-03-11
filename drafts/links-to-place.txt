@@ -8,6 +8,11 @@ having details more than they do, I think, usually available by drilling down
 past the core status signals]). This one probably deserves its own essay.
 
 
+A summary of what techniques actually matter for software quality (keep your
+team happy, not-overworked, and well-rested), based on what the research tells
+us: https://increment.com/teams/the-epistemology-of-software-quality/
+
+
 http://rachelbythebay.com/w/2019/11/10/scale/ - a wonderful story of how
 autoscaling can bite you in the butt.
 
