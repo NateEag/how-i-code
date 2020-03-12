@@ -4,6 +4,15 @@ Daily Routine
 An attempt to define my daily workflow as a programmer.
 
 
+Invariants
+----------
+
+Set a daily reminder for five minutes before my average departure time. This
+helps keep me from being habitually late clocking out (research says effective
+programmers do not overwork:
+https://increment.com/teams/the-epistemology-of-software-quality/ )
+
+
 Start Of Day
 ------------
 
@@ -239,18 +248,18 @@ When reminder goes off, set five-minute timer. Take the five minutes to freeze
 my current mental state (commit WIP, push, update task with status), then let
 the team know I'm eating lunch.
 
-After lunch, set "done for day" reminders for four hours from resuming work.
-Reminders should fire at thirty minutes and five minutes before day's
-completion (see EOD section).
+After lunch, adjust "done for day" reminders to go off before quitting time.
+Reminders should fire at thirty minutes (wrap up heavy work) and five minutes
+before day's completion (see EOD section).
 
 
 End Of Day
 ----------
 
-When it goes off, take five minutes to save mental state on the current
-project. That means making/pushing a WIP commit and updating the corresponding
-task with notes to help me restore my state (or help a coworker do so should
-someone else pick it up from me).
+When the EOD reminder goes off, take five minutes to save mental state on the
+current project. That means making/pushing a WIP commit and updating the
+corresponding task with notes to help me restore my state (or help a coworker
+do so should someone else pick it up from me).
 
 Update team on whether you achieved your goal or not. If not, explain why and
 how you're adjusting your plans based on what you learned.
