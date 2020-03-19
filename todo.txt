@@ -1,3 +1,14 @@
+2020-03-19 Explain that dependency declarations (e.g., lists of programs and
+libraries to install) should live alongside the features that require them.
+E.g., if you have installed libaspell15 to support spellchecking, the features
+in the program that utilize spellchecking should be the ones that contain the
+environment-building logic to install it and configure it as needed. This ties
+to my slow-dawning realizations about literate programming, how programs should
+be organized by feature (yes, with shared libraries in shared places), and that
+specifications and docs are different aspects of the same thing and should be
+woven together from many small. See commit message that added this item for
+more thoughts.
+
 2020-03-09 Explain dealing with third-party dependencies, including "always
 subscribe to/monitor all news/update channels they provide", as it's a mistake
 to depend on them to warn you about changes that will impact you. This lesson
