@@ -55,5 +55,5 @@ Redesigning your data structures to only include necessary information may be
 wise, but mangling your existing ones chasing bytes is not.
 
 Note that reducing resource consumption is a different goal than improving
-perceived end user experience. The two goals are not entirely unrelated, but be
-careful not to optimize one when you should be focusing on the other.
+perceived end user experience. The two goals are not unrelated, but be careful
+not to optimize one when you should be focusing on the other.
