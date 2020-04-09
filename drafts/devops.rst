@@ -1,4 +1,7 @@
-Just keeping some notes as I read Google's SRE O'Reilly book.
+Just keeping some notes as I read Google's SRE O'Reilly book. I have a physical
+copy of it, but it can be found digitally here, along with two companion
+volumes (one is a workbook, the other about security and reliability)
+https://landing.google.com/sre/books/.
 
 They may eventually evolve into a set of essays strongly inspired by (and
 credited to) the aforementioned book. I guess we'll see.
@@ -77,14 +80,14 @@ reliability:
 service reliability = number of successful requests / number of requests
 
 (Note that the G Suite team proposes a better metric for reliability, windowed
-user-uptime, as described in this post:
+user-uptime, in this post:
 https://blog.acolyer.org/2020/02/26/meaningful-availability/ )
 
 The obvious question is then "What is the right level of reliability?"
 
 That, they argue, is a business decision, based on the importance of the
-product to customers, how much use the product can still be at various levels
-of unreliability, and so on. TODO Flesh out the weasel words "and so on."
+product to customers, how useful the product can be at various levels of
+unreliability, and so on. TODO Flesh out the weasel words "and so on."
 
 With that decision in hand, the team defines a reliability budget (e.g. 99.5%
 request success rate this quarter). Dev can push new code as long as they
