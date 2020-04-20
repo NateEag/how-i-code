@@ -57,6 +57,19 @@ releases], desktop software update notifications).
 Kick into goal achievement routine for the day.
 
 
+After Lunch
+-----------
+
+Do another alerts / inbound email triage run.
+
+If triage does not present immediate priority issues, take up to half an hour
+to follow up on items from your email inbox. This is the part of the day where
+I try to get my inbox to zero (by saving it until now I don't waste the early
+morning on communications).
+
+Return to goal achievement,
+
+
 Goal Achievement routine
 ------------------------
 
@@ -170,7 +183,7 @@ People take priority over daily goals except when failing goals will severely
 damage the business (TODO define 'severely damage'. Goals where failure to
 achieve them in time may quickly damage the company's ability to remain
 solvent?). Therefore, `encourage humans to interrupt you
-<http://paulgraham.com/hamming.html>`__ by IM, face-to-face/video
+<http://paulgraham.com/hamming.html>`__ by IM, face-to-face or video
 conversations, and phone calls.
 
 The best way to answer project-related questions is a link to existing
@@ -182,7 +195,14 @@ containing it, look for one, in case it already exists.
 
 After any work-related conversation, in any medium, do the following things:
 
-* Add any new tasks to the shared task list
+* Add new tasks to the shared task list. If there are no new tasks for anyone,
+  go meta and consider whether the discussion (a.k.a. "meeting") was a failure
+  and needs to be attempted again. In my view, meetings that result in no
+  action items are failures (the whole point of a meeting is to bring multiple
+  minds together to understand a situation or problem better and figure out who
+  should do what about the situation - exception for one-on-ones as those are
+  about relationship maintenance and won't always have concrete actionable
+  outcomes [though if they usually don't that's probably a bad sign]).
 
 * Add documentation tasks for any questions you answered without doc links (if
   you cannot find a link for the relevant docs as above)
