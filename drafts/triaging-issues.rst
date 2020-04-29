@@ -95,6 +95,20 @@ be notified once an issue is resolved.
 Paired with human analysis of the issue's severity, that gives you exactly what
 you need to prioritize development work.
 
+A note on priority levels for complaints:
+
+Critical means "all hands on deck because there's blood everywhere".
+
+Urgent means "Needs attention from someone right now".
+
+Normal means "follow the usual flows, no need to interrupt anyone".
+
+Low means "follow the usual flows, but don't be afraid to ignore this entirely
+for ages, because it just doesn't matter that much."
+
+.. TODO Explain the priorities above more thoroughly. I think they're
+   reasonably self-explanatory, but I could probably make them clearer.
+
 .. TODO Finish writing this.
 
 .. TODO Digest this monster essay thoroughly, as it's full of good ideas:
