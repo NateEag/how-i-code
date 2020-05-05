@@ -75,4 +75,7 @@ details of branching behind a "Suggest A Change" button, and offering a simple
 "Publish" button that generates the static site and pushes it to a webserver,
 and that system would be exactly what I want for letting normal people
 contribute to the specs. It just needs to allow access only to the specs
-somehow. If only Git had a per-repo access control mechanism built-in.
+somehow. If only Git had a per-file access control mechanism built-in.
+
+See /drafts/documentation.rst for some related insights and notes on a
+possible specref format.
