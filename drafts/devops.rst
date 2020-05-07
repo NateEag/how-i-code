@@ -163,3 +163,40 @@ other mission-critical data, like who's on call or how many open tickets there
 are)
 
 Alert - notification meant to be read and acted upon by a human.
+
+
+Round-Robin DNS Load Balancing
+==============================
+
+Browsers will try all round-robined DNS A records til they find an IP address
+that actually responds:
+
+https://webmasters.stackexchange.com/questions/10927/using-multiple-a-records-for-my-domain-do-web-browsers-ever-try-more-than-one
+
+This is not universal behavior or something you want to rely on blindly (if one
+cluster is serving 500s, well, the connection is still valid so browsers will
+happily keep hitting it, not all tools do this level of work themselves, etc).
+
+Nonetheless - if you want distributed redundant systems for robustness against
+datacenter outages, this is an easy way to get it. Set up clusters in different
+datacenters and round-robin DNS to all the load balancers. Modern browsers
+should just keep working pretty smoothly if a load balancer goes down.
+
+Further, if something goes horribly wrong in one of the clusters, you can
+remove the whole cluster from usage pretty smoothly by just taking the load
+balancer offline. That only works for web apps, though, where you can rely on
+browser behavior. For HTTP APIs, this isn't a viable answer, since you
+shouldn't rely on the clients to implement this behavior (maybe you could
+require it for clients to internal-only APIs, but if you're big enough to have
+internal-only APIs you probably have better answers overall).
+
+This should be especially useful when rolling out major changes and cutovers -
+changes to DNS can take a while to propagate, but this browser behavior gives
+you a way to mostly mitigate that.
+
+Obviously staged rollouts by weighted round-robin and geographic
+restrictions helps too, but the above is a handy way to do things.
+
+Keep a replica master DB instance in a separate datacenter, get solid failover
+in place, and you should be pretty robust against most disasters that can
+befall you.
