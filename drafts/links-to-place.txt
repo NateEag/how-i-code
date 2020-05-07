@@ -35,8 +35,8 @@ http://thecodelesscode.com/contents
 https://mobile.twitter.com/mcfunley/status/1194713711337852928 is a glorious
 overview of how not to scale a website, and how not to choose your technology
 stack. I feel like it's a good example of the risks of abstraction and why POCs
-are useful (if they'd written one and tested it at scale, they'd have realized
-it didn't work).
+are useful (if they'd written one and tested it at scale by forwarding copies
+of requests from their LBs, they'd have realized it didn't work).
 
 
 In the "how to do a specific technical job" category, here's a nice overview of
@@ -48,6 +48,8 @@ maybe I need a 'Trivia' section where I just keep specific knowledge of
 technical things I want to remember? Might sort of pollute the spirit of the
 site, not sure. Flip side is, the site is fundamentally about how I program,
 and looking up technical trivia instead of memorizing it is a big part of that.
+Ah - I now know that the *pointer* to these things belongs in reference sheets
+that are exported into my Anki deck (so I remember they exist).
 
 
 I have nowhere discussed the power of plain text. I'm a huge fan of it, so I
@@ -79,3 +81,7 @@ Dan Luu has a ton of great stuff, but some standouts are:
 * https://danluu.com/testing/ on automated testing and how to make programs
   better with it (he does not subscribe to the "write lots of unit tests"
   worldview)
+
+
+This post on rethinking the terminal UI is really fascinating and mirrors some
+thoughts I've had myself: https://blog.repl.it/clui
