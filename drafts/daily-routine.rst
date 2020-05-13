@@ -202,9 +202,30 @@ Communications
 People take priority over daily goals except when failing goals will severely
 damage the business (TODO define 'severely damage'. Goals where failure to
 achieve them in time may quickly damage the company's ability to remain
-solvent?). Therefore, `encourage humans to interrupt you
+solvent?). Therefore, `encourage humans to interrupt you as needed
 <http://paulgraham.com/hamming.html>`__ by IM, face-to-face or video
 conversations, and phone calls.
+
+.. TODO Link 'shared task tracker' to an appropriate project management essay.
+
+If the interruption is to about a task's status, make sure the task is
+up-to-date in the tracker, then point the interrupter to the item's URL in the
+task tracker (if you don't have a shared task tracker, get one).
+
+If the interruption is to introduce a new piece of work, ask the interrupter to
+file a task in the tracker. Since they're interrupting, check whether the task
+is an immediate or urgent priority (i.e., do they want you to drop your current
+work to tackle this immediately). If so, take a minute to understand the
+problem and see if you agree that it should be handled immediately and discuss
+further if needed.
+
+If the interruption is mainly social and you're deep in something, consider
+asking if you can catch up later. If you do, set a reminder to actually catch
+up later, and don't always defer things - we work with people, not robots.
+Interpersonal relationships matter, and are far more important to a project's
+success than almost any specific technical task. Further, if you never interact
+socially, your "door is always closed" (or, "your headphones are always on", to
+adapt Hamming's idea to the modern open-plan office).
 
 The best way to answer project-related questions is a link to existing
 documentation that answers the question. In many ways, a developer serves as a
