@@ -31,8 +31,36 @@ small feature, bugfix, whatever.
 The point is to boost your morale and get something useful done, which is
 especially important if an unclear, difficult task is your main focus.
 
+If involved in projects that do not have functional alerting/auto-ticketing,
+monitoring, and logging systems, a good choice for those thirty minutes is
+taking the next step to getting alerting/auto-ticketing, monitoring, and
+logging systems in place. Reason: without those components silent failures may
+be causing a lot of damage.
+
 Tell the team what task you're going to do. When the timer goes, let them know
 whether you got it done or not.
+
+Review my assigned tasks with deadlines to make sure they're not falling
+behind.
+
+Now that I've gotten up to date on what's happening in the projects, define my
+goals for the day in the shared task tracker.
+
+This should not take more than five minutes - if it does, then the problem I'm
+focused on is poorly-defined and my goal should be to define it more clearly.
+
+In that case, say specifically what part I want to define clearly -
+my deliverable is probably a specification of some sort (possibly a POC spec or
+partial spec).
+
+Create/assign tasks as needed and make sure they're highest on my priority list
+(hack for this in systems without support for defining an order on individual
+user task lists - set due dates to EOD and find a view that shows your tasks
+sorted by due date).
+
+Announce the day's goal to the team for accountability. This is what standup
+meetings are for, but I want to make sure I do this promptly and even in
+contexts that don't use daily goal setting.
 
 
 Information Triage
@@ -49,27 +77,12 @@ Triage email inbox. That means get everything read and see if anything urgent
 has come in since yesterday.
 
 When on project management duty, empty the untriaged issue lists in the
-projects I'm managing (fifteen minute limit, so I don't burn all day on triage
-in huge, messy projects). When there's a dedicated PM for my projects that
-isn't me, skip this, but sometimes that's not how it goes.
+projects I'm managing. When there's a dedicated PM for my projects that isn't
+me, skip this, but sometimes that's not how it goes.
 
-Review my assigned tasks with deadlines to make sure they're not falling
-behind.
-
-Now that I've gotten up to date on what's happening in the projects, define my
-goals for the day in the shared task tracker. Create/assign tasks as needed and
-make sure they're highest on my priority list (hack for this in systems without
-support for defining an order on individual user task lists - set due dates to
-EOD and find a view that shows your tasks sorted by due date).
-
-Announce goals for the day to get accountability. This is what standup meetings
-are for, but I want to make sure I do this promptly and even in contexts that
-don't use daily goal setting.
-
-If involved in projects that do not have functional alerting/auto-ticketing,
-monitoring, and logging systems, spend thirty minutes working on getting
-alerting/auto-ticketing, monitoring, and logging systems in place. Reason:
-without those components silent failures may be destroying you.
+Check the previous day's log for any undone todo items. File tasks as
+appropriate, but do *not* just copy them into today's file, as that tends to
+propagate TODOs for weeks and months.
 
 Process low-priority software notifications (RSS [for tracking software
 releases], desktop software update notifications).
@@ -80,14 +93,15 @@ Kick into goal achievement routine for the day.
 After Lunch
 -----------
 
-Do another alerts / inbound email triage run.
+Do another information triage run.
 
 If triage does not present immediate priority issues, take up to half an hour
 to follow up on items from your email inbox. This is the part of the day where
 I try to get my inbox to zero (by saving it until now I don't waste the early
-morning on communications).
+morning on communications). It's fine if it doesn't get to 0, as long as
+there's less in it than there was at EOD yesterday.
 
-Return to goal achievement,
+Return to goal achievement.
 
 
 Goal Achievement routine
@@ -116,9 +130,6 @@ If task proves to be ill-conceived, reconsider task breakdown and goal
 selection in context of whole project. Add, change, and remove tasks and goals
 as appropriate based on discoveries.
 
-
-Scheduled Events
-----------------
 
 Handling Email
 --------------
@@ -195,10 +206,6 @@ Prune notifications ruthlessly. Their purpose is to tell you about events that
 require immediate attention, so turn off notifications for any event you can
 safely handle via scheduled batch job (whether literal or figurative).
 
-
-Communications
-~~~~~~~~~~~~~~
-
 People take priority over daily goals except when failing goals will severely
 damage the business (TODO define 'severely damage'. Goals where failure to
 achieve them in time may quickly damage the company's ability to remain
@@ -224,7 +231,7 @@ asking if you can catch up later. If you do, set a reminder to actually catch
 up later, and don't always defer things - we work with people, not robots.
 Interpersonal relationships matter, and are far more important to a project's
 success than almost any specific technical task. Further, if you never interact
-socially, your "door is always closed" (or, "your headphones are always on", to
+socially, "your door is always closed" (or, "your headphones are always on", to
 adapt Hamming's idea to the modern open-plan office).
 
 The best way to answer project-related questions is a link to existing
@@ -233,6 +240,10 @@ human index for the docs she writes.
 
 If you know the answer to a question but do not have a link to documentation
 containing it, look for one, in case it already exists.
+
+
+Communications
+~~~~~~~~~~~~~~
 
 After any work-related conversation, in any medium, do the following things:
 
@@ -252,6 +263,25 @@ After any work-related conversation, in any medium, do the following things:
   of the new tasks
 
 
+Daily Log
+---------
+
+I keep a file of notes organized by day as I work. Most things do NOT belong in
+here, because they belong in the shared systems: notes on architecture and
+spitballing on how to make a concept work go in the project docs, notes to
+yourself as you think through a task belong in the task's detailed comments (so
+if someone else has to take over, they have all the knowledge you created right
+there), and so on.
+
+I keep a list of things to do today, and a list of things I have done today in
+there.
+
+This way, I can always go back and see what I actually *did* a given day. It's
+sometimes redundant with the formal shared systems, but that's okay. This is
+just for my personal use and to give me a quick way to make note of random
+things I need to follow up on.
+
+
 Noticing Unrelated Issues
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -259,16 +289,19 @@ I notice things that are broken (or at least not ideal) multiple times an hour,
 at least. Yay for detail-orientation.
 
 To keep that from derailing me completely, I do *not* address those problems
-when I see them. Instead, I throw a task into the appropriate project's
-untriaged tasks list for future consideration and research, with just enough
-information that I don't lose track of it.
+when I see them.
+
+Instead, I throw a task into the appropriate project's untriaged tasks list for
+future consideration and research, with just enough information that I don't
+lose track of it.
 
 Exceptions are made for low-risk changes (erroneous comments/docs/etc) where
 making the change is faster than filing a task for it.
 
 Even this can keep me pretty interrupted. This may need further refinement.
 
-TODO Find a smoother, quicker way to note such things without distraction.
+TODO Start putting catches in daily log's TODO list and filing them later?
+Perhaps as part of the information triage routine, maybe?
 
 
 Tooling Defects
