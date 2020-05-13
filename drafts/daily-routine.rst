@@ -239,9 +239,9 @@ After any work-related conversation, in any medium, do the following things:
 * Add new tasks to the shared task list. If there are no new tasks for anyone,
   go meta and consider whether the discussion (a.k.a. "meeting") was a failure
   and needs to be attempted again. In my view, meetings that result in no
-  action items are failures (the whole point of a meeting is to bring multiple
-  minds together to understand a situation or problem better and figure out who
-  should do what about the situation - exception for one-on-ones as those are
+  action items are failures. The point of meetings is to bring multiple minds
+  together to understand a situation or problem better and figure out who
+  should do what about the situation (exception for one-on-ones as those are
   about relationship maintenance and won't always have concrete actionable
   outcomes [though if they usually don't that's probably a bad sign]).
 
