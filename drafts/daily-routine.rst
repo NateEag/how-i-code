@@ -17,9 +17,29 @@ Start Of Day
 ------------
 
 Set reminder to eat lunch four hours from breakfast time. Reminder should go
-off five minutes before lunchtime.
+off five minutes before lunchtime so you have a few minutes to save state on
+your current task.
 
-Process voicemails
+Do information triage (see that section), but constrain it to at most 30
+minutes.
+
+Once triage is done, pick an easy, small task that you believe will offer a
+quick win for someone and try to do it. Timebox it to 30 minutes + leftover
+time from the triage timebox. This can be anything you want - technical debt,
+small feature, bugfix, whatever.
+
+The point is to boost your morale and get something useful done, which is
+especially important if an unclear, difficult task is your main focus.
+
+Tell the team what task you're going to do. When the timer goes, let them know
+whether you got it done or not.
+
+
+Information Triage
+------------------
+
+Process voicemails. I rarely get any so I don't have much routine around this -
+just convert them to tasks in the shared trackers as appropriate.
 
 When on pager / production support duty, triage alerts and any auto-filed
 tickets. For any projects that do not yet have proper alerting / ticketing for
