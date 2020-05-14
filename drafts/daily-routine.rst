@@ -93,6 +93,10 @@ Kick into goal achievement routine for the day.
 After Lunch
 -----------
 
+Set reminder to stop for EOD. It should go off half an hour before quitting
+time, so I have time to save my state and follow up on todo items I've added to
+the daily log throughout the day.
+
 Do another information triage run.
 
 If triage does not present immediate priority issues, take up to half an hour
