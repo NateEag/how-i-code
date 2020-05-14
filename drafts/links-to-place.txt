@@ -85,3 +85,7 @@ Dan Luu has a ton of great stuff, but some standouts are:
 
 This post on rethinking the terminal UI is really fascinating and mirrors some
 thoughts I've had myself: https://blog.repl.it/clui
+
+
+A post on time management for developers that mirrors a lot of my recent
+attempts to improve: https://www.stevestreeting.com/2010/09/04/work-2-0/
