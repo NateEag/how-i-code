@@ -49,6 +49,8 @@ this with a Git repo, and given the number of $VCS -> Git converters out there,
 you can probably apply any of these history heatmappers to the average project
 (though it may require patience for the conversion).
 
+(Note from future: I currently use git-heatmap for this job.)
+
 I'd like one that gives you details about file contents, not just which files
 have churned. It's unfortunately common for projects to have a few gigantic
 files that see tons of edits, and large swathes of those files may stay pretty
