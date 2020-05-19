@@ -87,8 +87,6 @@ propagate TODOs for weeks and months.
 Process low-priority software notifications (RSS [for tracking software
 releases], desktop software update notifications).
 
-Kick into goal achievement routine for the day.
-
 
 After Lunch
 -----------
