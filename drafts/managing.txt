@@ -1,0 +1,44 @@
+Managing people is not a requisite skill for a programmer. It certainly makes
+things easier if you can, though.
+
+It is a requisite skill for a team lead, though, which is something I have done
+a few times now.
+
+And I have Thoughts on it.
+
+A quick copy/paste from a discussion with Austin Lawrence:
+
+==================================
+
+Management's job is to enable and empower the people who do understand the job
+to do it.
+
+That necessarily means worrying less about understanding it yourself, and
+trusting them to get the details right.
+
+At least if you're managing well.
+
+If you are not managing well, you dive into every last detail and micro-manage
+everyone into insanity, despair, or quitting.
+
+You do have to check in regularly to see if actual progress is being made, and
+understand why not if it isn't.
+
+That way you can get them what they need to get unwedged.
+
+And you CANNOT rely on someone else to actually evaluate if progress is
+happening. You have to look at their output yourself.
+
+Not the nuts and bolts, but use the software, try to break it, keep close tabs
+on the spec.
+
+Be sure it's improving, not worsening, and that new features are getting done.
+
+Does that all make sense?
+
+Good managers are freaking rare, but they do exist.
+
+What they actually manage is human relationships.
+
+The team members' relationships with each other, and the team's overall
+relationship with the rest of the company.
