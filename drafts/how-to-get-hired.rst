@@ -147,9 +147,10 @@ use Git itself as an interface to the other VCSes).
 Here is the `best Git tutorial I know of
 <https://www.sbf5.com/~cduan/technical/git/>`__.
 
-This `OS X-only UI <https://gitup.co/>`__ is the most promising open-source Git
-tool I've seen. Most serious Git users wind up learning to use the command-line
-interface pretty well, but theoretically it's not necessary.
+This `OS X-only UI <https://gitup.co/>`__ is the most promising open-source
+graphical Git tool I've seen (the best one there is, including the Git CLI, is
+`magit <https://magit.vc/>`__). Most serious Git users wind up learning to use
+the command-line interface pretty well, but theoretically it's not necessary.
 
 Note that as you learn the advanced corners of Git, there will likely come a
 moment when you think "Oh crap, I just deleted the last week of work!"
@@ -185,7 +186,7 @@ A great resource for people who want to do exactly that is `Eloquent
 Javascript <https://eloquentjavascript.net/>`__.
 
 It's a very dense read, but if you work through it, take the time to understand
-it, and do the exercises, you will come out the other end with a strong grasp
+it, and DO THE EXERCISES, you will come out the other end with a strong grasp
 of how JS works, as well as knowledge and skills that will serve you well in
 software development generally, even when using or learning other languages.
 
