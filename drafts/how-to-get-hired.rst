@@ -64,7 +64,7 @@ software development, knowing computer science theory helps here, just because
 you know the terminology to use when searching academic literature for potential
 solutions to your problem.
 
-Fundamentally, though, this boils down to ""Research the subject, understand
+Fundamentally, though, this boils down to "Research the subject, understand
 what you've found, try an experiment based on your reading, and if it didn't
 work do the process again until it does."
 
