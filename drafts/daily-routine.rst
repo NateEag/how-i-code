@@ -77,17 +77,13 @@ When on project management duty, empty the untriaged issue lists in the
 projects I'm managing. When there's a dedicated PM for my projects that isn't
 me, skip this, but sometimes that's not how it goes.
 
-File tasks as appropriate, but do *not* just copy them into today's file, as
-that tends to propagate TODOs for weeks and months.
-
 Process low-priority software notifications (RSS [for tracking software
 releases], desktop software update notifications).
 
 If this is the first triage of the day, check the previous day's log for any
 undone todo items and file new items accordingly (do not just copy and paste
-them, because that's how tasks propagate forever). Also, review my assigned
-tasks with deadlines to make sure their deadlines are up-to-date and not at
-risk.
+them, because that never stops). Also review my assigned tasks with deadlines
+to make sure their deadlines are up-to-date and not at risk.
 
 
 After Lunch
@@ -285,6 +281,9 @@ sometimes redundant with the formal shared systems, but that's okay. This is
 just for my personal use and to give me a quick way to make note of random
 things I need to follow up on.
 
+It also gives me a place to throw quick todo items so I can follow up on them
+later, rather than getting distracted
+
 
 Noticing Unrelated Issues
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -292,20 +291,24 @@ Noticing Unrelated Issues
 I notice things that are broken (or at least not ideal) multiple times an hour,
 at least. Yay for detail-orientation.
 
-To keep that from derailing me completely, I do *not* address those problems
-when I see them.
+I also think of useful things that have nothing to do with what I'm currently
+working on regularly.
 
-Instead, I throw a task into the appropriate project's untriaged tasks list for
-future consideration and research, with just enough information that I don't
-lose track of it.
+To keep those from derailing me completely while still capturing some value
+from them, I do *not* address those things when they come to me.
+
+Instead, I throw a note into my daily log to follow up on it later, usually by
+filing a task in the relevant project's untriaged tasks list for future
+consideration and research, with just enough information that I don't lose
+track of it.
 
 Exceptions are made for low-risk changes (erroneous comments/docs/etc) where
 making the change is faster than filing a task for it.
 
-Even this can keep me pretty interrupted. This may need further refinement.
-
-TODO Start putting catches in daily log's TODO list and filing them later?
-Perhaps as part of the information triage routine, maybe?
+When I'm writing code or docs and a not-right-now thought about what I'm doing
+comes to me, I just throw a comment straight in the code / docs. If it's an
+improvement I want to make, I start the comment with TODO. If it's an
+observation about a way the code is broken, I start the comment with FIXME.
 
 
 Tooling Defects
