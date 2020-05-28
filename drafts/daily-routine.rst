@@ -40,9 +40,6 @@ be causing a lot of damage.
 Tell the team what task you're going to do. When the timer goes, let them know
 whether you got it done or not.
 
-Review my assigned tasks with deadlines to make sure they're not falling
-behind.
-
 Now that I've gotten up to date on what's happening in the projects, define my
 goals for the day in the shared task tracker.
 
@@ -80,12 +77,17 @@ When on project management duty, empty the untriaged issue lists in the
 projects I'm managing. When there's a dedicated PM for my projects that isn't
 me, skip this, but sometimes that's not how it goes.
 
-Check the previous day's log for any undone todo items. File tasks as
-appropriate, but do *not* just copy them into today's file, as that tends to
-propagate TODOs for weeks and months.
+File tasks as appropriate, but do *not* just copy them into today's file, as
+that tends to propagate TODOs for weeks and months.
 
 Process low-priority software notifications (RSS [for tracking software
 releases], desktop software update notifications).
+
+If this is the first triage of the day, check the previous day's log for any
+undone todo items and file new items accordingly (do not just copy and paste
+them, because that's how tasks propagate forever). Also, review my assigned
+tasks with deadlines to make sure their deadlines are up-to-date and not at
+risk.
 
 
 After Lunch
