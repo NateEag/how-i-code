@@ -282,7 +282,8 @@ just for my personal use and to give me a quick way to make note of random
 things I need to follow up on.
 
 It also gives me a place to throw quick todo items so I can follow up on them
-later, rather than getting distracted
+later, rather than getting distracted when they come up (see "Noticing
+Unrelated Issues").
 
 
 Noticing Unrelated Issues
@@ -301,6 +302,11 @@ Instead, I throw a note into my daily log to follow up on it later, usually by
 filing a task in the relevant project's untriaged tasks list for future
 consideration and research, with just enough information that I don't lose
 track of it.
+
+I make sure to put dump the pertinent data right in the to do item, so I have
+enough information to actually act on it later. Project, filepath / line
+number, email address / phone / name of contact to add, and so on. without
+specifics items are not usually actionable.
 
 Exceptions are made for low-risk changes (erroneous comments/docs/etc) where
 making the change is faster than filing a task for it.
