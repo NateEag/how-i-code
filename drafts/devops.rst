@@ -162,7 +162,59 @@ Dashboard - HUD with summary of service's core metrics (perhaps along with
 other mission-critical data, like who's on call or how many open tickets there
 are)
 
-Alert - notification meant to be read and acted upon by a human.
+Alert - notification meant to be read and acted upon *immediately* by a human.
+
+
+
+End Of SRE Notes
+----------------
+
+Beyond this point are things I've learned by the school of hard knocks and
+research.
+
+
+Guerilla Monitoring
+===================
+
+The categorization of events into "Alerts", "Tickets", and "Logs" makes
+complete sense to me.
+
+How can you get that in place on a shoestring budget in a skeleton crew?
+Because that's what most shops operate with, as they aren't Google.
+
+If you can hack up some scripts that do basic sanity checks of your web
+resources with standard automation tools (Selenium, curl, etc), you have
+black-box monitoring tools. Use cron to run them regularly and tada! Make sure
+you also set up some kind of CI for these tests so devs don't deploy changes
+that break them without knowing. As Steve Yegge said, "QA and monitoring are
+the same thing."
+
+Webserver logs can be scanned regularly for anomalies - unusually high
+percentage of 500s, unusually high traffic, etc. Same for app logs. You can use
+syslog to aggre
+
+You can categorize the conditions these scripts detect as Alerts, Tickets, and
+Logs.
+
+- "Alerts" mean sending texts to the team members on pager duty. Most people
+  have cell phones and most cell plans have an email address for all cell
+  numbers that auto-converts to text messages. Have team members set a loud,
+  crazy alert for the alert-sending email address and it should work. Every
+  week when the rotation changes, just update the configured list of numbers
+  (this is the weak point; easy to screw it up and keep anyone from getting
+  notifications, so you should trigger a test one after the update to be sure
+  everyone who should get it does.)
+
+- "Tickets" are harder. Not sure what to do about them yet. Ideally your task
+  tracker has an API so you generate new tasks for ominous-but-not-terrifying
+  conditions and assign them to whoever's on pager duty. This would be hard
+  when error logs are noisy, and there's also the duplicate ticket problem.
+
+
+- "Logs" are, fortunately, easy, because they're logs. Whoever's on pager duty
+  makes sure they're still flowing daily and other than that can just ignore
+  them.
+
 
 
 Round-Robin DNS Load Balancing
