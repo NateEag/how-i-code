@@ -87,5 +87,10 @@ This post on rethinking the terminal UI is really fascinating and mirrors some
 thoughts I've had myself: https://blog.repl.it/clui
 
 
+This piece has some interesting ideas on what you can do with Avahi in a
+production server farm:
+https://gnaneshkunal.github.io/avahi-docker-non-root.html
+
+
 A post on time management for developers that mirrors a lot of my recent
 attempts to improve: https://www.stevestreeting.com/2010/09/04/work-2-0/
