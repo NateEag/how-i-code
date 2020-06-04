@@ -173,6 +173,16 @@ Beyond this point are things I've learned by the school of hard knocks and
 research.
 
 
+Devs Are Your Users
+===================
+
+If you are doing devops for a software product, then one of your user groups is
+the software's development team.
+
+Stay in close contact with them while you're working and use them to set your
+priorities and solve the right problems.
+
+
 Guerilla Monitoring
 ===================
 
