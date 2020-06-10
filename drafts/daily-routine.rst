@@ -80,6 +80,8 @@ me, skip this, but sometimes that's not how it goes.
 Process low-priority software notifications (RSS [for tracking software
 releases], desktop software update notifications).
 
+Check calendar for any upcoming events.
+
 If this is the first triage of the day, check the previous day's log for any
 undone todo items and file new items accordingly (do not just copy and paste
 them, because that never stops). Also review my assigned tasks with deadlines
