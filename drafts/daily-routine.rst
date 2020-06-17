@@ -66,6 +66,8 @@ Information Triage
 Process voicemails. I rarely get any so I don't have much routine around this -
 just convert them to tasks in the shared trackers as appropriate.
 
+Check instant messages (crucial information often comes through them).
+
 When on pager / production support duty, triage alerts and any auto-filed
 tickets. For any projects that do not yet have proper alerting / ticketing for
 production incidents, check system logs and triage any unusual entries.
