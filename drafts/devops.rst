@@ -226,6 +226,30 @@ Logs.
   them.
 
 
+Nix / Guix Look Awesome
+=======================
+
+I haven't actually used them for anything, but conceptually their model is
+obviously a smarter way to manage third-party dependencies than anything like
+Ansible / Chef / Salt / Puppet / etc.
+
+While they're technologically superior and have some really desirable
+properties (especially for long-lived setups), they probably aren't the right
+choice on average for most projects. At the end of the day, software projects
+mostly either go userless or wind up maintained. If they die, robust management
+doesn't matter. If they're being maintained, you should be focused on the
+maintainer, and in many contexts that will be someone who does not want to
+learn a new way of managing software systems.
+
+When you have good reason to think the advantages these systems give you are
+what you need, then yes, use them.
+
+Don't do it blindly out of technological zealotry, though.
+
+This blog post did a nice job of introducing Nix concepts, I thought:
+https://stephank.nl/p/2020-06-01-a-nix-primer-by-a-newcomer.html
+
+
 
 Round-Robin DNS Load Balancing
 ==============================
