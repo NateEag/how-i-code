@@ -29,7 +29,7 @@ same document, but they contain a lot of the same information and have a lot of
 the same needs. Thus, they should be able to reference and include the same
 information throughout without duplicating info.
 
-I think I've Just realized how the specref ought to work.
+I think I've just realized how the specref ought to work.
 
 In a project that uses specrefs, in any document, a link beginning with / is
 interpreted as a specref - when rendering the documentation, we assume the

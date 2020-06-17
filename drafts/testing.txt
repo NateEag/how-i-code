@@ -31,3 +31,14 @@ Some notes from a conversation I would like to turn into a post.
 [12:08 PM]nathan.eagleson:or just the stuff that you actually had to generalize for multiple projects.
 
 [12:08 PM]nathan.eagleson:Functional tests will catch the breakage in a single project, so why spend the extra time/LOC to unit test the other stuff?
+
+
+I've thought for a while that some tests are obviously more important than
+others, and that identifying the "core smoke tests" subset of your functional
+tests is a critical source of quick signal when verifying new deployments and
+the like. You can see some hints at this in my documentation draft
+(/drafts/documentation.rst).
+
+I recently learned that Shopify does something very like this. I love it when
+big companies validate my ideas.
+https://engineering.shopify.com/blogs/engineering/spark-joy-by-running-fewer-tests
