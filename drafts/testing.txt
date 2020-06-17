@@ -42,3 +42,11 @@ the like. You can see some hints at this in my documentation draft
 I recently learned that Shopify does something very like this. I love it when
 big companies validate my ideas.
 https://engineering.shopify.com/blogs/engineering/spark-joy-by-running-fewer-tests
+
+This HN comment on the subject of testing was fascinating and helped
+confirmation bias my own thoughts on automated tests. The tests themselves and
+fixing defects they find are probably not the biggest win (though for
+super-critical paths they can certainly help prevent terrible outages). The big
+thing is that when you catch failures, you need to postmortem how it happened
+so you can improve your process. Automated tests are just one of the way to
+catch failures for postmorteming. https://news.ycombinator.com/item?id=23494095
