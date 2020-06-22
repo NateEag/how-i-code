@@ -94,3 +94,8 @@ https://gnaneshkunal.github.io/avahi-docker-non-root.html
 
 A post on time management for developers that mirrors a lot of my recent
 attempts to improve: https://www.stevestreeting.com/2010/09/04/work-2-0/
+
+
+Multiformats are a cool concept - some standard data structure formats that try
+to ensure reasonable forwards-compatibility, come the day you have to, e.g.,
+upgrade your password hashing format. https://multiformats.io/
