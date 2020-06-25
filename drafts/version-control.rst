@@ -35,6 +35,10 @@ TODO Add a refined version of this HN post of mine to the essay:
 
 https://news.ycombinator.com/item?id=18664163
 
+GitFlow is way too complicated for what it buys you. "OneFlow" is a much
+simpler workflow that basically encapsulates the way I tend to work:
+https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow
+
 TODO Discuss monorepos vs many repos. Maybe not in this essay, but somewhere.
 Mostly I see people argue the monorepo is better, but this defense of multirepo
 definitely hit me in the confirmation bias happy-place (could still be true,
