@@ -286,3 +286,46 @@ restrictions helps too, but the above is a handy way to do things.
 Keep a replica master DB instance in a separate datacenter, get solid failover
 in place, and you should be pretty robust against most disasters that can
 befall you.
+
+
+Notes On Hunting Irregular CPU Spikes
+=====================================
+
+On one (or more) of the problem machines, execute the following (making sure
+you have plenty of drive space available, but you should):
+
+```
+$ screen
+$ top -b > /home/username/top.log
+$ <Ctrl-a> d
+```
+
+You now have a background process on the server, adding a top snapshot to
+`/mnt/tmp/top.out` every two to four seconds, running indefinitely.
+
+If load spikes to 100% CPU for more than three or four seconds, you should have
+a record of what processes were responsible for how much of it when it does.
+
+Be wary of its ability to eat through drive space. Maybe kill the job and
+restart it every hour or two while you're capturing if there has not yet been a
+spike. You could probably figure out how to ditch frames without useful
+information (e.g., where overall load was below, say, 70%, which would be most
+of them).
+
+Since these machines can be killed arbitrarily, you'll want to save the output
+elsewhere. regularly.
+
+Somewhere, set up the following in a cron job to run every few minutes (aimed
+at the appropriate machine):
+
+```
+rsync username@example.com:/home/username/top.log top.log
+```
+
+If the spikes are genuinely less than a few seconds, this won't catch it. I've
+not yet had to hunt spikes that lasted only a second or two. I've barely had to
+hunt spikes at all - I'm generally a dev, not an operator. I'm just interested
+in everything about making software work well.
+
+Per the above, I expect there are smarter ways to do this, but I don't know
+what they are. I would be glad to learn them.
