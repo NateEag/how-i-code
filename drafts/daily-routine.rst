@@ -73,7 +73,7 @@ tickets. For any projects that do not yet have proper alerting / ticketing for
 production incidents, check system logs and triage any unusual entries.
 
 Triage email inbox. That means get everything read and see if anything urgent
-has come in since yesterday.
+has come in since the last info triage run.
 
 When on project management duty, empty the untriaged issue lists in the
 projects I'm managing. When there's a dedicated PM for my projects that isn't
@@ -84,10 +84,13 @@ releases], desktop software update notifications).
 
 Check calendar for any upcoming events.
 
-If this is the first triage of the day, check the previous day's log for any
-undone todo items and file new items accordingly (do not just copy and paste
-them, because that never stops). Also review my assigned tasks with deadlines
-to make sure their deadlines are up-to-date and not at risk.
+If this is the first triage of the day:
+
+* Check my daily log from yesterday for any undone todo items and file new
+  items accordingly (do not just copy and paste them, because that never stops)
+
+* Review assigned tasks with deadlines to make sure their deadlines are
+  up-to-date and not at risk.
 
 
 After Lunch
