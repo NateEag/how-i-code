@@ -63,6 +63,15 @@ contexts that don't use daily goal setting.
 Information Triage
 ------------------
 
+This is a process I do to determine "what should I work on next?"
+
+Thus, if I don't have a clear "next big item" after doing it, the process has
+failed.
+
+I do it twice daily in smaller environments where I wear a lot of hats. In
+larger contexts with well-defined projects and people devoted to things like
+infra and monitoring, I could probably get away with doing it much less often.
+
 Process voicemails. I rarely get any so I don't have much routine around this -
 just convert them to tasks in the shared trackers as appropriate.
 
@@ -76,8 +85,10 @@ Triage email inbox. That means get everything read and see if anything urgent
 has come in since the last info triage run.
 
 When on project management duty, empty the untriaged issue lists in the
-projects I'm managing. When there's a dedicated PM for my projects that isn't
-me, skip this, but sometimes that's not how it goes.
+projects I'm managing. That means get them in the appropriate queue and
+prioritized / deadlined. When there's a dedicated PM for my projects that isn't
+me, skip this as it's their job, but sometimes you don't have one (or they
+aren't that great).
 
 Process low-priority software notifications (RSS [for tracking software
 releases], desktop software update notifications).
