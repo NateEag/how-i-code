@@ -30,9 +30,11 @@ If you have a different support process for bugs than for feature development
 (e.g. "Bug fixes are free but new features are not."), it is important to have
 a way to know whether a behavior is a bug.
 
-A specification is useful for defining expected behavior. Once a client agrees
-in writing that the spec is an adequate description of what they want, the dev
-team is responsible for delivering only what it describes.
+A specification is useful for defining expected behavior. If a client agrees in
+writing that the spec is an adequate description of what they want, the dev
+team is responsible for delivering only what it describes. Dev teams can
+establish this as their baseline expectation with all users, as a basis
+for communication.
 
 Defining undefined behavior, redefining misfeatures, and defining new features
 are all enhancements, not bugfixes. They should be handled and billed
@@ -56,14 +58,16 @@ A good first step in data collection is checking for any useful logs, as many
 programs output a lot of diagnostic and informational data. If there are
 monitoring systems for the program you are analyzing, look at those too.
 
-The production data from the impacted users are always helpful (though it is not
-always practical to obtain them due to security and privacy constraints).
+Production data from the impacted users are helpful (though it is not always
+practical to obtain them due to security and privacy constraints).
+
+.. TODO Link 'development environment' to essay on deployment, configuration,
+   and defining environments.
 
 You can also run experiments on the program to collect data and falsify
-hypotheses. In most cases, you can do that by running the program in a
-development context and using a debugger, additional log statements, or other
-changes to the program to gain a clearer understanding of the issue's root
-cause.
+hypotheses. In most cases, you do that by running the program in a development
+environment and using a debugger, additional log statements, or other changes to
+the program to gain a clearer understanding of the issue's root cause.
 
 Finally, programmers have a great advantage that most experimental scientists
 do not. We can read the definition of the program we are investigating. In most
