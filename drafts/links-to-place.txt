@@ -99,3 +99,7 @@ attempts to improve: https://www.stevestreeting.com/2010/09/04/work-2-0/
 Multiformats are a cool concept - some standard data structure formats that try
 to ensure reasonable forwards-compatibility, come the day you have to, e.g.,
 upgrade your password hashing format. https://multiformats.io/
+
+
+Electronic search systems date back to the 1930s (with roots before that):
+https://computerhistory.org/blog/the-bourne-collection-online-search-is-older-than-you-think/
