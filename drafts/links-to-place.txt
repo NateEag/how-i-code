@@ -103,3 +103,7 @@ upgrade your password hashing format. https://multiformats.io/
 
 Electronic search systems date back to the 1930s (with roots before that):
 https://computerhistory.org/blog/the-bourne-collection-online-search-is-older-than-you-think/
+
+
+Hillel Wayne has written up a nice list of hype-debunkings.
+https://github.com/hwayne/awesome-cold-showers
