@@ -21,21 +21,8 @@ off five minutes before lunchtime so you have a few minutes to save state on
 your current task.
 
 Do information triage (see that section), but constrain it to at most 30
-minutes.
-
-Once triage is done, pick an easy, small task that you believe will offer a
-quick win for someone and try to do it. Timebox it to 30 minutes + leftover
-time from the triage timebox. This can be anything you want - technical debt,
-small feature, bugfix, whatever.
-
-The point is to boost your morale and get something useful done, which is
-especially important if an unclear, difficult task is your main focus.
-
-If involved in projects that do not have functional alerting/auto-ticketing,
-monitoring, and logging systems, a good choice for those thirty minutes is
-taking the next step to getting alerting/auto-ticketing, monitoring, and
-logging systems in place. Reason: without those components silent failures may
-be causing a lot of damage.
+minutes. As the process itself notes, by definition, once you're done you
+should know what your goals are for the day.
 
 Tell the team what task you're going to do. When the timer goes, let them know
 whether you got it done or not.
@@ -392,9 +379,9 @@ time limit, implemented as a 5-minute timer and a second 5-minute timer. If I
 catch a problem after updating I can't solve within the limit, roll back
 changes and schedule time to deal with it tomorrow.
 
-While that churns away in the background, figure out what my goal is for
-tomorrow, based on whether I achieved my goal today and what's the next
-step (barring new information coming in tomorrow AM that changes it).
+While that churns away in the background, figure out what my main goal is for
+tomorrow, based on whether I achieved my goal today and what's the next step
+(barring new information coming in tomorrow AM that changes it).
 
 Update team on whether I achieved today's goal or not, and announce tomorrow's
 target. If I didn't achieve the goal, explain why not and how I'm adjusting
@@ -407,3 +394,9 @@ Take any remaining time to chip away at whatever task I want to work on. Set a
 reminder to stop 5 minutes before EOD, so I have time to freeze mental state.
 TODO Extract "freeze mental state" to its own essay. The why behind it is worth
 explaining, because it isn't just about me.
+
+If involved in projects that do not have functional alerting/auto-ticketing,
+monitoring, and logging systems, a good choice for this last bit of time is
+taking the next step to getting alerting/auto-ticketing, monitoring, and
+logging systems in place. Reason: without those components silent failures may
+be causing a lot of damage.
