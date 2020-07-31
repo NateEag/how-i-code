@@ -1,3 +1,10 @@
+2020-07-31 Note that, per Steve Yegge's platforms rant, when trying to
+bootstrap a software business, you should build products first. Once one is
+making you a decent bit of money, you turn it into a platform, because "A
+product is useless without a platform, or more precisely and accurately, a
+platform-less product will always be replaced by an equivalent platform-ized
+product."
+
 2020-03-19 Explain that dependency declarations (e.g., lists of programs and
 libraries to install) should live alongside the features that require them.
 E.g., if you have installed libaspell15 to support spellchecking, the features
