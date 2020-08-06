@@ -107,3 +107,11 @@ https://computerhistory.org/blog/the-bourne-collection-online-search-is-older-th
 
 Hillel Wayne has written up a nice list of hype-debunkings.
 https://github.com/hwayne/awesome-cold-showers
+
+
+Using up-front credit card billing is a clever way to establish account
+ownership after losing control of 2FA devices. If the user can report back the
+exact amounts you billed their card, then they have access to that card, which
+in turn is linked to a legal name, so you have a reasonable chance that they're
+actually who they claim to be. I'm not sure there aren't holes here, but it was
+an interesting suggestion: https://news.ycombinator.com/item?id=24056580
