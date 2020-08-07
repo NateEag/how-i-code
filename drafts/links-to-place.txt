@@ -115,3 +115,15 @@ exact amounts you billed their card, then they have access to that card, which
 in turn is linked to a legal name, so you have a reasonable chance that they're
 actually who they claim to be. I'm not sure there aren't holes here, but it was
 an interesting suggestion: https://news.ycombinator.com/item?id=24056580
+
+
+Signal has a blog post explaining how they use the Software Guard Extension
+'secure enclave' and 'remote attestation' features on modern Intel CPUs to let
+the Signal client confirm that the software running on the remote machine is
+precisely the software the client expects. That, in principle, makes it
+possible to provide confidence that what's running on a server is actually the
+code you see in public for an OSS server. I had previously thought this
+impossible. There are probably holes, because there always are, but it sure is
+a neat idea. I suppose the obvious one is replacing the server with a VM that
+claims to have SGX and secure enclaves but lies about the
+signature. https://signal.org/blog/private-contact-discovery/
