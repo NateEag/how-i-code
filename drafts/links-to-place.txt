@@ -132,3 +132,7 @@ impossible. There are probably holes, because there always are, but it sure is
 a neat idea. I suppose the obvious one is replacing the server with a VM that
 claims to have SGX and secure enclaves but lies about the
 signature. https://signal.org/blog/private-contact-discovery/
+
+
+A free textbook on reverse-engineering, which could be worth going through at
+some point. https://beginners.re/
