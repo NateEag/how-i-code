@@ -43,3 +43,23 @@ this phase, you should significantly reduce the amount of time spent making and
 polishing changes that contain fundamental errors. This may entail some updates
 to the code review essay (which I suspect needs to be split into several essays
 anyway).
+
+
+------------------
+
+When you find an interesting new program or tool, before you waste any effort
+slotting it into your configuration, build chain, etc., confirm that it
+actually does what you think it will do.
+
+I have burned time more than once based on a high-level description of a tool,
+only to find out after getting it installed and integrated that it actually
+does something subtly different than I had thought, rendering it largely
+irrelevant.
+
+You always want the shortest path to finding out "this doesn't work" or "my
+understanding was flawed". If the docs can tell you that, great - if not, a
+quick POC is the next best thing.
+
+For potentially-interesting tools, that usually looks like "install it or find
+a demo and come up with the dumbest possible hack that shows what you want is
+technically possible."
