@@ -1,6 +1,11 @@
 Here's a place to stack links whose appropriate home I don't know yet:
 
 
+This wonderful "Unicode in Five Minutes" article is incredibly terse but full
+of useful tidbits I did not know:
+https://richardjharris.github.io/unicode-in-five-minutes.html
+
+
 I'm a firm believer that many things don't need a computer at all.
 https://calmtech.com has a nice articulation of that concept (and seems to
 roughly align with my instincts about how technology should work [though I like
