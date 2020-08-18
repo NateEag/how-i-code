@@ -246,6 +246,12 @@ human index for the docs she writes.
 If you know the answer to a question but do not have a link to documentation
 containing it, look for one, in case it already exists.
 
+If the interrupt is in the medium of interactive text messaging (e.g., a Slack
+message), and none of the preceding rules ended it, start a timer for five
+minutes. If the interruption is not complete when the timer goes, move to
+verbal discussion, either directly or as a scheduled meeting down the line,
+depending on the question's urgency.
+
 
 Communications
 ~~~~~~~~~~~~~~
