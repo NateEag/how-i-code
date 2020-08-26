@@ -220,16 +220,20 @@ conversations, and phone calls.
 
 .. TODO Link 'shared task tracker' to an appropriate project management essay.
 
-If the interruption is to about a task's status, make sure the task is
-up-to-date in the tracker, then point the interrupter to the item's URL in the
-task tracker (if you don't have a shared task tracker, get one).
+If the interruption is about a task's status, ensure the task is up-to-date in
+the tracker, then point the interrupter to the item's URL in the task tracker
+(if you don't have a shared task tracker, get one).
 
 If the interruption is to introduce a new piece of work, ask the interrupter to
 file a task in the tracker. Since they're interrupting, check whether the task
 is an immediate or urgent priority (i.e., do they want you to drop your current
 work to tackle this immediately). If so, take a minute to understand the
 problem and see if you agree that it should be handled immediately and discuss
-further if needed.
+further if needed. If you do, choose something to kick out of this week's work
+to make space for the new work, and make sure all stakeholders are okay with
+the change before doing it. If you don't think it's urgent, figure out why they
+do then see if either side can convince the other - if not, escalate to
+managers and let them sort it out.
 
 If the interruption is mainly social and you're deep in something, consider
 asking if you can catch up later. If you do, set a reminder to actually catch
