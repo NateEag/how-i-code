@@ -59,12 +59,12 @@ I do it twice daily in smaller environments where I wear a lot of hats. In
 larger contexts with well-defined projects and people devoted to things like
 infra and monitoring, I could probably get away with doing it much less often.
 
+Check calendar for any upcoming events.
+
 Process voicemails. I rarely get any so I don't have much routine around this -
 just convert them to tasks in the shared trackers as appropriate.
 
 Check instant messages (crucial information often comes through them).
-
-Check calendar for any upcoming events.
 
 When on pager / production support duty, triage alerts and any auto-filed
 tickets. For any projects that do not yet have proper alerting / ticketing for
@@ -75,8 +75,9 @@ has come in since the last info triage run.
 
 If this is the first triage of the day:
 
-* Check my daily log from yesterday for any undone todo items and file new
-  items accordingly (do not just copy and paste them, because that never stops)
+* Check my daily log from yesterday for any undone todo items or any filed
+  under the "Tomorrow" section. File new items accordingly (do not just copy
+  and paste the whole block, because that never stops)
 
 * Review assigned tasks with deadlines to make sure their deadlines are
   up-to-date and not at risk.
@@ -395,7 +396,7 @@ tomorrow, based on whether I achieved my goal today and what's the next step
 
 Update team on whether I achieved today's goal or not, and announce tomorrow's
 target. If I didn't achieve the goal, explain why not and how I'm adjusting
-your plans based on what I learned.
+my plans based on what I learned.
 
 Check calendar to see if I have any early-morning commitments I need to adjust
 my default schedule for.
