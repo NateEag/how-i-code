@@ -226,6 +226,20 @@ Logs.
   them.
 
 
+How To Process Logs
+===================
+
+Avery Pennamun has a persuasive essay on this idea. Reading between the lines,
+it seems clear he's describing what his team at Google Fiber built, and that he
+really misses it and wishes he could just install and configure it wherever he
+goes. Alas.
+
+Regardless, massively insightful and well worth rereading and further
+pondering. Includes the striking insight that 5 TB of logs a day is actually
+just ~80 MB/second and thus not a big deal, so long as you have mechanisms in
+place to normalize burstiness. https://apenwarr.ca/log/20190216
+
+
 Nix / Guix Look Awesome
 =======================
 
