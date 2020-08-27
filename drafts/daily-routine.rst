@@ -66,13 +66,6 @@ just convert them to tasks in the shared trackers as appropriate.
 
 Check instant messages (crucial information often comes through them).
 
-When on pager / production support duty, triage alerts and any auto-filed
-tickets. For any projects that do not yet have proper alerting / ticketing for
-production incidents, check system logs and triage any unusual entries.
-
-Triage email inbox. That means get everything read and see if anything urgent
-has come in since the last info triage run.
-
 If this is the first triage of the day:
 
 * Check my daily log from yesterday for any undone todo items or any filed
@@ -81,6 +74,13 @@ If this is the first triage of the day:
 
 * Review assigned tasks with deadlines to make sure their deadlines are
   up-to-date and not at risk.
+
+When on pager / production support duty, triage alerts and any auto-filed
+tickets. For any projects that do not yet have proper alerting / ticketing for
+production incidents, check system logs and triage any unusual entries.
+
+Triage email inbox. That means get everything read and see if anything urgent
+has come in since the last info triage run.
 
 When on project management duty, empty the untriaged issue lists in the
 projects I'm managing. That means get them in the appropriate queue and
