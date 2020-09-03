@@ -33,6 +33,15 @@ integration, continuous deployment, and horizontal scaling.
 virtual machines. It's an excellent tool for testing an app in an isolated
 environment, and thus for creating developer sandboxes.
 
+.. TODO Rethink whether mDNS is the best choice. I have learned since I last
+   worked on this that it's possible to get Let's Encrypt to give out certs for
+   internal-only DNS. If your DNS provider has an API, it should be possible to
+   automate. Since Android doesn't yet support mDNS, using an internal,
+   centralized DNS server that sandboxes register with might be the only viable
+   option for getting fully-automated HTTPS sandboxes that Just Work
+   automatically on all major platforms.
+   https://www.techprowd.com/automatic-ssl-certificates-for-home-microk8s-setup-using-letsencrypt/
+
 .. TODO Address accessing sandboxes from devices that don't support mDNS. A
    local development DNS server is the obvious approach for that, but I haven't
    found one that works well yet (or even usably, really).
