@@ -23,3 +23,6 @@ That said, I know a few things about them.
   access to a piece of paper may be hard for attackers to obtain, especially if
   they don't know where to look. Fundamentally, stealing pieces of paper
   doesn't scale, but brute-forcing small keyspaces does.
+
+Troy Hunt has a great piece on authentication standards in 2020:
+https://www.troyhunt.com/passwords-evolved-authentication-guidance-for-the-modern-era/
