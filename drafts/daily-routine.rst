@@ -108,20 +108,27 @@ of the day where I try to get my inbox to zero (by saving it until now I don't
 waste the early morning on communications). It's fine if it doesn't get to 0,
 as long as there's less in it than there was at EOD yesterday.
 
-Return to goal achievement.
+Now, work your way down the list of prioritized goals, executing the goal
+achievement routine for each one in turn.
 
 
-Goal Achievement routine
-------------------------
+Goal breakdown routine
+----------------------
 
-Break each goal into tasks in the shared task tracker.
+If the goal has not already been broken down into tasks in a shared task
+tracker, do so as follows.
 
-For each task:
+Create an overall task for the goal, then create the subtasks that would result
+in the goal's achievement.
 
-Estimate completion time (again, in tracker if supported)
+TODO Figure out if 1 hour is always applicable. I think some tasks are just
+bigger than that... It's a starting place, though.
 
+For each subtask:
+
+Estimate completion time
 If estimate > 1 hour:
-    - break into smaller tasks
+    - break into smaller tasks (sub-sub tasks if tracker supports it)
     - enqueue them
     - continue loop
 
@@ -129,7 +136,27 @@ If task is essential to the parent task/goal and not just plumbing/glue, add a
 new task to develop a proof-of-concept, add it to the top of the subtask list,
 and continue the task definition loop.
 
-Set timer for estimated time and attempt to complete the task.
+Once the goal is broken into tasks, move on to the task completion routine.
+
+Note that in principle, goal breakdown and task completion can be done
+separately and by different people. Whether this works in practice is an open
+question, IMO. I've not personally seen that work well yet. Might work better
+when the person mapping out tasks actually does the POC tasks?
+
+
+Task Completion Routine
+-----------------------
+
+For each task in a goal:
+
+Check the task's last updated datetime. If it's more than a week old, some of
+the assumptions may no longer hold and you should verify them before doing
+anything else (otherwise you may wind up down a deep rabbithole unaware of a
+software update that resolved your problem, for a totally-hypothetical
+example).
+
+If the task looks current after review, set a timer for the estimated time and
+attempt to complete the task.
 
 If you complete it, take a quick stretch break and start over with the next
 task.
@@ -147,10 +174,10 @@ estimate was wrong, which means your mental model is off somewhere. Take a
 quick stretch break, and on your return, see if five minutes of thinking shows
 you your error. If yes, write your new understanding out (as a spec update,
 task update, etc) and ask a teammate to sanity-check it for you. If five
-minutes doesn't show you your error, ask a teammate for help. Note that either
-way, you're asking for help - the five minutes is to push you towards having
-something useful to ask the teammate, rather than just saying "I'm stuck,
-help."
+minutes doesn't show you your error, ask a teammate for help figuring out why
+you're stuck. Note that either way, you're asking for help - the five minutes
+is to push you towards having something useful to ask the teammate, rather than
+just saying "I'm stuck, help."
 
 If task proves to be ill-conceived, reconsider task breakdown and goal
 selection in context of whole project. Add, change, and remove tasks and goals
