@@ -114,28 +114,48 @@ Return to goal achievement.
 Goal Achievement routine
 ------------------------
 
-Break goal into tasks in shared task tracker
+Break each goal into tasks in the shared task tracker.
 
 For each task:
 
 Estimate completion time (again, in tracker if supported)
 
-If estimate > 1 hour, break into smaller tasks, enqueue them, and continue loop
+If estimate > 1 hour:
+    - break into smaller tasks
+    - enqueue them
+    - continue loop
 
 If task is essential to the parent task/goal and not just plumbing/glue, add a
 new task to develop a proof-of-concept, add it to the top of the subtask list,
 and continue the task definition loop.
 
-Set timer for estimated time
+Set timer for estimated time and attempt to complete the task.
 
-Attempt to complete task
+If you complete it, take a quick stretch break and start over with the next
+task.
 
-If timer goes before completion, reconsider approach. Update task list if
-necessary.
+If the timer goes before the task's core is done, there are two
+possibilities:
+
+1) The core of the task is done other than trivia (writing commit message,
+updating task tracker, etc). If this is the case, take up to ten more minutes
+to finish those things and call it good (if it takes more than ten, the trivia
+actually weren't).
+
+2) The core of the task is not done, so back up and think bigger picture. Your
+estimate was wrong, which means your mental model is off somewhere. Take a
+quick stretch break, and on your return, see if five minutes of thinking shows
+you your error. If yes, write your new understanding out (as a spec update,
+task update, etc) and ask a teammate to sanity-check it for you. If five
+minutes doesn't show you your error, ask a teammate for help. Note that either
+way, you're asking for help - the five minutes is to push you towards having
+something useful to ask the teammate, rather than just saying "I'm stuck,
+help."
 
 If task proves to be ill-conceived, reconsider task breakdown and goal
 selection in context of whole project. Add, change, and remove tasks and goals
-as appropriate based on discoveries.
+as appropriate based on discoveries, per the usual lifecycle of specifications
+in the wild.
 
 
 Handling Email
