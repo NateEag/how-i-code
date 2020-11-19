@@ -8,3 +8,7 @@ site.
 
 Maybe in the data modeling section, in a sibling essay to the data archival
 one, something about data ownership?
+
+This talk / notes on personal data warehouses seems pretty relevant, too:
+
+https://simonwillison.net/2020/Nov/14/personal-data-warehouses/
