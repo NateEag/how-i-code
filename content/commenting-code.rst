@@ -36,11 +36,20 @@ uses. They are the best way to point out potential issues, to explain why a
 given algorithm or implementation was chosen, and to document workarounds (make
 sure to include all relevant URLs).
 
-.. Elaborate on next paragraph. It's true, but make it clear for a novice what
-   it actually means, and why it matters.
+.. TODO Link 'quality is finite' to that essay, once it's published.
+
+If a comment contains information someone other than a programmer may care
+about, then it's misplaced project documentation, and should be moved to
+an appropriate document (like the project specification). Remember that quality
+is finite, though, so for lower-priority programs or dev-only tools, having the
+docs just be comments or strings in the code is completely reasonable.
+
+.. TODO Elaborate on next paragraph. It's true, but make it clear for a novice
+   what it actually means, and why it matters.
 
 Every abstraction in a program should have a comment explaining what it is and
-how to use it (if the language supports `docstrings`_, use them for this purpose).
+how to use it (if the language supports `docstrings`_, use them for this
+purpose).
 
 That standard can be `enforced automatically`_, and with it your tools can
 help you understand abstractions quickly, by showing their documentation
