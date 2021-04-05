@@ -136,3 +136,8 @@ signature. https://signal.org/blog/private-contact-discovery/
 
 A free textbook on reverse-engineering, which could be worth going through at
 some point. https://beginners.re/
+
+
+An essay proposing that number of blockers removed is a useful metric in
+tracking a development team's productivity. I don't know if I agree or not.
+https://www.okayhq.com/blog/engineering-productivity-can-be-measured
