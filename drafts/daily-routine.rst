@@ -73,8 +73,9 @@ If this is the first triage of the day:
   under the "Tomorrow" section. File new items accordingly (do not just copy
   and paste the whole block, because that never stops)
 
-* Review assigned tasks with deadlines to make sure their deadlines are
-  up-to-date and not at risk.
+* Review assigned tasks and get the next-highest priority ones queued up in
+  today's todo list. Make sure to check tasks with deadlines, in case there are
+  lower-priority tasks with high urgency.
 
 When on pager / production support duty, triage alerts and any auto-filed
 tickets. For any projects that do not yet have proper alerting / ticketing for
