@@ -29,5 +29,17 @@ representing changes to developer tooling and refactorings, respectively (if
 you want to keep the past-tense verbs convention, you could go with
 'Toolsmithed').
 
+Note that changelogs and release notes are strictly to make humans aware of
+changes, so developers, maintainers, and users can be aware of what new
+features and bugfixes are available to them in an upgrade, as well as the
+history of how the program has changed over time.
+
+Another way of saying that is that changelogs are to help you decide when it's
+time to upgrade.
+
+They're of almost no use when actually upgrading. There is no substitute for
+rigorously testing how the new program fits into your use cases. Do not just
+bump your version number and upgrade in production.
+
 .. _project changelog: https://keepachangelog.com/
 .. _change types: https://keepachangelog.com/en/1.0.0/#how
