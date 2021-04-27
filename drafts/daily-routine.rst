@@ -261,6 +261,14 @@ Prune notifications ruthlessly. Their purpose is to tell you about events that
 require immediate attention, so turn off notifications for any event you can
 safely handle via scheduled batch job (whether literal or figurative).
 
+When you realize something you're interacting with as part of your current task
+is broken, don't report it immediately unless it's truly dire (production is
+not loading at all - and even in those cases, you should take a minute or two
+to verify the situation so your report is useful). Triage it for importance
+relative to current task, and either file a followup task or shift focus to it
+depending on your conclusion. If you decide it's more important than your
+current task,
+
 People take priority over daily goals except when failing goals will severely
 damage the business (TODO define 'severely damage'. Goals where failure to
 achieve them in time may quickly damage the company's ability to remain
@@ -275,15 +283,15 @@ the tracker, then point the interrupter to the item's URL in the task tracker
 (if you don't have a shared task tracker, get one).
 
 If the interruption is to introduce a new piece of work, ask the interrupter to
-file a task in the tracker. Since they're interrupting, check whether the task
-is an immediate or urgent priority (i.e., do they want you to drop your current
-work to tackle this immediately). If so, take a minute to understand the
-problem and see if you agree that it should be handled immediately and discuss
-further if needed. If you do, choose something to kick out of this week's work
-to make space for the new work, and make sure all stakeholders are okay with
-the change before doing it. If you don't think it's urgent, figure out why they
-do then see if either side can convince the other - if not, escalate to
-managers and let them sort it out.
+file a task in the tracker. Since they're interrupting, check what priority
+they think the task is (i.e., do they want you to drop your current work to
+tackle this immediately). If so, take a minute to understand the problem and
+see if you agree that it should be handled immediately and discuss further if
+needed. If you do, choose something to kick out of this week's work to make
+space for the new work, and make sure all stakeholders are okay with the change
+before doing it. If you don't think it's urgent, figure out why they do then
+see if either side can convince the other - if not, escalate to managers and
+let them sort it out.
 
 If the interruption is mainly social and you're deep in something, consider
 asking if you can catch up later. If you do, set a reminder to actually catch
@@ -298,7 +306,8 @@ documentation that answers the question. In many ways, a developer serves as a
 human index for the docs she writes.
 
 If you know the answer to a question but do not have a link to documentation
-containing it, look for one, in case it already exists.
+containing it, look for one, in case it already exists. If you cannot find it,
+write it and provide the new link to the asker.
 
 If the interrupt is in the medium of interactive text messaging (e.g., a Slack
 message), and none of the preceding rules ended it, start a timer for five
