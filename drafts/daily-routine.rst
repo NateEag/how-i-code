@@ -24,9 +24,6 @@ Do information triage (see that section), but constrain it to at most 30
 minutes. As the process itself notes, by definition, once you're done you
 should know what your goals are for the day.
 
-Tell the team what task you're going to do. When the timer goes, let them know
-whether you got it done or not.
-
 Now that I've gotten up to date on what's happening in the projects, define my
 goals for the day in the shared task tracker.
 
