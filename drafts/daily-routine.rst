@@ -90,6 +90,10 @@ aren't that great).
 Process low-priority software notifications (RSS [for tracking software
 releases], desktop software update notifications).
 
+As an incentive to stay focused and move fast, if you finish triage before the
+timer goes, use the remaining time on whatever you want (dotfile tweaking,
+Emacs Lisp, fixing a tiny little bug just because you want to, etc).
+
 
 After Lunch
 -----------
