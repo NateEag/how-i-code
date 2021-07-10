@@ -43,6 +43,14 @@ I recently learned that Shopify does something very like this. I love it when
 big companies validate my ideas.
 https://engineering.shopify.com/blogs/engineering/spark-joy-by-running-fewer-tests
 
+Furthermore, those "core functional tests" constitute the basic health test for
+your system. You can and should run them against every environment immediately
+before and after deployments (so you know how system health was changed by the
+deployment), and as part of your monitoring system (to detect it when core
+components of the system fail). I like keeping this at `bin/health-check` and
+also using it to confirm that developer sandboxes came up correctly (TODO Link
+this to the developer sandbox essay).
+
 This HN comment on the subject of testing was fascinating and helped
 confirmation bias my own thoughts on automated tests. The tests themselves and
 fixing defects they find are probably not the biggest win (though for

@@ -19,7 +19,15 @@ available.
 In most cases, the environment is more complex.
 
 Write a command that `installs app dependencies
-<http://12factor.net/dependencies>`__, and keep it in version control.
+<http://12factor.net/dependencies>`__ and keep it in version control.
+
+.. TODO Link to essay on functional tests, should it ever get finished.
+
+You should also write a command that checks your app's core functionality and
+keep it in version control. I often call it ``bin/health-check``. This serves a
+lot of purposes, but for sandboxes, the last step of setup is to use
+`bin/health-check` to verify that the developer's sandbox environment setup was
+successful.
 
 Once that exists, use it to write a command that creates a working project
 sandbox. That should also live in version control.
