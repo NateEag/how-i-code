@@ -80,8 +80,8 @@ timezone boundaries is also helpful).
    datetimes linked to locations.
 
 When a user enters a datetime, do not guess its timezone. Make him specify it,
-because guesses are wrong sometimes, and that wrongness will eventually cause
-an `unpleasant surprise`_.
+because guesses are wrong sometimes (which will eventually lead to an
+`unpleasant surprise`_).
 
 That doesn't require a proliferation of dialog boxes, as there are several
 reasonable ways to help users specify timezone.
@@ -114,24 +114,26 @@ historical log of each user's timezone settings to work it out. When you store
 each user event's local timezone as part of the datetime, then the datetime
 itself stores the user's perception of when the event happened.
 
-Remember, though, that if software needs the UTC equivalent of a local time, it
-should save the timezone's offset from UTC alongside the timestamp, as local
-times `cannot be unambiguously converted to UTC`_ without it.
+Remember, though, that if someone may need the UTC equivalent of a local time,
+the program should save the timezone's offset from UTC as well as the local
+timezone identifier, as local times `cannot be unambiguously converted to UTC`_
+without it.
 
 If a program's users value simplicity and ease of coordination over ease of
 use, you can spare them the need to think about multiple timezones by storing
 and displaying all dates using a single timezone. UTC works well for this
 purpose, but it can be reasonable to let an administrator choose the common
 timezone. This approach is useful for network server logs and postmortem
-documents, as using a single explicit timezone makes it easier for people in
-different timezones to talk about what happened when.
+documents, as a single explicit timezone makes it easier for people in
+different timezones to communicate about what happened when.
 
 .. TODO Simplify this paragraph.
 
 To compare A.D. Gregorian dates in environments without date types (such as
 `bash`_), concatenate their zero-padded elements from largest unit to smallest
-and compare the results as integers. This approach also works for times and
-datetimes using twenty-four hour time.
+and compare the results as integers. This approach also works for comparing
+times or datetimes if you use twenty-four hour time (but note that full
+datetimes represented this way will not fit in a 32-bit integer).
 
 If the dates involved are guaranteed to be after January 1st, 1970, converting
 them to `Unix time`_ and comparing the resulting integers is also an option.
