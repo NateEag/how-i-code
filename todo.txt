@@ -1,3 +1,8 @@
+2021-07-27 Expand on this HN comment I made to the effect that open standards
+aren't guaranteed universal goods - there are risks like the KRACK attack, or
+prematurely cementing decisions that cannot be taken back once things are
+cemented. https://news.ycombinator.com/item?id=27958500
+
 2020-07-31 Note that, per Steve Yegge's platforms rant, when trying to
 bootstrap a software business, you should build products first. Once one is
 making you a decent bit of money, you turn it into a platform, because "A
