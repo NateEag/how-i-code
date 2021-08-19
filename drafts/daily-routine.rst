@@ -56,8 +56,8 @@ I do it twice daily in smaller environments where I wear a lot of hats. In
 larger contexts with well-defined projects and people devoted to things like
 infra and monitoring, I could probably get away with doing it much less often.
 
-Check calendar for any upcoming events. If you expect to be out the next day,
-configure an out of office autoresponder as appropriate.
+Check calendar for any upcoming events. If you expect to be out the next
+business day, configure an out of office autoresponder as appropriate.
 
 Process voicemails. I rarely get any so I don't have much routine around this -
 just convert them to tasks in the shared trackers as appropriate.
