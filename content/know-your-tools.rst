@@ -18,7 +18,21 @@ Good technique is not sufficient to make good things, but it is necessary. Most
 programs are created, edited, and read as plain text, so a programmer should
 find good tools for doing those things and master them.
 
-.. This feels like it should be split into its own essay.
+When you discover a new tool that may meet one of your needs, set aside a few
+minutes to take a closer look and see if it's actually a good fit.
+
+If closer review suggests it might be, take a little more time to give it a
+trial run and see how it works for you. If it works well, consider adding it to
+your personal toolbox.
+
+When you add a tool to your personal toolbox (whether by choice or because
+someone else wants you to use it), take some time to get to know it. Go through
+the settings and options. Take half an hour to go through any documentation it
+has, focused on seeing the big picture and what features, bugs, or quirks the
+tool may have that you would otherwise learn the hard way.
+
+.. TODO Split into its own essay, one which makes the case for
+   preferring archaic, powerful, open tools by default.
 
 There are many options, but the best ones are the
 `old <http://swcarpentry.github.io/shell-novice/>`__
