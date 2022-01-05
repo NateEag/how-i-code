@@ -72,7 +72,9 @@ If this is the first triage of the day:
 
 * Review assigned tasks and get the next-highest priority ones queued up in
   today's todo list. Make sure to check tasks with deadlines, in case there are
-  lower-priority tasks with high urgency.
+  lower-priority tasks with high urgency. If a task is not estimated to be < 30
+  minutes or broken into subtasks with an estimate of < 30 minutes, then add
+  doing a breakdown to the task queue, rather than the task itself.
 
 When on pager / production support duty, triage alerts and any auto-filed
 tickets. For any projects that do not yet have proper alerting / ticketing for
