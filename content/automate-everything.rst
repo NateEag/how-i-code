@@ -33,11 +33,12 @@ not at all).
   If your editor doesn't support external analysis tools, switch to
   `a better editor </know-your-tools.html>`__.
 * Making a project's distributables. Each of them should be buildable in one
-  step. They should be built regularly, to verify the build process has
-  not been broken. `There <http://www.gnu.org/software/make/>`__
-  `are <http://ant.apache.org/>`__ `tools <http://www.phing.info/>`__
-  `for <http://buildbot.net/>`__ `this <http://maven.apache.org/>`__, too.
+  step. They should be built regularly, to verify the build process has not
+  been broken. `There <http://www.gnu.org/software/make/>`__ `are
+  <http://ant.apache.org/>`__ `tools <http://www.phing.info/>`__ `for
+  <http://buildbot.net/>`__ `this <http://maven.apache.org/>`__, `too
+  <https://redo.readthedocs.io/en/latest/>`__.
 * Installing a distributable should be automated (a human may need to answer
-  a question or two, but configurable defaults are usually better).
+  a question or two, but configurable defaults are better).
 * If backwards compatibility matters (and it usually does), it should be
   tested automatically.
