@@ -336,6 +336,9 @@ After any work-related conversation, in any medium, do the following things:
 * Add documentation tasks for any questions you answered without doc links (if
   you cannot find a link for the relevant docs as above)
 
+* If you have committed to working on a task on or by a particular datetime,
+  put it on your calendar.
+
 * Re-check your current goals to see if you should replace any of them with one
   of the new tasks
 
