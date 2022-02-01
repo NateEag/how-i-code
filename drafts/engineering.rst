@@ -68,3 +68,66 @@ robust.
 You bring in the engineers to figure out how to make the architect's beautiful
 bridge meet the required constraints, and to help him re-envision if it cannot
 be done.
+
+==========================
+
+An insightful pair of posts from Hacker News:
+
+https://news.ycombinator.com/item?id=30000821
+
+> I come from an aerospace engineering background (did structural engineering
+> on commercial aircraft that were in the design and approval stages) and am in
+> software now (games). I've had two different takes on this. Neither is
+> perfect. Would appreciate comments on them.
+>
+> (a) If it's regularly expected that you ship bugs, you might be in a discipline that is distinct from engineering.[0]
+>
+> (b) If you can usually reach for an abstraction to save you, you might be working in something that isn't engineering.[1]
+>
+> [0] If software is engineering, then it's the only engineering discipline I'm
+> aware of in which the participants are regularly expected to produce
+> deliverables they don't fully understand. What do I mean by that? Well, if we
+> software peeps fully understood our deliverables, we wouldn't have bugs, or
+> at least, we'd always know what bugs are there. If as a structural engineer I
+> had delivered a final draft of an analysis document which showed that I
+> didn't fully understand the part and how it would perform, my boss would not
+> have been pleased. Most software bugs are treated more casually than that, so
+> we clearly have a tolerance for delivering work that we don't fully
+> understand.
+>
+> You might take issue with the idea that I "fully understood" a structural
+> part. Fair. When I calculated the strength of a beam in a thrust reverser I
+> didn't understand the individual molecular interactions, I didn't need to
+> know if the metal was of a body-centered cubic crystal structure, etc. But
+> this is because I was able to apply well-understood and rigorously accepted
+> simplifying assumptions that were conservative (from the point of view of a
+> factor of safety), and fully encapsulated all the understanding I needed to
+> produce a part fit for use.
+>
+> [1] This feels like the more flawed of the two proposals, because I expect
+> EEs can do this. Control systems folks can definitely do this, and I would
+> absolutely call them engineers.
+
+
+https://news.ycombinator.com/item?id=30001488
+
+> How about this one:
+> (c) If your project assumes the underlying device/system will behave exactly
+> as it is told to, then you might be in a discipline that is distinct from
+> engineering.
+>
+> This means "engineering" would include some software projects (like
+> fault-tolerant system design), but exclude many others (like most
+> desktop/mobile/web apps, perhaps with components like databases being
+> exceptions).
+>
+> My rationale for this is that, best as I can tell, traditional engineering is
+> (for the lack of a better phrase) about "taming the real world"—which doesn't
+> always behave the way you tell it to, because it's inherently uncertain,
+> failure-prone, and impossible to model exactly. So if your task is dealing
+> with that, then you're doing engineering. Whereas if your main problem is
+> coming up with the correct specification—but you assume it will be executed
+> faithfully—then it's not really engineering per se, but something else (not
+> sure if we have a name for it).
+>
+> Thoughts?
