@@ -75,8 +75,8 @@ expert.
 
 The expert's job is to patiently, systematically come to a clear understanding
 of their problem, then to propose a solution that does the job well. She should
-be ready to resolve for confusion, misunderstandings, and misnaming of things
-by the laypeople, graciously and patiently.
+be ready to resolve confusion, misunderstandings, and misnaming of things by
+the laypeople, graciously and patiently.
 
 I have a long way to go, but I do finally understand that truth.
 
