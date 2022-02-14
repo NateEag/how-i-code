@@ -31,6 +31,12 @@ ones you should spend years mastering and refining:
    I think it is not, but if I decide that I should explain why in the
    respective essays.
 
+.. TODO Figure out how to describe finding, using, and creating libraries. It's
+   not as important as a dev with < 8 years experience thinks it is, but it is
+   a fundamental skill, and it's really worth knowing how to do. I guess it
+   could just be "${verb}ing libraries", but to an absolute novice, it's not
+   clear what that means.
+
 .. TODO Put link to https://www.hillelwayne.com/post/performance-matters/ in
    the not-yet-created essay on optimizing - you don't usually need to do it,
    but baseline UI lagginess can be a major problem. See also Knuth on
@@ -57,9 +63,12 @@ ones you should spend years mastering and refining:
 * Writing maintainable programs
 * Improving program internals
 * Designing interfaces
+* Finding algorithms
+* Implementing algorithms
 * Designing algorithms
 * Editing text
 * Optimizing programs
+* Securing programs
 
 .. _Caring for users: /caring-for-users.html
 .. _Understanding problems deeply: /understanding-problems.html
