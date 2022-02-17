@@ -25,6 +25,13 @@ degree of precision.
 A datetime identifies a particular moment in history by storing a date and a
 time together.
 
+.. TODO Note that dates and times can both be thought of as time ranges. It's a
+   helpful way to conceive of things, sometimes (but don't fall into the trap
+   of thinking that a day is a 24-hour range, because daylight savings and leap
+   seconds both prevent that from being true).
+
+.. TODO Link https://yourcalendricalfallacyis.com/ somewhere in here.
+
 .. TODO Move naming advice to a naming article?
 
 .. TODO Consider whether '_on' and '_at' are clear enough to distinguish dates
@@ -53,7 +60,7 @@ default, but if so make them easy to discover.
 
 .. TODO Figure out where to link https://qntm.org/abolish, which makes an
    excellent case that timezones are in fact useful constructs and setting a
-   global timezone would be a stupid mistake.
+   global timezone would be a mistake.
 
 .. TODO Hyperlink 'it is not perfect' to the finite quality essay once it's
    done.
