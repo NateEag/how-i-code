@@ -9,7 +9,7 @@ Some of them (like always telling the truth) I have held deeply since my teens,
 while others are the byproduct of painful discovery.
 
 * Always tell the truth. Nothing good comes of lying, and when the victim finds
-  out you lied, they will (rightly) not trust you again.
+  out you lied, they will rightly distrust you.
 
 * Do not be a go-between. If two people need to discuss something, get them in
   touch and get out of the way. Having you in the middle will only make it
@@ -23,6 +23,20 @@ while others are the byproduct of painful discovery.
   barrier and you don't speak both the languages, you will likely just make it
   worse. Always be ready and willing to facilitate, but don't assume you're the
   only option.
+
+* When planning with others, make clear, explicit commitments, describe how
+  you'll achieve them, and define failure contingencies. Don't say "I'll try to
+  make it to the team dinner around 5:30" - say "I'll set a reminder to wrap up
+  programming at 5:20 and be at the dinner by 5:30. I'll send a text if
+  something urgent comes up and delays me."
+
+  Vagueness and weasel words do not actually make you reliable - they just make
+  it hard for others to blame you when things go wrong, at the cost of making
+  it hard for others to know what to expect of you. Others will rightly resent
+  you for doing that.
+
+  This is a specific example of managing expectations proactively - see that
+  point for more details.
 
 * Manage expectations proactively, and do your best to keep them aligned with
   reality.
