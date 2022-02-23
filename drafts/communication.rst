@@ -3,7 +3,8 @@ Communicating
 
 Communication is extremely hard.
 
-I have derived a few guidelines which I have only ever regretted violating.
+I have derived a few guidelines I have found helpful. Every time I have
+violated them, I have regretted it.
 
 Some of them (like always telling the truth) I have held deeply since my teens,
 while others are the byproduct of painful discovery.
