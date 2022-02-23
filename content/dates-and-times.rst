@@ -29,6 +29,7 @@ time together.
    helpful way to conceive of things, sometimes (but don't fall into the trap
    of thinking that a day is a 24-hour range, because daylight savings and leap
    seconds both prevent that from being true).
+   https://news.ycombinator.com/item?id=30319524
 
 .. TODO Link https://yourcalendricalfallacyis.com/ somewhere in here.
 
