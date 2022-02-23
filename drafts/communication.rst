@@ -62,22 +62,21 @@ while others are the byproduct of painful discovery.
 
 --------------
 
-Unrelated to the above though, it's important to remember that when you're
+Unrelated to the above, it's important to remember that when you're
 understanding someone else's problems, it's not enough to be an expert in the
 field.
 
 You also need to be a great communicator.
 
-Otherwise, your communication will break down badly, in the way demonstrated in
-this video:
+Otherwise, your relationships and processes will break down badly, in the way
+demonstrated in this comical video:
 
 https://www.youtube.com/watch?v=BKorP55Aqvg
 
-I once thought that video was hilarious, and showed the plight of experts
-flawlessly.
+I once thought that video showed the plight of experts flawlessly.
 
 I slowly realized that in reality, it shows a failure mode of experts who have
-poor communication and conflict resolution skills (a category I was long an
+not mastered communication and conflict resolution (a category I was long an
 unaware member of).
 
 The non-experts look for an expert's help in understanding a problem and
