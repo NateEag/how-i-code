@@ -12,18 +12,22 @@ incapable of creating value.
 It is not so.
 
 Knowing Python's file APIs, understanding the vagaries of MySQL configuration,
-grokking C's dereference operator - these are valuable skills, but they are not
-essential to writing software. They apply only to certain tools.
+grokking C's dereference operator, wielding monads effectively - these are
+valuable skills, but they are not essential to writing software. They apply
+only to writing software with certain tools and specific approaches.
 
 A small set of fundamental skills, however, are useful in all software
-projects, regardless of environment or tools. You need not be an expert in any
-of these to make valuable contributions, but learning any of them will make you
-much more effective. These are the essential skills in writing software, the
-ones you should spend years mastering and refining:
+projects, regardless of environment, methodology, or tools. You need not be an
+expert in any of these to make valuable contributions, but learning any of them
+will make you much more effective. These are the essential skills in writing
+software, the ones you should spend years mastering and refining:
 
 .. TODO Consider renaming 'Documenting programs ' to 'Explaining programs'?
    Writing is better than talking but both are helpful, and they're both higher
    up the list of fundamentals.
+
+.. TODO Decide whether project management is a fundamental skill. If so, add it
+   and link to the project management essay once published.
 
 .. TODO Decide whether editing text is just a sub-point of writing.
 
