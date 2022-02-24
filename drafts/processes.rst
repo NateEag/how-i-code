@@ -8,8 +8,12 @@ thing.
 
 It is an error to define a human process where the wrong thing is impossible.
 
-If it is possible to prevent all errors in the process is and that goal appears
-to have a positive return on investment, then the process should be automated
-and executed by machines.
+If it is possible to prevent all errors in the process and that goal appears to
+have a positive return on investment, then the process should be automated and
+executed by machines.
+
+It is also a great idea to include an expiry condition on processes for humans,
+an idea I learned from this essay:
+https://bellmar.medium.com/the-death-of-process-cdb0151a41fe
 
 .. This one needs some time to sit and stew, obviously.
