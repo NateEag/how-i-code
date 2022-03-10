@@ -96,3 +96,22 @@ I have a long way to go, but I do finally understand that truth.
 
 First wrote about this here on HN:
 https://news.ycombinator.com/item?id=23846777
+
+
+----------------
+
+RFC 7282 has a lot of wisdom about how to run meetings, discussions, and even
+cultures in a way that helps leadership understand whether they truly have
+consensus. This has a lot of bearing on both communication and meeting
+technique.
+
+Meeting technique should have its own essay, but it's worth noting that
+meetings are about making decisions as a group, which is itself closely linked
+to the ideas about consensus and voting in RC 7282 (which, I just realized, has
+a great deal to do with ensuring that all parties feel seen and heard - they
+may not get the solution they want, but a leader who's sticking to RFC 7282's
+suggestions is doing their best to ensure everyone who has a complaint or
+concern is listened to and that the group has tried to consider and address the
+complaint as appropriate).
+
+https://datatracker.ietf.org/doc/html/rfc7282https://datatracker.ietf.org/doc/html/rfc7282
