@@ -21,6 +21,14 @@ specifications and docs are different aspects of the same thing and should be
 woven together from many small. See commit message that added this item for
 more thoughts.
 
+2022-03-11 Add an article on logging and make note of a few things logs should
+do (preserve original error messages, preserve requests to external services
+[always at debug level but at error level in event of error], preserve error
+responses from third-party services, include data that triggered error when
+possible, translate expected errors and failures into the domain's language
+[e.g. a "no access permitted" error from Play Store API for a client app means
+"Service must be granted access by $client"])
+
 2020-03-09 Explain dealing with third-party dependencies, including "always
 subscribe to/monitor all news/update channels they provide", as it's a mistake
 to depend on them to warn you about changes that will impact you. This lesson
