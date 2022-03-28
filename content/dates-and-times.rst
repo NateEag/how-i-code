@@ -33,6 +33,9 @@ time together.
 
 .. TODO Link https://yourcalendricalfallacyis.com/ somewhere in here.
 
+.. TODO Add links to https://www.datafix.com.au/BASHing/2020-02-12.html and the
+   relevant links from it in the bit on precision.
+
 .. TODO Move naming advice to a naming article?
 
 .. TODO Consider whether '_on' and '_at' are clear enough to distinguish dates
