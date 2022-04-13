@@ -4,10 +4,14 @@ It doesn't strike me as entirely right, but there is a lot of good there:
 
 https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46
 
+This exhaustive set of guidelines has a lot of good advice too:
+
+https://clig.dev/
+
 In general, I think the CLI could be much friendlier than it is, and something
 that works well for a much larger range of people. Bash falls down in a few key
 spots, like having terrible discoverability on first encounter (a good MOTD
-could go a long way to helping that, honestly), and requiring you to konw
+could go a long way to helping that, honestly), and requiring you to know
 about, install, and configure autocompletion.
 
 I hear PowerShell is better at this than Bash, at least a little, and has some
