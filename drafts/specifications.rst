@@ -76,6 +76,15 @@ details of branching behind a "Suggest A Change" button, and offering a simple
 and that system would be exactly what I want for letting normal people
 contribute to the specs. It just needs to allow access only to the specs
 somehow. If only Git had a per-file access control mechanism built-in.
+...actually, if you put the "suggest a change" button on the generated website,
+and it's just a link to your VCS Web UI's "edit file" feature, then this would
+probably work pretty smoothly.
 
 See /drafts/documentation.rst for some related insights and notes on a
 possible specref format.
+
+Some existing projects that are focused on capturing requirements:
+
+https://doorstop.readthedocs.io/en/latest/
+
+https://strictdoc.readthedocs.io/en/stable/
