@@ -107,10 +107,11 @@ the daily log throughout the day.
 Do another information triage run.
 
 If triage does not present immediate priority issues, take the remainder of
-triage's half hour to follow up on items from your email inbox. This is the part
-of the day where I try to get my inbox to zero (by saving it until now I don't
-waste the early morning on communications). It's fine if it doesn't get to 0,
-as long as there's less in it than there was at EOD yesterday.
+triage's half hour to follow up on items from your email inbox (and other
+personal todo lists). This is the part of the day where I try to get my inbox
+to zero (by saving it until now I don't waste the early morning on
+communications). It's fine if it doesn't get to 0, as long as there's less in
+it than there was at EOD yesterday.
 
 Now, work your way down the list of prioritized goals, executing the goal
 achievement routine for each one in turn.
