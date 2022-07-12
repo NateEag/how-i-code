@@ -419,14 +419,18 @@ tooling.
 If you discover that the issue has already been filed, note that you've
 encountered it again (or for the first time if someone else encountered it).
 
+If there isn't an estimate on the task yet (which there won't be any time
+you've filed one), supply one or explain why it's hard to estimate. The five
+minutes it takes to do that will sometimes make it clear how to achieve an easy
+win.
+
 Next, decide how severe the issue is. If it's a blocker to forward progress on
 the current goal, or it's an issue for other teammates, or you have encountered
 it three times, give serious thought to fixing it (frequency of those three
 encounters is important).
 
-If you decide not to fix it, leave the reason why in the todo list entry, so
-you (and others) know why you decided not to, for the next time the issue comes
-up.
+Make sure it's marked as untriaged, and from there the team's usual triage
+process will take care of it.
 
 
 Lunchtime
