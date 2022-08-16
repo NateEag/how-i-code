@@ -201,7 +201,7 @@ the same thing."
 
 Webserver logs can be scanned regularly for anomalies - unusually high
 percentage of 500s, unusually high traffic, etc. Same for app logs. You can use
-syslog to aggre
+syslog to aggregate your logs onto one server where the analysis jobs are run.
 
 You can categorize the conditions these scripts detect as Alerts, Tickets, and
 Logs.
@@ -219,7 +219,6 @@ Logs.
   tracker has an API so you generate new tasks for ominous-but-not-terrifying
   conditions and assign them to whoever's on pager duty. This would be hard
   when error logs are noisy, and there's also the duplicate ticket problem.
-
 
 - "Logs" are, fortunately, easy, because they're logs. Whoever's on pager duty
   makes sure they're still flowing daily and other than that can just ignore
@@ -343,3 +342,18 @@ in everything about making software work well.
 
 Per the above, I expect there are smarter ways to do this, but I don't know
 what they are. I would be glad to learn them.
+
+
+Documenting Server Roles
+========================
+
+If you're doing anything even vaguely like devops, you have scripts that define
+the various roles your servers play.
+
+Those should contain (or be able to generate) a high-level textual description
+of the role's essential purpose and the main components it uses to do the job.
+
+That summary should be wedged into /etc/motd.tail as part of your "apply role"
+script (along with a link to the repo that the role is defined in and a big
+"YOUR CHANGES WILL BE LOST" warning), so that anyone who logs into any server
+is instantly oriented to roughly what it's used for.
