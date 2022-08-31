@@ -20,9 +20,9 @@ Set reminder to eat lunch four hours from breakfast time. Reminder should go
 off five minutes before lunchtime so you have a few minutes to save state on
 your current task.
 
-Do information triage (see that section), but constrain it to at most 20
-minutes. As the process itself notes, by definition, once you're done you
-should know what your goals are for the day.
+Do information triage (see that section), but constrain it to at most
+fifteen minutes. As the process itself notes, by definition, once you're done
+you should know what your goals are for the day.
 
 Now that I've gotten up to date on what's happening in the projects, define my
 goals for the day in the shared task tracker.
