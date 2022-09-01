@@ -1,9 +1,9 @@
-I think emoji should never have been added to Unicode.
+I am annoyed at emoji's presence in Unicode.
 
-It's too late now, obviously - backwards compatibility means there's no going
-back.
+I think putting them there was a brilliant sociological hack to get Unicode
+universally supported, but it still bothers the purist in me.
 
-Nonetheless, Unicode was about defining the characters used in all human
+Conceptually, Unicode was about defining the characters used in all human
 languages for written communication. Emoji are not characters and have no
 business being in there, IMO.
 
