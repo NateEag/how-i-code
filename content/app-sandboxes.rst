@@ -32,6 +32,11 @@ successful.
 Once that exists, use it to write a command that creates a working project
 sandbox. That should also live in version control.
 
+.. TODO Update this essay to reflect the small set of operations I've
+   identified as generally useful for sandboxes: create, destroy, start, stop,
+   data-dump, data-restore, test/smoke-test (should be auto-triggered after
+   create/start/data-restore)
+
 This makes it simple for a new team member to start working.
 
 Making and deploying builds also becomes simpler, paving the way for continuous
