@@ -76,6 +76,10 @@ If this is the first triage of the day:
   minutes or broken into subtasks with an estimate of < 30 minutes, then add
   doing a breakdown to the task queue, rather than the task itself.
 
+* Check any open PRs or issues in your project `forges
+  <https://en.wikipedia.org/wiki/Forge_(software)>`__ for updates or required
+  followup.
+
 When on pager / production support duty, triage alerts and any auto-filed
 tickets. For any projects that do not yet have proper alerting / ticketing for
 production incidents, check system logs and triage any unusual entries.
