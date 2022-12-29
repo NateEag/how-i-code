@@ -87,6 +87,11 @@ production incidents, check system logs and triage any unusual entries.
 Triage email inbox. That means get everything read and see if anything urgent
 has come in since the last info triage run.
 
+Run daily stats command
+(https://github.com/NateEag/dotfiles/blob/master/bin/run-daily-stats). This is
+a small script that generates / reports important triage-related stats to help
+you see how well you're staying on top of inbound stuff over time.
+
 When on project management duty, empty the untriaged issue lists in the
 projects I'm managing. That means get them in the appropriate queue and
 prioritized / deadlined. When there's a dedicated PM for my projects that isn't
