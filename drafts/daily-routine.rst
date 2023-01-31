@@ -39,9 +39,16 @@ Create/assign tasks as needed and make sure they're highest on my priority list
 user task lists - set due dates to EOD and find a view that shows your tasks
 sorted by due date).
 
-Announce the day's goal to the team for accountability. This is what standup
-meetings are for, but I want to make sure I do this promptly and even in
-contexts that don't use daily goal setting.
+Fill in the team on yesterday's achievements and the next day's goals in
+standup / daily status channel. If the team doesn't do daily status updates,
+send them to team lead and/or manager, so accountability still exists without
+violating the team's social norms (though it's worth talking to teammates
+individually to feel out the possibility of shifting that social norm).
+
+Note that the ideal status update is a hyperlink to your activity feed in the
+shared work track. If the shared tracker doesn't have one, consider hacking one
+up via API. If it doesn't support that, make the case for changing trackers
+(Redmine and Jira both have something like this).
 
 
 Information Triage
