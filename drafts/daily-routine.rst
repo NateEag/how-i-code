@@ -25,7 +25,8 @@ fifteen minutes. As the process itself notes, by definition, once you're done
 you should know what your goals are for the day.
 
 Take up to five minutes to move issues from your personal todo.txt into the
-team's shared work tracker.
+team's shared work tracker. If there exist some that aren't strictly personal,
+make sure you move at least one.
 
 Now that I've gotten up to date on what's happening in the projects, define my
 goals for the day in the shared task tracker.
