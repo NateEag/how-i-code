@@ -24,6 +24,9 @@ Do information triage (see that section), but constrain it to at most
 fifteen minutes. As the process itself notes, by definition, once you're done
 you should know what your goals are for the day.
 
+Take up to five minutes to move issues from your personal todo.txt into the
+team's shared work tracker.
+
 Now that I've gotten up to date on what's happening in the projects, define my
 goals for the day in the shared task tracker.
 
@@ -46,9 +49,8 @@ violating the team's social norms (though it's worth talking to teammates
 individually to feel out the possibility of shifting that social norm).
 
 Note that the ideal status update is a hyperlink to your activity feed in the
-shared work track. If the shared tracker doesn't have one, consider hacking one
-up via API. If it doesn't support that, make the case for changing trackers
-(Redmine and Jira both have something like this).
+shared work track. If it doesn't support that, make the case for changing
+trackers (Redmine and Jira both have something like this).
 
 
 Information Triage
