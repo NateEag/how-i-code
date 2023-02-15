@@ -5,6 +5,10 @@ Code Review
 :category: workflow
 :summary: First drafts are wrong, but the author can't see where.
 
+.. Figure out where to include these links:
+   https://mtlynch.io/code-review-love/
+   https://mtlynch.io/human-code-reviews-1/
+
 First drafts have mistakes. If they didn't, we'd call them "final copies".
 
 The draft's author is too close to it to know what mistakes he has made. Thus, a
