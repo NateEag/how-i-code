@@ -69,6 +69,10 @@ infra and monitoring, I could probably get away with doing it much less often.
 Check calendar for any upcoming events. If you expect to be out the next
 business day, configure an out of office autoresponder as appropriate.
 
+Verify that any backups you're responsible for have run successfully. If they
+haven't, add investigating to your task queue for the day and notify anyone
+else who's impacted.
+
 Process voicemails. I rarely get any so I don't have much routine around this -
 just convert them to tasks in the shared trackers as appropriate.
 
