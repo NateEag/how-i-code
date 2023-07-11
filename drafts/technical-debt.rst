@@ -29,3 +29,18 @@ lines, and work systematically towards removing the old problems. Well worth
 reflecting on.
 
 https://increment.com/software-architecture/exit-the-haunted-forest/
+
+For teams that have on-call rotations, I think it would be effective for the
+on-call dev to treat tech support tickets and tech debt as their main focus.
+I've been on a team that linked on-call duty with tech support tickets, and it
+worked well.
+
+I think if you added tech debt efforts as their main focus when they aren't
+responding to a page or dealing with support tickets, you'd see support ticket
+response times plummet - every serious dev has a laundry list of issues they'd
+love to see fixed, and if all that's between them and working on those is the
+support issues, well... they'll go away fast.
+
+There's also a nice incentive alignment between being on call and deploying
+tech debt fixes - if you break something, you're going to be paged. It will
+temper impulsive, poorly-tested refactors into something more sustainable.
