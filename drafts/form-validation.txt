@@ -13,3 +13,19 @@ probably don't bother giving them "Yay!" cues like checkmarks.
 
 If they don't (username, password, etc), validate as they type, and give them
 "Yay!" cues [maybe with a brief message explaining the 'yay'?].
+
+=============
+
+Any place you find yourself wanting to do 'sanity checks', be it a UI form or a
+server-side conf file meant strictly for programmers, that's a validation, and
+should be approached as such.
+
+The three levels of validation (good, warning, error), the principle that
+anything not marked 'good' needs a clear message explaining what's wrong (and
+written carefully for the target audience), and so on.
+
+Though the time of validation does vary - conf file validations should be done
+pre-deploy (or even at build time, if your conf files come from a build
+process), while form validations are done at runtime.
+
+TODO Rename this file to 'validation', generally.
