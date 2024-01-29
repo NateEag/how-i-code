@@ -86,9 +86,11 @@ If this is the first triage of the day:
 
 * Review assigned tasks and get the next-highest priority ones queued up in
   today's todo list. Make sure to check tasks with deadlines, in case there are
-  lower-priority tasks with high urgency. If a task is not estimated to be < 30
-  minutes or broken into subtasks with an estimate of < 30 minutes, then add
-  doing a breakdown to the task queue, rather than the task itself.
+  lower-priority tasks with high urgency. If a task is not estimated to be < 1
+  day or broken into subtasks estimated to take < 1 day, then add doing a
+  breakdown to the task queue, rather than the task itself (the principle here
+  is "only work on tasks that should take at most a day, so everyone knows
+  quickly if you're failing to make meaningful progress").
 
 * Check any open PRs or issues in your project `forges
   <https://en.wikipedia.org/wiki/Forge_(software)>`__ for updates or required
