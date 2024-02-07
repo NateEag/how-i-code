@@ -478,6 +478,9 @@ current project. That means making/pushing a WIP commit and updating the
 corresponding task with notes to help me restore my state (or help a coworker
 do so should someone else pick it up from me).
 
+Eyeball email subject lines quickly, just to check if anything urgent has come
+in.
+
 Start Emacs updating packages. Doing it daily keeps me from falling behind,
 which becomes a problem when breaking changes to packages stack up. 10 minute
 time limit, implemented as a 5-minute timer and a second 5-minute timer. If I
@@ -488,9 +491,17 @@ While that churns away in the background, figure out what my main goal is for
 tomorrow, based on whether I achieved my goal today and what's the next step
 (barring new information coming in tomorrow AM that changes it).
 
-Update team on whether I achieved today's goal or not, and announce tomorrow's
-target. If I didn't achieve the goal, explain why not and how I'm adjusting
-my plans based on what I learned.
+If the team doesn't have daily standup meetings, simulate it: Update team on
+whether I achieved today's goal or not, and announce tomorrow's goal. If I
+didn't achieve the goal, explain why not and how I'm adjusting my plans based
+on what I learned.
+
+Review what I got done that day. Add any noteworthy achievements to my current
+[achievements document](https://jvns.ca/blog/brag-documents/). Consider writing
+them up for personal work history if they're big enough. Add any noteworthy
+mistakes or errors to my current misses document and postmortem them. Note that
+these docs should rotate with your org's review cycle (a folder for each in
+your personal notes, with files named for review cycle lengths is ideal).
 
 Check calendar to see if I have any early-morning commitments I need to adjust
 my default schedule for.
