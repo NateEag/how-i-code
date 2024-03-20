@@ -132,3 +132,19 @@ reusable in multiple client contexts.
 That said, this article does make a solid case that SPAs as such have some
 problems and are forced to reinvent several wheels:
 https://adamsilver.io/articles/the-disadvantages-of-single-page-applications/
+
+
+File Upload APIs Should Accept A Hash Of The Input File
+=======================================================
+
+After the API endpoint has finished processing the inbound bytestream
+representing the uploaded file, they can check whether hashing the uploaded
+file bytestream generates the desired hash.
+
+If it does not, the uploaded file should be treated as "unsuccessful" (e.g.,
+not made publicly available, but perhaps left in place to allow for resuming
+interrupted uploads), and an error response should be returned to the API
+client.
+
+A simpler-but-less-bulletproof variation is to use the Content-Length header to
+verify that the number of bytes received is correct.
