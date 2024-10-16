@@ -49,9 +49,9 @@ send them to team lead and/or manager, so accountability still exists without
 violating the team's social norms (though it's worth talking to teammates
 individually to feel out the possibility of shifting that social norm).
 
-Note that the ideal status update is a hyperlink to your activity feed in the
-shared work track. If it doesn't support that, make the case for changing
-trackers (Redmine and Jira both have something like this).
+The ideal status update is a hyperlink to your activity feed in the shared work
+tracker. If it doesn't support that, make the case for changing trackers
+(Redmine and Jira both have something like this).
 
 
 Information Triage
