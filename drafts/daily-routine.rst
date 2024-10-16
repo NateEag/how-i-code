@@ -57,7 +57,7 @@ tracker. If it doesn't support that, make the case for changing trackers
 Information Triage
 ------------------
 
-This is a process I do to determine "what should I work on next?"
+My process to determine "what should I work on next?"
 
 Thus, if I don't have a clear "next big item" after doing it, the process has
 failed.
