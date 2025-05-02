@@ -214,6 +214,8 @@ selection in context of whole project. Add, change, and remove tasks and goals
 as appropriate based on discoveries, per the usual lifecycle of specifications
 in the wild.
 
+If the task changes have a meaningful impact to estimates, inform all stakeholders of the changes.
+
 
 Handling Email
 --------------
