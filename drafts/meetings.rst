@@ -15,7 +15,7 @@ present. It can even have great outcomes for the attendees.
 When not run or planned well, a meeting can make life miserable for both
 attendees and those impacted by the meeting's outcome.
 
-Good meetings are one of two types: relational and planning.
+There are two types of good meetings: relational and planning.
 
 Relational meetings are to help people relate well to each other,
 while planning meetings focus on figuring out what to do next.
