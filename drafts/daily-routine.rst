@@ -100,8 +100,9 @@ When on pager / production support duty, triage alerts and any auto-filed
 tickets. For any projects that do not yet have proper alerting / ticketing for
 production incidents, check system logs and triage any unusual entries.
 
-Triage email inbox. That means get everything read and see if anything urgent
-has come in since the last info triage run.
+Triage email inbox. That means look at everything that's come in since last
+triage and read / file todo items for urgent items. Anything that requires a
+closer reading can be marked unread and revisited in the lunchtime review.
 
 Run daily stats command
 (https://github.com/NateEag/dotfiles/blob/master/bin/run-daily-stats). This is
@@ -138,8 +139,7 @@ saving it until now I don't waste the early morning on communications). It's
 fine if it doesn't get to 0, as long as there's less in it than there was at
 EOD yesterday.
 
-Now, work your way down the list of prioritized goals, executing the goal
-achievement routine for each one in turn.
+Once finished, return to baseline goal achievement routine.
 
 
 Goal breakdown routine
