@@ -80,17 +80,16 @@ Check instant messages (crucial information often comes through them).
 
 If this is the first triage of the day:
 
-* Check my daily log from yesterday for any undone todo items or any filed
-  under the "Tomorrow" section. File new items accordingly (do not just copy
-  and paste the whole block, because that never stops)
+* Check todo.txt for any undone todo items due in the past. Prioritize and
+  update them accordingly.
 
-* Review assigned tasks and get the next-highest priority ones queued up in
-  today's todo list. Make sure to check tasks with deadlines, in case there are
-  lower-priority tasks with high urgency. If a task is not estimated to be < 1
-  day or broken into subtasks estimated to take < 1 day, then add doing a
-  breakdown to the task queue, rather than the task itself (the principle here
-  is "only work on tasks that should take at most a day, so everyone knows
-  quickly if you're failing to make meaningful progress").
+* Review assigned tasks in shared tracker and get the next-highest priority
+  ones queued up in today's todo list. Make sure to check tasks with deadlines,
+  in case there are lower-priority tasks with high urgency. If a task is not
+  estimated to be < 1 day or broken into subtasks estimated to take < 1 day,
+  then add doing a breakdown to today's task queue, rather than the task itself
+  (the principle here is "only work on tasks that should take at most a day, so
+  everyone knows quickly if you're failing to make meaningful progress").
 
 * Check any open PRs or issues in your project `forges
   <https://en.wikipedia.org/wiki/Forge_(software)>`__ for updates or required
